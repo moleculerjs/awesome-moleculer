@@ -5,7 +5,7 @@
 - [Resources](#resources)
 - [Services](#services)
 - [Middlewares](#middlewares)
-- [Mixins & Hooks](#mixins)
+- [Mixins & Hooks](#mixins--hooks)
 - [Projects Using Moleculer](#projects-using-moleculer)
 
 --------
