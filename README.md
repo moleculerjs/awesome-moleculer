@@ -43,11 +43,11 @@
 
 ## Examples
 
-[Conduit](https://github.com/moleculerjs/moleculer-examples/tree/master/conduit) ![Official Moleculer Module](media/moleculer-tiny.png) -  Moleculer + Moleculer Web + Moleculer-DB + MongoDB + JWT + Redis Cacher + Docker
+- [Conduit](https://github.com/moleculerjs/moleculer-examples/tree/master/conduit) ![Official Moleculer Module](media/moleculer-tiny.png) -  Moleculer + Moleculer Web + Moleculer-DB + MongoDB + JWT + Redis Cacher + Docker
 
-[Blog](https://github.com/moleculerjs/moleculer-examples/tree/master/blog) ![Official Moleculer Module](media/moleculer-tiny.png) - Moleculer + ExpressJS + Pug + Moleculer-DB + Mongoose + NATS + Redis Cacher + Traefik
+- [Blog](https://github.com/moleculerjs/moleculer-examples/tree/master/blog) ![Official Moleculer Module](media/moleculer-tiny.png) - Moleculer + ExpressJS + Pug + Moleculer-DB + Mongoose + NATS + Redis Cacher + Traefik
 
-[Kanban - A Kanban board application](https://github.com/icebob/kantab) ![Official Moleculer Module](media/moleculer-tiny.png) - Moleculer + Moleculer Web + Full authentication + ACL/RBAC + VueJS + VueX + Vue-router + Much much more
+- [Kanban - A Kanban board application](https://github.com/icebob/kantab) ![Official Moleculer Module](media/moleculer-tiny.png) - Moleculer + Moleculer Web + Full authentication + ACL/RBAC + VueJS + VueX + Vue-router + Much much more
 
 ## Services
 
