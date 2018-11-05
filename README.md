@@ -12,7 +12,9 @@
 >A list of awesome things related to Moleculer microservices framework
 
 - [Resources](#resources)
-- [Cheatsheets](#cheatsheets)
+	- [Official Resources](#official-resources)
+	- [Cheatsheets](#cheatsheets)
+	- [Articles and Blog Posts](#articles-and-blog-posts)
 - [Examples](#examples)
 - [Services](#services)
 	- [Gateways](#gateways)
@@ -25,6 +27,8 @@
 --------
 
 ## Resources
+
+### Official Resources
 - [Website](https://moleculer.services/)
 - [Docs](https://moleculer.services/docs)
 - [Blog](https://medium.com/moleculer)
@@ -33,13 +37,18 @@
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/moleculer)
 
 
-## Cheatsheets
+### Cheatsheets
 - [Core Cheatsheets](https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer.js) - Cheatsheet for Moleculer's core functionalities
 - [Web Gateway Cheatsheets](https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer-web.js) - Cheatsheet for official gateway
 - [DB Cheatsheets](https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer-db.js) - Cheatsheet for official DB adapaters
 - [REPL Cheatsheets](https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer-repl.sh) - Cheatsheet for official RELP tool
 - [CLI Cheatsheets](https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer-cli.sh) - Cheatsheet for Moleculer's command-line interface (CLI)
 
+### Articles and Blog Posts
+
+- [5 easy steps to create your REST microservice in NodeJS](https://medium.com/moleculer/5-easy-steps-to-create-your-rest-microservice-in-nodejs-94aede3249fc)
+- [What are microservices and how to create one with Node and Moleculer.js](https://medium.com/@r.heygate.dev/microservices-with-moleculer-js-c7e68803ec09)
+- [Moleculer — deployment thoughts](https://dankuida.com/moleculer-deployment-thoughts-8e0fc8c0fb07)
 ## Examples
 
 - [Conduit](https://github.com/moleculerjs/moleculer-examples/tree/master/conduit) -  Moleculer + Moleculer Web + Moleculer-DB + MongoDB + JWT + Redis Cacher + Docker
