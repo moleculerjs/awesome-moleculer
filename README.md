@@ -85,7 +85,24 @@
 
 
 ## Projects Using Moleculer
+- [Concierge Auctions](https://www.conciergeauctions.com/)
+- [ingenious](http://www.ingsw.com/)
+- [THB](https://www.thb.co.in/)
+- [Zaoblako](https://zaoblako.ru/)
+- [Altcoin mining pools](http://altcoinminingpools.com)
+- [zebbra](https://zebbra.ch/)
+- [Uiza](https://uiza.io)
+- [Distopik](https://www.mixanalog.com)
+- [AMRetail](http://amretail.ru)
+- [DAZTA](https://dazta.com)
+- [SmartTones Media](http://www.smarttonesmedia.com/)
+- [Helpster](https://www.helpster.asia/id/business-en/)
+- [Textalk](https://www.textalk.com/)
+- [GetTechDone](https://www.gtechd.com/)
+- [Jarvify](https://jarvify.com/)
+- [Sonda](https://www.sonda.com/en/)
 
+> IIf you don't see your company here, [tell us](https://github.com/moleculerjs/moleculer/issues/101).
 
 # Contact
 Copyright (c) 2016-2018 MoleculerJS
