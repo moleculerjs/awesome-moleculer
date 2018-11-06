@@ -20,8 +20,12 @@
 	- [Gateways](#gateways)
 	- [Databases & stores](#databases-&-stores)
 	- [Metrics & Tracing](#metrics-&-tracing)
+	- [General](#general)
+	- [Others](#others)
 - [Middlewares](#middlewares)
 - [Mixins & Hooks](#mixins--hooks)
+	- [Tasks, Queues & Jobs](#tasks-queues-&-jobs)
+- [Tools](#tools)
 - [Projects Using Moleculer](#projects-using-moleculer)
 
 --------
@@ -77,11 +81,34 @@
 - [moleculer-zipkin](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-zipkin#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - [Zipkin](https://zipkin.io/)-based metrics service
 - [moleculer-elastic-apm](https://github.com/intech/moleculer-elastic-apm#moleculer-elastic-apm) ![Official Moleculer Module](media/moleculer-tiny.png) - [Elastic APM](https://www.elastic.co/solutions/apm)-based metrics service
 
+### General
+- [moleculer-fake](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-fake#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - Fake data generator by [Fakerator](https://github.com/icebob/fakerator)
+- [moleculer-mail](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-mail#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - Email service based on [Nodemailer](https://nodemailer.com/about/)
+- [moleculer-twilio](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-twilio#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - SMS service based on [Twilio  API](https://www.twilio.com/docs/usage/api)
+- [moleculer-slack](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-slack#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - Send Messages to [Slack API](https://api.slack.com/)
+- [moleculer-flydrive](https://github.com/molobala/moleculer-flydrive#readme) -  Storage manager service with [Node Flydrive](https://github.com/Slynova-Org/node-flydrive)
+- [moleculer-markdown](https://github.com/alsofronie/moleculer-markdown#readme) - Markdown to HTML Service
+
+### Others
+- [imicros-flow](https://github.com/al66/imicros-flow) - Service for loose coupled event handling
+- [moleculer-vault](https://github.com/designtesbrot/moleculer-vault) - Service for [HashiCorp's Vault](https://www.vaultproject.io/)
+- [moleculer-antivirus](https://github.com/designtesbrot/moleculer-antivirus) - Service for [ClamAV](https://www.clamav.net/) Antivirus Scanning
 
 ## Middlewares
 
 
 ## Mixins & Hooks
+### Tasks, Queues & Jobs
+- [moleculer-bee-queue](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bee-queue#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - Task queue mixin for [Bee-Queue](https://github.com/bee-queue/bee-queue)
+- [moleculer-bull](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bull#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - Task queue mixin for [Bull](https://github.com/OptimalBits/bull)
+- [moleculer-cron](https://github.com/davidroman0O/moleculer-cron#readme) - Cron mixin [Node-Cron](https://github.com/kelektiv/node-cron) 
+
+
+## Tools
+- [moleculer-repl](https://moleculer.services/docs/0.13/moleculer-repl.html) ![Official Moleculer Module](media/moleculer-tiny.png) - Interactive developer console
+- [moleculer-cli](https://moleculer.services/docs/0.13/moleculer-cli.html) ![Official Moleculer Module](media/moleculer-tiny.png) - Command-Line Tool for development & testing
+- [moleculer-decorators](https://moleculer.services/docs/0.13/services.html#Use-decorators) - ES7/TS decorators for Service declaration
+
 
 
 ## Projects Using Moleculer
