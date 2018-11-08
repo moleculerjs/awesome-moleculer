@@ -26,8 +26,14 @@
 - [Middlewares](#middlewares)
 - [Mixins & Hooks](#mixins--hooks)
 	- [Tasks, Queues & Jobs](#tasks-queues-&-jobs)
+	- [Validation](#validation)
 - [Tools](#tools)
 - [Projects Using Moleculer](#projects-using-moleculer)
+- [Polyglot Implementations](#polyglot-implementations)
+	- [Java](#java)
+	- [Python](#python)
+	- [.NET Core](#.net-core)
+	- [Go](#go)
 
 --------
 
@@ -57,7 +63,7 @@
 
 ### Talks
 
-- [Microservices 4 Real - Martín Acosta](https://www.youtube.com/watch?v=FrL8at9qGrQ) - Talk *in Spanish* from the JSDayUY 2017 about how a developer which always work in monolithic apps started to learn and create a complete production app using a microservices architecture on top of Moleculer. [repo](https://github.com/tinchoz49/microservices-for-real)
+- [Microservices 4 Real - Martín Acosta](https://www.youtube.com/watch?v=FrL8at9qGrQ) - Talk *in Spanish* from the JSDayUY 2017 about how a developer which always worked on monolithic apps started to learn and create a complete production app using a microservices architecture on top of Moleculer. [repo](https://github.com/tinchoz49/microservices-for-real)
 
 ## Examples
 
@@ -110,6 +116,10 @@
 - [moleculer-bull](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bull#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - Task queue mixin for [Bull](https://github.com/OptimalBits/bull)
 - [moleculer-cron](https://github.com/davidroman0O/moleculer-cron#readme) - Cron mixin [Node-Cron](https://github.com/kelektiv/node-cron) 
 
+### Validation
+- [Default](https://moleculer.services/docs/0.13/validating.html#Built-in-validator) - Moleculer's default validator is based on [fastest-validator](https://github.com/icebob/fastest-validator)
+- [Joi](https://moleculer.services/docs/0.13/validating.html#Create-a-Joi-validator) - [Joi](https://github.com/hapijs/joi) based validator
+- [moleculer-json-schema-validator](https://github.com/zhaoyao91/moleculer-json-schema-validator#readme) - [JSON Schema](https://json-schema.org/) validator
 
 ## Tools
 - [moleculer-repl](https://moleculer.services/docs/0.13/moleculer-repl.html) ![Official Moleculer Module](media/moleculer-tiny.png) - Interactive developer console
@@ -136,7 +146,21 @@
 - [Jarvify](https://jarvify.com/)
 - [Sonda](https://www.sonda.com/en/)
 
-> IIf you don't see your company here, [tell us](https://github.com/moleculerjs/moleculer/issues/101).
+> If you don't see your company here, [tell us](https://github.com/moleculerjs/moleculer/issues/101).
+
+## Polyglot Implementations
+### Java
+- [moleculer-java](https://github.com/moleculer-java/moleculer-java) - Java implementation of the Moleculer microservices framework
+- [moleculer-java-web](https://github.com/moleculer-java/moleculer-java-web) - Java implementation of the API Gateway service for Moleculer framework
+- [moleculer-java-repl](https://github.com/moleculer-java/moleculer-java-repl) - Java implementation of REPL module for Moleculer framework 
+
+### Python
+- [moleculer-python](https://github.com/ToGoBananas/moleculer-python) - Python implementation of the Moleculer microservices framework
+### .NET Core
+- [moleculer-net](https://github.com/alexandredenes/moleculer-net) - NET Core 2.1 implementation of the Moleculer microservices framework.
+
+### Go
+- [moleculer-go](https://github.com/roytan883/moleculer-go) - Go implementation of the Moleculer microservices framework
 
 # Contact
 Copyright (c) 2016-2018 MoleculerJS
