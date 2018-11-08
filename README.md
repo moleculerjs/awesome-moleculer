@@ -15,6 +15,7 @@
 	- [Official Resources](#official-resources)
 	- [Cheatsheets](#cheatsheets)
 	- [Articles and Blog Posts](#articles-and-blog-posts)
+	- [Talks](#talks)
 - [Examples](#examples)
 - [Services](#services)
 	- [Gateways](#gateways)
@@ -53,11 +54,17 @@
 - [5 easy steps to create your REST microservice in NodeJS](https://medium.com/moleculer/5-easy-steps-to-create-your-rest-microservice-in-nodejs-94aede3249fc)
 - [What are microservices and how to create one with Node and Moleculer.js](https://medium.com/@r.heygate.dev/microservices-with-moleculer-js-c7e68803ec09)
 - [Moleculer — deployment thoughts](https://dankuida.com/moleculer-deployment-thoughts-8e0fc8c0fb07)
+
+### Talks
+
+- [Microservices 4 Real - Martín Acosta](https://www.youtube.com/watch?v=FrL8at9qGrQ) - Talk *in Spanish* from the JSDayUY 2017 about how a developer which always work in monolithic apps started to learn and create a complete production app using a microservices architecture on top of Moleculer. [repo](https://github.com/tinchoz49/microservices-for-real)
+
 ## Examples
 
 - [Conduit](https://github.com/moleculerjs/moleculer-examples/tree/master/conduit) -  Moleculer + Moleculer Web + Moleculer-DB + MongoDB + JWT + Redis Cacher + Docker
 - [Blog](https://github.com/moleculerjs/moleculer-examples/tree/master/blog) - Moleculer + ExpressJS + Pug + Moleculer-DB + Mongoose + NATS + Redis Cacher + Traefik
 - [Kanban - A Kanban board application](https://github.com/icebob/kantab) - Moleculer + Moleculer Web + Full authentication + ACL/RBAC + VueJS + VueX + Vue-router + Much much more
+- [Moleculer + Babel Example Starter](https://github.com/tinchoz49/moleculer-babel-example)
 
 ## Services
 
