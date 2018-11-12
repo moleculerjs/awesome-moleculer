@@ -17,6 +17,9 @@
 	- [Articles and Blog Posts](#articles-and-blog-posts)
 	- [Talks](#talks)
 - [Examples](#examples)
+- [Templates](#templates)
+	- [Javascript](#javascript)
+	- [Typecript](#typescript)
 - [Services](#services)
 	- [Gateways](#gateways)
 	- [Databases & stores](#databases-&-stores)
@@ -73,6 +76,19 @@
 - [Kanban - A Kanban board application](https://github.com/icebob/kantab) - Moleculer + Moleculer Web + Full authentication + ACL/RBAC + VueJS + VueX + Vue-router + Much much more
 - [Moleculer + Babel Example Starter](https://github.com/tinchoz49/moleculer-babel-example)
 - [moleculer-nextjs](https://github.com/davidroman0O/moleculer-nextjs) - Server-Side Rendering with Moleculer
+
+## Templates
+
+### Javascript
+- [moleculer-template-project](https://github.com/moleculerjs/moleculer-template-project) - Project template for Javascript project.
+- [moleculer-template-nano](https://github.com/moleculerjs/moleculer-template-nano) - 
+Minimal project template for Javascript project.
+- [moleculer-template-addon](https://github.com/moleculerjs/moleculer-template-addon) - Addon template for moleculer-addons
+- [moleculer-template-module](https://github.com/moleculerjs/moleculer-template-module) - Simple module template for moleculer-cli
+
+### Typescript
+- [moleculer-template-project-typescript](https://github.com/moleculerjs/moleculer-template-project-typescript) - Project template for Typescript project.
+- [moleculer-template-nano-typescript](https://github.com/moleculerjs/moleculer-template-nano-typescript) - Minimal project template for Typescript project.
 
 ## Services
 
