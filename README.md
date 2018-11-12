@@ -22,6 +22,7 @@
 	- [Databases & stores](#databases-&-stores)
 	- [Metrics & Tracing](#metrics-&-tracing)
 	- [General](#general)
+	- [Security, Authentication & Authorization](#security-authentication-&-authorization)
 	- [Others](#others)
 - [Middlewares](#middlewares)
 - [Mixins & Hooks](#mixins--hooks)
@@ -63,7 +64,7 @@
 
 ### Talks
 
-- [Microservices 4 Real - Martín Acosta](https://www.youtube.com/watch?v=FrL8at9qGrQ) - Talk *in Spanish* from the JSDayUY 2017 about how a developer which always worked on monolithic apps started to learn and create a complete production app using a microservices architecture on top of Moleculer. [repo](https://github.com/tinchoz49/microservices-for-real)
+- [Microservices 4 Real - Martín Acosta](https://www.youtube.com/watch?v=FrL8at9qGrQ) - Talk *in Spanish* from the JSDayUY 2017 about how a developer that used to work on monolithic apps started to learn and create a complete production app using a microservices architecture on top of Moleculer. [repo](https://github.com/tinchoz49/microservices-for-real)
 
 ## Examples
 
@@ -71,6 +72,7 @@
 - [Blog](https://github.com/moleculerjs/moleculer-examples/tree/master/blog) - Moleculer + ExpressJS + Pug + Moleculer-DB + Mongoose + NATS + Redis Cacher + Traefik
 - [Kanban - A Kanban board application](https://github.com/icebob/kantab) - Moleculer + Moleculer Web + Full authentication + ACL/RBAC + VueJS + VueX + Vue-router + Much much more
 - [Moleculer + Babel Example Starter](https://github.com/tinchoz49/moleculer-babel-example)
+- [moleculer-nextjs](https://github.com/davidroman0O/moleculer-nextjs) - Server-Side Rendering with Moleculer
 
 ## Services
 
@@ -80,6 +82,7 @@
 - [moleculer-sc](https://github.com/tiaod/moleculer-sc#readme) - API Gateway using SocketCluster
 - [hapi-moleculer](https://github.com/felipegcampos/hapi-moleculer) - Hapi-based HTTP gateway
 - [moleculer-io](https://github.com/tiaod/moleculer-io) - Socket.IO-based gateway
+- [moleculer-socketio](https://github.com/davidroman0O/moleculer-socketio) - Manage Socket.IO events like actions in services
 
 ### Databases & Stores
 - [moleculer-db](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - A [NeDB](https://github.com/louischatriot/nedb)-based service to persist your data
@@ -99,16 +102,20 @@
 - [moleculer-mail](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-mail#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - Email service based on [Nodemailer](https://nodemailer.com/about/)
 - [moleculer-twilio](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-twilio#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - SMS service based on [Twilio  API](https://www.twilio.com/docs/usage/api)
 - [moleculer-slack](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-slack#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - Send Messages to [Slack API](https://api.slack.com/)
+- [moleculer-elasticsearch](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-elasticsearch) ![Official Moleculer Module](media/moleculer-tiny.png) - [Elasticsearch](https://www.elastic.co/) service for Moleculer.
 - [moleculer-flydrive](https://github.com/molobala/moleculer-flydrive#readme) -  Storage manager service with [Node Flydrive](https://github.com/Slynova-Org/node-flydrive)
 - [moleculer-markdown](https://github.com/alsofronie/moleculer-markdown#readme) - Markdown to HTML Service
 
+### Security, Authentication & Authorization
+- [moleculer-protect-services](https://github.com/icebob/moleculer-protect-services) - [JWT](https://jwt.io/) protection for service actions
+- [imicros-auth](https://github.com/al66/imicros-auth) - Authentication, Authorization and ACL services
+- [moleculer-antivirus](https://github.com/designtesbrot/moleculer-antivirus) - Service for [ClamAV](https://www.clamav.net/) Antivirus Scanning
+- [moleculer-vault](https://github.com/designtesbrot/moleculer-vault) - Service for [HashiCorp's Vault](https://www.vaultproject.io/)
+
 ### Others
 - [imicros-flow](https://github.com/al66/imicros-flow) - Service for loose coupled event handling
-- [moleculer-vault](https://github.com/designtesbrot/moleculer-vault) - Service for [HashiCorp's Vault](https://www.vaultproject.io/)
-- [moleculer-antivirus](https://github.com/designtesbrot/moleculer-antivirus) - Service for [ClamAV](https://www.clamav.net/) Antivirus Scanning
 
 ## Middlewares
-
 
 ## Mixins & Hooks
 ### Tasks, Queues & Jobs
