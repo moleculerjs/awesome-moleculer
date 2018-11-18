@@ -55,7 +55,7 @@
 ### Cheatsheets
 - [Core Cheatsheets](https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer.js) - Cheatsheet for Moleculer's core functionalities
 - [Web Gateway Cheatsheets](https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer-web.js) - Cheatsheet for official gateway
-- [DB Cheatsheets](https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer-db.js) - Cheatsheet for official DB adapaters
+- [DB Cheatsheets](https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer-db.js) - Cheatsheet for official DB adapters
 - [REPL Cheatsheets](https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer-repl.sh) - Cheatsheet for official RELP tool
 - [CLI Cheatsheets](https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer-cli.sh) - Cheatsheet for Moleculer's command-line interface (CLI)
 
