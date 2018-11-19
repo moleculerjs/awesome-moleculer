@@ -22,14 +22,14 @@
 	- [Typescript](#typescript)
 - [Services](#services)
 	- [Gateways](#gateways)
-	- [Databases & stores](#databases-&-stores)
-	- [Metrics & Tracing](#metrics-&-tracing)
+	- [Databases and stores](#Databases-and-Stores)
+	- [Metrics and Tracing](#metrics-and-tracing)
 	- [General](#general)
-	- [Security, Authentication & Authorization](#security-authentication-&-authorization)
+	- [Security, Authentication and Authorization](#security-authentication-and-authorization)
 	- [Others](#others)
 - [Middlewares](#middlewares)
-- [Mixins & Hooks](#mixins--hooks)
-	- [Tasks, Queues & Jobs](#tasks-queues-&-jobs)
+- [Mixins and Hooks](#mixins-and-hooks)
+	- [Tasks, Queues and Jobs](#tasks-queues-and-jobs)
 	- [Validation](#validation)
 - [Tools](#tools)
 - [Projects Using Moleculer](#projects-using-moleculer)
@@ -100,13 +100,13 @@ Minimal project template for Javascript project.
 - [moleculer-io](https://github.com/tiaod/moleculer-io) - Socket.IO-based gateway
 - [moleculer-socketio](https://github.com/davidroman0O/moleculer-socketio) - Manage Socket.IO events like actions in services
 
-### Databases & Stores
+### Databases and Stores
 - [moleculer-db](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - A [NeDB](https://github.com/louischatriot/nedb)-based service to persist your data
 - [moleculer-db-adapter-mongo](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-mongo#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - A [MongoDB](https://mongodb.github.io/node-mongodb-native/)-based service to persist your data
 - [moleculer-db-adapter-mongoose](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-mongoose#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - A [Mongoose](https://mongoosejs.com/)-based service to persist your data
 - [moleculer-db-adapter-sequelize](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-sequelize#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - A [Sequelize](http://docs.sequelizejs.com/)-based service to persist your data
 
-### Metrics & Tracing
+### Metrics and Tracing
 - [moleculer-console-tracer](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-console-tracer#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - Console-based service
 - [moleculer-jaeger](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-jaeger#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - [Jaeger](https://www.jaegertracing.io/)-based metrics service
 - [moleculer-prometheus](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-jaeger#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - [Prometheus](https://prometheus.io/)-based metrics service
@@ -122,7 +122,7 @@ Minimal project template for Javascript project.
 - [moleculer-flydrive](https://github.com/molobala/moleculer-flydrive#readme) -  Storage manager service with [Node Flydrive](https://github.com/Slynova-Org/node-flydrive)
 - [moleculer-markdown](https://github.com/alsofronie/moleculer-markdown#readme) - Markdown to HTML Service
 
-### Security, Authentication & Authorization
+### Security, Authentication and Authorization
 - [moleculer-protect-services](https://github.com/icebob/moleculer-protect-services) - [JWT](https://jwt.io/) protection for service actions
 - [imicros-auth](https://github.com/al66/imicros-auth) - Authentication, Authorization and ACL services
 - [moleculer-antivirus](https://github.com/designtesbrot/moleculer-antivirus) - Service for [ClamAV](https://www.clamav.net/) Antivirus Scanning
@@ -133,8 +133,8 @@ Minimal project template for Javascript project.
 
 ## Middlewares
 
-## Mixins & Hooks
-### Tasks, Queues & Jobs
+## Mixins and Hooks
+### Tasks, Queues and Jobs
 - [moleculer-bee-queue](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bee-queue#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - Task queue mixin for [Bee-Queue](https://github.com/bee-queue/bee-queue)
 - [moleculer-bull](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bull#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - Task queue mixin for [Bull](https://github.com/OptimalBits/bull)
 - [moleculer-cron](https://github.com/davidroman0O/moleculer-cron#readme) - Cron mixin [Node-Cron](https://github.com/kelektiv/node-cron) 
