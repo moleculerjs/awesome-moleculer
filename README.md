@@ -129,7 +129,7 @@ Minimal project template for Javascript project.
 - [imicros-auth](https://github.com/al66/imicros-auth) - Authentication, Authorization and ACL services
 - [moleculer-antivirus](https://github.com/designtesbrot/moleculer-antivirus) - Service for [ClamAV](https://www.clamav.net/) Antivirus Scanning
 - [moleculer-vault](https://github.com/designtesbrot/moleculer-vault) - Service for [HashiCorp's Vault](https://www.vaultproject.io/)
-- [oauth-moleculer](https://github.com/zerocowl/oauth-moleculer) - [OAuth2](https://oauth.net/2/) Service 
+- [oauth-moleculer](https://github.com/zerocowl/oauth-moleculer) - [OAuth2](https://oauth.net/2/) Server service 
 
 ### Others
 - [imicros-flow](https://github.com/al66/imicros-flow) - Service for loose coupled event handling
