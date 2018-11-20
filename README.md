@@ -22,7 +22,7 @@
 	- [Typescript](#typescript)
 - [Services](#services)
 	- [Gateways](#gateways)
-	- [Databases and stores](#Databases-and-Stores)
+	- [Databases and Stores](#Databases-and-Stores)
 	- [Metrics and Tracing](#metrics-and-tracing)
 	- [General](#general)
 	- [Security, Authentication and Authorization](#security-authentication-and-authorization)
@@ -105,6 +105,7 @@ Minimal project template for Javascript project.
 - [moleculer-db-adapter-mongo](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-mongo#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - A [MongoDB](https://mongodb.github.io/node-mongodb-native/)-based service to persist your data
 - [moleculer-db-adapter-mongoose](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-mongoose#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - A [Mongoose](https://mongoosejs.com/)-based service to persist your data
 - [moleculer-db-adapter-sequelize](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-sequelize#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - A [Sequelize](http://docs.sequelizejs.com/)-based service to persist your data
+- [moleculer-db-adapter-typeorm](https://github.com/dkuida/moleculer-db-adapter-typeorm#readme) - A [TypeORM](http://typeorm.io/)-based service to persist your data
 
 ### Metrics and Tracing
 - [moleculer-console-tracer](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-console-tracer#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - Console-based service
@@ -127,11 +128,15 @@ Minimal project template for Javascript project.
 - [imicros-auth](https://github.com/al66/imicros-auth) - Authentication, Authorization and ACL services
 - [moleculer-antivirus](https://github.com/designtesbrot/moleculer-antivirus) - Service for [ClamAV](https://www.clamav.net/) Antivirus Scanning
 - [moleculer-vault](https://github.com/designtesbrot/moleculer-vault) - Service for [HashiCorp's Vault](https://www.vaultproject.io/)
+- [oauth-moleculer](https://github.com/zerocowl/oauth-moleculer) - [OAuth2](https://oauth.net/2/) Service 
 
 ### Others
 - [imicros-flow](https://github.com/al66/imicros-flow) - Service for loose coupled event handling
 
 ## Middlewares
+
+## Security
+- [moleculer-middleware-permissions](https://github.com/Embraser01/moleculer-middleware-permissions) - A middleware solution to validate permissions of a request
 
 ## Mixins and Hooks
 ### Tasks, Queues and Jobs
