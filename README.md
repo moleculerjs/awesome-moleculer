@@ -28,6 +28,7 @@
 	- [Security, Authentication and Authorization](#security-authentication-and-authorization)
 	- [Others](#others)
 - [Middlewares](#middlewares)
+	- [Security](#security)
 - [Mixins and Hooks](#mixins-and-hooks)
 	- [Tasks, Queues and Jobs](#tasks-queues-and-jobs)
 	- [Validation](#validation)
