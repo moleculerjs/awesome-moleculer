@@ -77,6 +77,8 @@
 - [Kanban - A Kanban board application](https://github.com/icebob/kantab) - Moleculer + Moleculer Web + Full authentication + ACL/RBAC + VueJS + VueX + Vue-router + Much much more
 - [Moleculer + Babel Example Starter](https://github.com/tinchoz49/moleculer-babel-example)
 - [moleculer-nextjs](https://github.com/davidroman0O/moleculer-nextjs) - Server-Side Rendering with Moleculer
+- [moleculer-docker-development](https://github.com/nickreese/moleculer-docker-development) - Simple development enviroment for moleculer with Docker
+
 
 ## Templates
 
@@ -95,6 +97,7 @@ Minimal project template for Javascript project.
 
 ### Gateways
 - [moleculer-web](https://moleculer.services/docs/moleculer-web.html) ![Official Moleculer Module](media/moleculer-tiny.png) - HTTP gateway
+- [moleculer-apollo-server](https://github.com/moleculerjs/moleculer-apollo-server) ![Official Moleculer Module](media/moleculer-tiny.png) - [Apollo GraphQL](https://www.apollographql.com/) server for Moleculer
 - [moleculer-graphql](https://github.com/MerlinLabs/moleculer-graphql#readme) - GraphQL Schema stitching over a microservice network for co-located type definitions.
 - [moleculer-sc](https://github.com/tiaod/moleculer-sc#readme) - API Gateway using SocketCluster
 - [hapi-moleculer](https://github.com/felipegcampos/hapi-moleculer) - Hapi-based HTTP gateway
@@ -133,6 +136,7 @@ Minimal project template for Javascript project.
 
 ### Others
 - [imicros-flow](https://github.com/al66/imicros-flow) - Service for loose coupled event handling
+- [serverless-moleculer](https://github.com/davidroman0O/serverless-moleculer) - Serverless Framework handler for Moleculer 
 
 ## Middlewares
 
