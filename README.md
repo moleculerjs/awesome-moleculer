@@ -136,7 +136,8 @@ Minimal project template for Javascript project.
 
 ### Others
 - [imicros-flow](https://github.com/al66/imicros-flow) - Service for loose coupled event handling
-- [serverless-moleculer](https://github.com/davidroman0O/serverless-moleculer) - Serverless Framework handler for Moleculer 
+- [serverless-moleculer](https://github.com/davidroman0O/serverless-moleculer) - Serverless Framework handler for Moleculer
+- [moleculer-state-machine](https://github.com/fugufish/moleculer-state-machine#readme) - State Machine mixin that extends a Moleculer Service to act as a finite-state machine.
 
 ## Middlewares
 
