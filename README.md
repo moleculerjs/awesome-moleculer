@@ -110,6 +110,8 @@ Minimal project template for Javascript project.
 - [moleculer-db-adapter-mongoose](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-mongoose#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - A [Mongoose](https://mongoosejs.com/)-based service to persist your data
 - [moleculer-db-adapter-sequelize](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-sequelize#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - A [Sequelize](http://docs.sequelizejs.com/)-based service to persist your data
 - [moleculer-db-adapter-typeorm](https://github.com/dkuida/moleculer-db-adapter-typeorm#readme) - A [TypeORM](http://typeorm.io/)-based service to persist your data
+- [moleculer-db-adapter-dynamodb](https://github.com/katsanva/moleculer-db-adapter-dynamodb) - A [DynamoDB](https://aws.amazon.com/dynamodb/) adapter for Moleculer DB service
+
 
 ### Metrics and Tracing
 - [moleculer-console-tracer](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-console-tracer#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - Console-based service
