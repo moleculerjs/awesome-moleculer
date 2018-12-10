@@ -96,8 +96,8 @@ Minimal project template for Javascript project.
 ## Services
 
 ### Gateways
-- [moleculer-web](https://moleculer.services/docs/moleculer-web.html) ![Official Moleculer Module](media/moleculer-tiny.png) - HTTP gateway
-- [moleculer-apollo-server](https://github.com/moleculerjs/moleculer-apollo-server) ![Official Moleculer Module](media/moleculer-tiny.png) - [Apollo GraphQL](https://www.apollographql.com/) server for Moleculer
+- [moleculer-web](https://moleculer.services/docs/moleculer-web.html) ![Official Moleculer Module][official] - HTTP gateway
+- [moleculer-apollo-server](https://github.com/moleculerjs/moleculer-apollo-server) ![Official Moleculer Module][official] - [Apollo GraphQL](https://www.apollographql.com/) server for Moleculer
 - [moleculer-graphql](https://github.com/MerlinLabs/moleculer-graphql#readme) - GraphQL Schema stitching over a microservice network for co-located type definitions.
 - [moleculer-sc](https://github.com/tiaod/moleculer-sc#readme) - API Gateway using SocketCluster
 - [hapi-moleculer](https://github.com/felipegcampos/hapi-moleculer) - Hapi-based HTTP gateway
@@ -105,27 +105,27 @@ Minimal project template for Javascript project.
 - [moleculer-socketio](https://github.com/davidroman0O/moleculer-socketio) - Manage Socket.IO events like actions in services
 
 ### Databases and Stores
-- [moleculer-db](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - A [NeDB](https://github.com/louischatriot/nedb)-based service to persist your data
-- [moleculer-db-adapter-mongo](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-mongo#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - A [MongoDB](https://mongodb.github.io/node-mongodb-native/)-based service to persist your data
-- [moleculer-db-adapter-mongoose](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-mongoose#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - A [Mongoose](https://mongoosejs.com/)-based service to persist your data
-- [moleculer-db-adapter-sequelize](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-sequelize#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - A [Sequelize](http://docs.sequelizejs.com/)-based service to persist your data
+- [moleculer-db](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db#readme) ![Official Moleculer Module][official] - A [NeDB](https://github.com/louischatriot/nedb)-based service to persist your data
+- [moleculer-db-adapter-mongo](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-mongo#readme) ![Official Moleculer Module][official] - A [MongoDB](https://mongodb.github.io/node-mongodb-native/)-based service to persist your data
+- [moleculer-db-adapter-mongoose](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-mongoose#readme) ![Official Moleculer Module][official] - A [Mongoose](https://mongoosejs.com/)-based service to persist your data
+- [moleculer-db-adapter-sequelize](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-sequelize#readme) ![Official Moleculer Module][official] - A [Sequelize](http://docs.sequelizejs.com/)-based service to persist your data
 - [moleculer-db-adapter-typeorm](https://github.com/dkuida/moleculer-db-adapter-typeorm#readme) - A [TypeORM](http://typeorm.io/)-based service to persist your data
 - [moleculer-db-adapter-dynamodb](https://github.com/katsanva/moleculer-db-adapter-dynamodb) - A [DynamoDB](https://aws.amazon.com/dynamodb/) adapter for Moleculer DB service
 
 
 ### Metrics and Tracing
-- [moleculer-console-tracer](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-console-tracer#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - Console-based service
-- [moleculer-jaeger](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-jaeger#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - [Jaeger](https://www.jaegertracing.io/)-based metrics service
-- [moleculer-prometheus](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-jaeger#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - [Prometheus](https://prometheus.io/)-based metrics service
-- [moleculer-zipkin](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-zipkin#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - [Zipkin](https://zipkin.io/)-based metrics service
-- [moleculer-elastic-apm](https://github.com/intech/moleculer-elastic-apm#moleculer-elastic-apm) ![Official Moleculer Module](media/moleculer-tiny.png) - [Elastic APM](https://www.elastic.co/solutions/apm)-based metrics service
+- [moleculer-console-tracer](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-console-tracer#readme) ![Official Moleculer Module][official] - Console-based service
+- [moleculer-jaeger](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-jaeger#readme) ![Official Moleculer Module][official] - [Jaeger](https://www.jaegertracing.io/)-based metrics service
+- [moleculer-prometheus](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-jaeger#readme) ![Official Moleculer Module][official] - [Prometheus](https://prometheus.io/)-based metrics service
+- [moleculer-zipkin](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-zipkin#readme) ![Official Moleculer Module][official] - [Zipkin](https://zipkin.io/)-based metrics service
+- [moleculer-elastic-apm](https://github.com/intech/moleculer-elastic-apm#moleculer-elastic-apm) ![Official Moleculer Module][official] - [Elastic APM](https://www.elastic.co/solutions/apm)-based metrics service
 
 ### General
-- [moleculer-fake](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-fake#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - Fake data generator by [Fakerator](https://github.com/icebob/fakerator)
-- [moleculer-mail](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-mail#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - Email service based on [Nodemailer](https://nodemailer.com/about/)
-- [moleculer-twilio](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-twilio#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - SMS service based on [Twilio  API](https://www.twilio.com/docs/usage/api)
-- [moleculer-slack](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-slack#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - Send Messages to [Slack API](https://api.slack.com/)
-- [moleculer-elasticsearch](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-elasticsearch) ![Official Moleculer Module](media/moleculer-tiny.png) - [Elasticsearch](https://www.elastic.co/) service for Moleculer.
+- [moleculer-fake](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-fake#readme) ![Official Moleculer Module][official] - Fake data generator by [Fakerator](https://github.com/icebob/fakerator)
+- [moleculer-mail](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-mail#readme) ![Official Moleculer Module][official] - Email service based on [Nodemailer](https://nodemailer.com/about/)
+- [moleculer-twilio](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-twilio#readme) ![Official Moleculer Module][official] - SMS service based on [Twilio  API](https://www.twilio.com/docs/usage/api)
+- [moleculer-slack](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-slack#readme) ![Official Moleculer Module][official] - Send Messages to [Slack API](https://api.slack.com/)
+- [moleculer-elasticsearch](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-elasticsearch) ![Official Moleculer Module][official] - [Elasticsearch](https://www.elastic.co/) service for Moleculer.
 - [moleculer-flydrive](https://github.com/molobala/moleculer-flydrive#readme) -  Storage manager service with [Node Flydrive](https://github.com/Slynova-Org/node-flydrive)
 - [moleculer-markdown](https://github.com/alsofronie/moleculer-markdown#readme) - Markdown to HTML Service
 
@@ -148,8 +148,8 @@ Minimal project template for Javascript project.
 
 ## Mixins and Hooks
 ### Tasks, Queues and Jobs
-- [moleculer-bee-queue](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bee-queue#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - Task queue mixin for [Bee-Queue](https://github.com/bee-queue/bee-queue)
-- [moleculer-bull](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bull#readme) ![Official Moleculer Module](media/moleculer-tiny.png) - Task queue mixin for [Bull](https://github.com/OptimalBits/bull)
+- [moleculer-bee-queue](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bee-queue#readme) ![Official Moleculer Module][official] - Task queue mixin for [Bee-Queue](https://github.com/bee-queue/bee-queue)
+- [moleculer-bull](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bull#readme) ![Official Moleculer Module][official] - Task queue mixin for [Bull](https://github.com/OptimalBits/bull)
 - [moleculer-cron](https://github.com/davidroman0O/moleculer-cron#readme) - Cron mixin [Node-Cron](https://github.com/kelektiv/node-cron) 
 
 ### Validation
@@ -158,8 +158,8 @@ Minimal project template for Javascript project.
 - [moleculer-json-schema-validator](https://github.com/zhaoyao91/moleculer-json-schema-validator#readme) - [JSON Schema](https://json-schema.org/) validator
 
 ## Tools
-- [moleculer-repl](https://moleculer.services/docs/0.13/moleculer-repl.html) ![Official Moleculer Module](media/moleculer-tiny.png) - Interactive developer console
-- [moleculer-cli](https://moleculer.services/docs/0.13/moleculer-cli.html) ![Official Moleculer Module](media/moleculer-tiny.png) - Command-Line Tool for development & testing
+- [moleculer-repl](https://moleculer.services/docs/0.13/moleculer-repl.html) ![Official Moleculer Module][official] - Interactive developer console
+- [moleculer-cli](https://moleculer.services/docs/0.13/moleculer-cli.html) ![Official Moleculer Module][official] - Command-Line Tool for development & testing
 - [moleculer-decorators](https://moleculer.services/docs/0.13/services.html#Use-decorators) - ES7/TS decorators for Service declaration
 
 
@@ -202,3 +202,5 @@ Minimal project template for Javascript project.
 Copyright (c) 2016-2018 MoleculerJS
 
 [![@moleculerjs](https://img.shields.io/badge/github-moleculerjs-green.svg)](https://github.com/moleculerjs) [![@MoleculerJS](https://img.shields.io/badge/twitter-MoleculerJS-blue.svg)](https://twitter.com/MoleculerJS)
+
+[official]: media/moleculer-tiny.png
