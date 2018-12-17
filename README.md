@@ -29,6 +29,7 @@
 	- [Others](#others)
 - [Middlewares](#middlewares)
 	- [Security](#security)
+	- [Database](#database)
 - [Mixins and Hooks](#mixins-and-hooks)
 	- [Tasks, Queues and Jobs](#tasks-queues-and-jobs)
 	- [Validation](#validation)
@@ -149,6 +150,8 @@ Minimal project template for Javascript project.
 ## Security
 - [moleculer-middleware-permissions](https://github.com/Embraser01/moleculer-middleware-permissions) - A middleware solution to validate permissions of a request
 - [Secure IDs](https://gist.github.com/icebob/5f71b4e7b38a06765c5912ba74c31857) - Encode & decode your IDs with [hashids](https://github.com/ivanakimov/hashids.js)
+
+## Database
 - [Memoize mixin for Moleculer services methods](https://gist.github.com/icebob/40a612ec3c453347aef7a808b82ab747) - Caching for Moleculer service [methods](https://moleculer.services/docs/0.13/services.html#Methods)
 - [DB handler mixin for Moleculer DB](https://gist.github.com/icebob/a093d0011ff0fa0f29d02dc4324557be) - Swap easily between [MongoDB](https://www.mongodb.com/) for development & production and [NeDB](https://github.com/louischatriot/nedb) for unit testing
 - [Cache cleaner mixin for Moleculer DB service](https://gist.github.com/icebob/a69082b3078c8769f66de6c6dc4e56ba)
