@@ -78,7 +78,7 @@
 - [Moleculer + Babel Example Starter](https://github.com/tinchoz49/moleculer-babel-example)
 - [moleculer-nextjs](https://github.com/davidroman0O/moleculer-nextjs) - Server-Side Rendering with Moleculer
 - [moleculer-docker-development](https://github.com/nickreese/moleculer-docker-development) - Simple development enviroment for moleculer with Docker
-
+- [ezam](https://github.com/prazeblaze/ezam) - Moleculer-based fast and flexible objective examination system
 
 ## Templates
 
@@ -111,6 +111,9 @@ Minimal project template for Javascript project.
 - [moleculer-db-adapter-sequelize](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-sequelize#readme) ![Official Moleculer Module][official] - A [Sequelize](http://docs.sequelizejs.com/)-based service to persist your data
 - [moleculer-db-adapter-typeorm](https://github.com/dkuida/moleculer-db-adapter-typeorm#readme) - A [TypeORM](http://typeorm.io/)-based service to persist your data
 - [moleculer-db-adapter-dynamodb](https://github.com/katsanva/moleculer-db-adapter-dynamodb) - A [DynamoDB](https://aws.amazon.com/dynamodb/) adapter for Moleculer DB service
+- [moleculer-db-adapter-couchdb-nano](https://github.com/mrkutin/moleculer-db-adapter-couchdb-nano) - A [CouchDB](http://couchdb.apache.org/) adapter for Moleculer using nano.js
+- [moleculer-storage-google-cloud](https://github.com/hongkongkiwi/node-moleculer-storage-google-cloud) - A [Google Cloud Storage](https://cloud.google.com/storage/) module
+- [moleculer-gundb](https://github.com/smart-matrix/moleculer-gundb) - A [GunDB](https://gun.eco) mixins for Moleculer DB service.
 
 
 ### Metrics and Tracing
@@ -118,7 +121,7 @@ Minimal project template for Javascript project.
 - [moleculer-jaeger](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-jaeger#readme) ![Official Moleculer Module][official] - [Jaeger](https://www.jaegertracing.io/)-based metrics service
 - [moleculer-prometheus](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-jaeger#readme) ![Official Moleculer Module][official] - [Prometheus](https://prometheus.io/)-based metrics service
 - [moleculer-zipkin](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-zipkin#readme) ![Official Moleculer Module][official] - [Zipkin](https://zipkin.io/)-based metrics service
-- [moleculer-elastic-apm](https://github.com/intech/moleculer-elastic-apm#moleculer-elastic-apm) ![Official Moleculer Module][official] - [Elastic APM](https://www.elastic.co/solutions/apm)-based metrics service
+- [moleculer-elastic-apm](https://github.com/intech/moleculer-elastic-apm#moleculer-elastic-apm) - [Elastic APM](https://www.elastic.co/solutions/apm)-based metrics service
 
 ### General
 - [moleculer-fake](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-fake#readme) ![Official Moleculer Module][official] - Fake data generator by [Fakerator](https://github.com/icebob/fakerator)
@@ -145,6 +148,11 @@ Minimal project template for Javascript project.
 
 ## Security
 - [moleculer-middleware-permissions](https://github.com/Embraser01/moleculer-middleware-permissions) - A middleware solution to validate permissions of a request
+- [Secure IDs](https://gist.github.com/icebob/5f71b4e7b38a06765c5912ba74c31857) - Encode & decode your IDs with [hashids](https://github.com/ivanakimov/hashids.js)
+- [Memoize mixin for Moleculer services methods](https://gist.github.com/icebob/40a612ec3c453347aef7a808b82ab747) - Caching for Moleculer service [methods](https://moleculer.services/docs/0.13/services.html#Methods)
+- [DB handler mixin for Moleculer DB](https://gist.github.com/icebob/a093d0011ff0fa0f29d02dc4324557be) - Swap easily between [MongoDB](https://www.mongodb.com/) for development & production and [NeDB](https://github.com/louischatriot/nedb) for unit testing
+- [Cache cleaner mixin for Moleculer DB service](https://gist.github.com/icebob/a69082b3078c8769f66de6c6dc4e56ba)
+
 
 ## Mixins and Hooks
 ### Tasks, Queues and Jobs
