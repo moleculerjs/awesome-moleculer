@@ -193,6 +193,7 @@ Minimal project template for Javascript project.
 - [GetTechDone](https://www.gtechd.com/)
 - [Jarvify](https://jarvify.com/)
 - [Sonda](https://www.sonda.com/en/)
+- [Wino](https://wino.fr)
 
 > If you don't see your company here, [tell us](https://github.com/moleculerjs/moleculer/issues/101).
 
