@@ -145,6 +145,8 @@ Minimal project template for Javascript project.
 - [serverless-moleculer](https://github.com/davidroman0O/serverless-moleculer) - Serverless Framework handler for Moleculer
 - [moleculer-state-machine](https://github.com/fugufish/moleculer-state-machine#readme) - State Machine mixin that extends a Moleculer Service to act as a finite-state machine.
 - [moleculer-minio](https://github.com/designtesbrot/moleculer-minio) - Service providing actions for managing buckets and objects in an AWS S3 or [Minio](https://www.minio.io/) powered backend
+- [moleculer-segment](https://github.com/winoteam/moleculer-segment) - Service for [Segment](https://segment.com/)
+- [moleculer-sharp](https://github.com/designtesbrot/moleculer-sharp) - A Moleculer Service for Image Manipulation using [sharp](http://sharp.pixelplumbing.com/en/stable/)
 
 ## Middlewares
 
