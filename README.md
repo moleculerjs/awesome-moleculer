@@ -110,9 +110,9 @@ Minimal project template for Javascript project.
 - [moleculer-db-adapter-mongo](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-mongo#readme) ![Official Moleculer Module][official] - A [MongoDB](https://mongodb.github.io/node-mongodb-native/)-based service to persist your data
 - [moleculer-db-adapter-mongoose](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-mongoose#readme) ![Official Moleculer Module][official] - A [Mongoose](https://mongoosejs.com/)-based service to persist your data
 - [moleculer-db-adapter-sequelize](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-sequelize#readme) ![Official Moleculer Module][official] - A [Sequelize](http://docs.sequelizejs.com/)-based service to persist your data
+- [moleculer-db-adapter-couchdb-nano](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-couchdb-nano#readme) ![Official Moleculer Module][official] - A [CouchDB](http://couchdb.apache.org/) adapter for Moleculer using nano.js
 - [moleculer-db-adapter-typeorm](https://github.com/dkuida/moleculer-db-adapter-typeorm#readme) - A [TypeORM](http://typeorm.io/)-based service to persist your data
 - [moleculer-db-adapter-dynamodb](https://github.com/katsanva/moleculer-db-adapter-dynamodb) - A [DynamoDB](https://aws.amazon.com/dynamodb/) adapter for Moleculer DB service
-- [moleculer-db-adapter-couchdb-nano](https://github.com/mrkutin/moleculer-db-adapter-couchdb-nano) - A [CouchDB](http://couchdb.apache.org/) adapter for Moleculer using nano.js
 - [moleculer-storage-google-cloud](https://github.com/hongkongkiwi/node-moleculer-storage-google-cloud) - A [Google Cloud Storage](https://cloud.google.com/storage/) module
 - [moleculer-gundb](https://github.com/smart-matrix/moleculer-gundb) - A [GunDB](https://gun.eco) mixins for Moleculer DB service.
 
