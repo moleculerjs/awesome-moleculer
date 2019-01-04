@@ -78,8 +78,11 @@
 - [Kanban - A Kanban board application](https://github.com/icebob/kantab) - Moleculer + Moleculer Web + Full authentication + ACL/RBAC + VueJS + VueX + Vue-router + Much much more
 - [Moleculer + Babel Example Starter](https://github.com/tinchoz49/moleculer-babel-example)
 - [moleculer-nextjs](https://github.com/davidroman0O/moleculer-nextjs) - Server-Side Rendering with Moleculer
+- [nestjs-moleculer](https://github.com/jiangzhuo/nestjs-moleculer) - Moleculer Module For Nestjs Framework
 - [moleculer-docker-development](https://github.com/nickreese/moleculer-docker-development) - Simple development enviroment for moleculer with Docker
 - [ezam](https://github.com/prazeblaze/ezam) - Moleculer-based fast and flexible objective examination system
+- [moleculer-exploration](https://github.com/simsieg/Moleculer-exploration) - Simple microservices communicating via MoleculerJS.
+- [moleculer-mysql-template](https://github.com/AGenson/moleculer-mysql-template) - Moleculer template for creating a secure web api, with a remote MySQL database, and a default account management.
 
 ## Templates
 
@@ -203,7 +206,8 @@ Minimal project template for Javascript project.
 ### Java
 - [moleculer-java](https://github.com/moleculer-java/moleculer-java) - Java implementation of the Moleculer microservices framework
 - [moleculer-java-web](https://github.com/moleculer-java/moleculer-java-web) - Java implementation of the API Gateway service for Moleculer framework
-- [moleculer-java-repl](https://github.com/moleculer-java/moleculer-java-repl) - Java implementation of REPL module for Moleculer framework 
+- [moleculer-java-repl](https://github.com/moleculer-java/moleculer-java-repl) - Java implementation of REPL module for Moleculer framework
+- [moleculer-java-jmx](https://github.com/moleculer-java/moleculer-java-jmx) - [JMX](https://www.oracle.com/technetwork/java/javase/javamanagement-140525.html) service for Moleculer Framework 
 
 ### Python
 - [moleculer-python](https://github.com/ToGoBananas/moleculer-python) - Python implementation of the Moleculer microservices framework
