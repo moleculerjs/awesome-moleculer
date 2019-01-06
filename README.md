@@ -80,7 +80,6 @@
 - [moleculer-nextjs](https://github.com/davidroman0O/moleculer-nextjs) - Server-Side Rendering with Moleculer
 - [nestjs-moleculer](https://github.com/jiangzhuo/nestjs-moleculer) - Moleculer Module For Nestjs Framework
 - [moleculer-docker-development](https://github.com/nickreese/moleculer-docker-development) - Simple development enviroment for moleculer with Docker
-- [ezam](https://github.com/prazeblaze/ezam) - Moleculer-based fast and flexible objective examination system
 - [moleculer-exploration](https://github.com/simsieg/Moleculer-exploration) - Simple microservices communicating via MoleculerJS.
 - [moleculer-mysql-template](https://github.com/AGenson/moleculer-mysql-template) - Moleculer template for creating a secure web api, with a remote MySQL database, and a default account management.
 
@@ -88,7 +87,7 @@
 
 ### Javascript
 - [moleculer-template-project](https://github.com/moleculerjs/moleculer-template-project) - Project template for Javascript project.
-- [moleculer-template-nano](https://github.com/moleculerjs/moleculer-template-nano) - 
+- [moleculer-template-nano](https://github.com/moleculerjs/moleculer-template-nano) -
 Minimal project template for Javascript project.
 - [moleculer-template-addon](https://github.com/moleculerjs/moleculer-template-addon) - Addon template for moleculer-addons
 - [moleculer-template-module](https://github.com/moleculerjs/moleculer-template-module) - Simple module template for [moleculer-cli](https://moleculer.services/docs/moleculer-cli.html). *Use it if you want to create a module for Moleculer*
@@ -141,7 +140,7 @@ Minimal project template for Javascript project.
 - [imicros-auth](https://github.com/al66/imicros-auth) - Authentication, Authorization and ACL services
 - [moleculer-antivirus](https://github.com/designtesbrot/moleculer-antivirus) - Service for [ClamAV](https://www.clamav.net/) Antivirus Scanning
 - [moleculer-vault](https://github.com/designtesbrot/moleculer-vault) - Service for [HashiCorp's Vault](https://www.vaultproject.io/)
-- [oauth-moleculer](https://github.com/zerocowl/oauth-moleculer) - [OAuth2](https://oauth.net/2/) Server service 
+- [oauth-moleculer](https://github.com/zerocowl/oauth-moleculer) - [OAuth2](https://oauth.net/2/) Server service
 
 ### Others
 - [imicros-flow](https://github.com/al66/imicros-flow) - Service for loose coupled event handling
@@ -167,7 +166,7 @@ Minimal project template for Javascript project.
 ### Tasks, Queues and Jobs
 - [moleculer-bee-queue](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bee-queue#readme) ![Official Moleculer Module][official] - Task queue mixin for [Bee-Queue](https://github.com/bee-queue/bee-queue)
 - [moleculer-bull](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bull#readme) ![Official Moleculer Module][official] - Task queue mixin for [Bull](https://github.com/OptimalBits/bull)
-- [moleculer-cron](https://github.com/davidroman0O/moleculer-cron#readme) - Cron mixin [Node-Cron](https://github.com/kelektiv/node-cron) 
+- [moleculer-cron](https://github.com/davidroman0O/moleculer-cron#readme) - Cron mixin [Node-Cron](https://github.com/kelektiv/node-cron)
 
 ### Validation
 - [Default](https://moleculer.services/docs/0.13/validating.html#Built-in-validator) - Moleculer's default validator is based on [fastest-validator](https://github.com/icebob/fastest-validator)
@@ -207,7 +206,7 @@ Minimal project template for Javascript project.
 - [moleculer-java](https://github.com/moleculer-java/moleculer-java) - Java implementation of the Moleculer microservices framework
 - [moleculer-java-web](https://github.com/moleculer-java/moleculer-java-web) - Java implementation of the API Gateway service for Moleculer framework
 - [moleculer-java-repl](https://github.com/moleculer-java/moleculer-java-repl) - Java implementation of REPL module for Moleculer framework
-- [moleculer-java-jmx](https://github.com/moleculer-java/moleculer-java-jmx) - [JMX](https://www.oracle.com/technetwork/java/javase/javamanagement-140525.html) service for Moleculer Framework 
+- [moleculer-java-jmx](https://github.com/moleculer-java/moleculer-java-jmx) - [JMX](https://www.oracle.com/technetwork/java/javase/javamanagement-140525.html) service for Moleculer Framework
 
 ### Python
 - [moleculer-python](https://github.com/ToGoBananas/moleculer-python) - Python implementation of the Moleculer microservices framework
