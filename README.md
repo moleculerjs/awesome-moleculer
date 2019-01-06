@@ -185,7 +185,7 @@ Minimal project template for Javascript project.
 - [ingenious](http://www.ingsw.com/)
 - [THB](https://www.thb.co.in/)
 - [Zaoblako](https://zaoblako.ru/)
-- [Altcoin mining pools](http://altcoinminingpools.com)
+- Altcoin mining pools
 - [zebbra](https://zebbra.ch/)
 - [Uiza](https://uiza.io)
 - [Distopik](https://www.mixanalog.com)
