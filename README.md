@@ -5,7 +5,7 @@
 		<a href="https://moleculer.services/support.html">Moleculer is supported by the community</a>
 	</p>
 	<br>
-</div>
+</div> 
 
 # Awesome Moleculer [![Mentioned in Awesome Node.js](https://awesome.re/mentioned-badge.svg)](https://github.com/sindresorhus/awesome-nodejs)
 
