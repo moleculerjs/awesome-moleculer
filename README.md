@@ -9,19 +9,41 @@
 
 # Awesome Moleculer [![Mentioned in Awesome Node.js](https://awesome.re/mentioned-badge.svg)](https://github.com/sindresorhus/awesome-nodejs)
 
-> A list of awesome things related to Moleculer microservices framework
+>A list of awesome things related to Moleculer microservices framework
 
-- [Resources](#resources) - [Official Resources](#official-resources) - [Cheatsheets](#cheatsheets) - [Articles and Blog Posts](#articles-and-blog-posts) - [Talks](#talks)
+- [Resources](#resources)
+	- [Official Resources](#official-resources)
+	- [Cheatsheets](#cheatsheets)
+	- [Articles and Blog Posts](#articles-and-blog-posts)
+	- [Talks](#talks)
 - [Examples](#examples)
-- [Templates](#templates) - [Javascript](#javascript) - [Typescript](#typescript)
-- [Services](#services) - [Gateways](#gateways) - [Databases and Stores](#Databases-and-Stores) - [Metrics and Tracing](#metrics-and-tracing) - [General](#general) - [Security, Authentication and Authorization](#security-authentication-and-authorization) - [Others](#others)
-- [Middlewares](#middlewares) - [General](#general-1) - [Security](#security)
-- [Mixins and Hooks](#mixins-and-hooks) - [Security](#security-1) - [Database](#database) - [Tasks, Queues and Jobs](#tasks-queues-and-jobs) - [Validation](#validation)
+- [Templates](#templates)
+	- [Javascript](#javascript)
+	- [Typescript](#typescript)
+- [Services](#services)
+	- [Gateways](#gateways)
+	- [Databases and Stores](#Databases-and-Stores)
+	- [Metrics and Tracing](#metrics-and-tracing)
+	- [General](#general)
+	- [Security, Authentication and Authorization](#security-authentication-and-authorization)
+	- [Others](#others)
+- [Middlewares](#middlewares)
+	- [General](#general-1)
+	- [Security](#security)
+- [Mixins and Hooks](#mixins-and-hooks)
+	- [Security](#security-1)
+	- [Database](#database)
+	- [Tasks, Queues and Jobs](#tasks-queues-and-jobs)
+	- [Validation](#validation)
 - [Tools](#tools)
 - [Projects Using Moleculer](#projects-using-moleculer)
-- [Polyglot Implementations](#polyglot-implementations) - [Java](#java) - [Python](#python) - [.NET Core](#.net-core) - [Go](#go)
+- [Polyglot Implementations](#polyglot-implementations)
+	- [Java](#java)
+	- [Python](#python)
+	- [.NET Core](#.net-core)
+	- [Go](#go)
 
----
+--------
 
 ## Resources
 
@@ -102,7 +124,7 @@
 - [moleculer-db-adapter-dynamodb](https://github.com/katsanva/moleculer-db-adapter-dynamodb) - A [DynamoDB](https://aws.amazon.com/dynamodb/) adapter for Moleculer DB service
 - [moleculer-storage-google-cloud](https://github.com/hongkongkiwi/node-moleculer-storage-google-cloud) - A [Google Cloud Storage](https://cloud.google.com/storage/) module
 - [moleculer-gundb](https://github.com/smart-matrix/moleculer-gundb) - A [GunDB](https://gun.eco) mixins for Moleculer DB service.
-- [moleculer-db-adapter-rethinkdb](https://github.com/cantecim/moleculer-db-adapter-rethinkdb) - [RethinkDB](https://www.rethinkdb.com/) moleculer service mixin
+- [moleculer-db-adapter-rethinkdb](https://github.com/cantecim/moleculer-db-adapter-rethinkdb) - A [RethinkDB](https://www.rethinkdb.com/) Moleculer service mixin
 
 ### Metrics and Tracing
 
