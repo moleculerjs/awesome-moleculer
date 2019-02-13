@@ -69,6 +69,7 @@
 - [5 easy steps to create your REST microservice in NodeJS](https://medium.com/moleculer/5-easy-steps-to-create-your-rest-microservice-in-nodejs-94aede3249fc)
 - [What are microservices and how to create one with Node and Moleculer.js](https://medium.com/@r.heygate.dev/microservices-with-moleculer-js-c7e68803ec09)
 - [Moleculer — deployment thoughts](https://dankuida.com/moleculer-deployment-thoughts-8e0fc8c0fb07)
+- [Знакомимся с микросервисным фреймворком Moleculer](https://habr.com/en/post/439810/) [The article is in russian]
 
 ### Talks
 
@@ -207,7 +208,7 @@
 - [ingenious](http://www.ingsw.com/)
 - [THB](https://www.thb.co.in/)
 - [Zaoblako](https://zaoblako.ru/)
-- Altcoin mining pools
+- [Altcoin mining pools](http://altcoinminingpools.com/)
 - [zebbra](https://zebbra.ch/)
 - [Uiza](https://uiza.io)
 - [Distopik](https://www.mixanalog.com)
