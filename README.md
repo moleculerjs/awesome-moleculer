@@ -42,6 +42,7 @@
 	- [Python](#python)
 	- [.NET Core](#.net-core)
 	- [Go](#go)
+	- [Ruby](#ruby)
 
 --------
 
@@ -244,6 +245,9 @@
 ### Go
 
 - [moleculer-go](https://github.com/roytan883/moleculer-go) - Go implementation of the Moleculer microservices framework
+
+### Ruby
+- [moleculer-ruby](https://github.com/moleculer-ruby) - Ruby implementation of the Moleculer framework
 
 # Contact
 
