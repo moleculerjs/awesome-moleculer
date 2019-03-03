@@ -162,6 +162,7 @@
 - [moleculer-minio](https://github.com/designtesbrot/moleculer-minio) - Service providing actions for managing buckets and objects in an AWS S3 or [Minio](https://www.minio.io/) powered backend
 - [moleculer-segment](https://github.com/winoteam/moleculer-segment) - Service for [Segment](https://segment.com/)
 - [moleculer-sharp](https://github.com/designtesbrot/moleculer-sharp) - A Moleculer Service for Image Manipulation using [sharp](http://sharp.pixelplumbing.com/en/stable/)
+- [moleculer-cls](https://github.com/cupsadarius/moleculer-cls) - Hooked Continuation-Local Storage for Moleculer
 
 ## Middlewares
 
