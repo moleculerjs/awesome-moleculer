@@ -145,6 +145,7 @@
 - [moleculer-elasticsearch](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-elasticsearch) ![Official Moleculer Module][official] - [Elasticsearch](https://www.elastic.co/) service for Moleculer.
 - [moleculer-flydrive](https://github.com/molobala/moleculer-flydrive#readme) - Storage manager service with [Node Flydrive](https://github.com/Slynova-Org/node-flydrive)
 - [moleculer-markdown](https://github.com/alsofronie/moleculer-markdown#readme) - Markdown to HTML Service
+- [moleculer-typetalk](https://github.com/is2ei/moleculer-typetalk#readme) - Send Messages to [Typetalk](https://www.typetalk.com)
 
 ### Security, Authentication and Authorization
 
