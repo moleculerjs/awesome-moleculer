@@ -170,6 +170,7 @@
 ### General
 
 - [Inter-namespace](https://gist.github.com/icebob/c0bce54436379d29c1bee8521ceb5348) - This middleware can connect to other namespaces.
+- [Saga middleware PoC](https://gist.github.com/icebob/c75d4d532c0d7783eb924a96110b9020) - Proof of Concept of SAGA pattern
 
 ### Security
 
