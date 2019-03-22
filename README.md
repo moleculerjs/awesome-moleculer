@@ -247,7 +247,7 @@
 
 ### Go
 
-- [moleculer-go](https://github.com/roytan883/moleculer-go) - Go implementation of the Moleculer microservices framework
+- [moleculer-go](https://github.com/moleculer-go) - Go implementation of the Moleculer microservices framework
 
 ### Ruby
 - [moleculer-ruby](https://github.com/moleculer-ruby) - Ruby implementation of the Moleculer framework
