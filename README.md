@@ -35,6 +35,7 @@
 	- [Database](#database)
 	- [Tasks, Queues and Jobs](#tasks-queues-and-jobs)
 	- [Validation](#validation)
+    - [GraphQL](#graphql)
 - [Tools](#tools)
 - [Projects Using Moleculer](#projects-using-moleculer)
 - [Polyglot Implementations](#polyglot-implementations)
@@ -200,6 +201,8 @@
 - [Joi](https://moleculer.services/docs/0.13/validating.html#Create-a-Joi-validator) - [Joi](https://github.com/hapijs/joi) based validator
 - [moleculer-json-schema-validator](https://github.com/zhaoyao91/moleculer-json-schema-validator#readme) - [JSON Schema](https://json-schema.org/) validator
 
+### GraphQL
+- [moleculer-postgraphile](https://github.com/ltv/moleculer-postgraphile) - [Postgraphile](https://www.graphile.org/) Create postgraphile service for automatically detects tables, columns, indexes, relationships, views, types, functions, comments, and more
 ## Tools
 
 - [moleculer-repl](https://moleculer.services/docs/0.13/moleculer-repl.html) ![Official Moleculer Module][official] - Interactive developer console
