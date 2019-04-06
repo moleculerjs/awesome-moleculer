@@ -136,6 +136,7 @@
 - [moleculer-prometheus](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-jaeger#readme) ![Official Moleculer Module][official] - [Prometheus](https://prometheus.io/)-based metrics service
 - [moleculer-zipkin](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-zipkin#readme) ![Official Moleculer Module][official] - [Zipkin](https://zipkin.io/)-based metrics service
 - [moleculer-elastic-apm](https://github.com/intech/moleculer-elastic-apm#moleculer-elastic-apm) - [Elastic APM](https://www.elastic.co/solutions/apm)-based metrics service
+- [moleculer-sentry](https://github.com/YourSoftRun/moleculer-sentry#readme) - [Sentry](https://sentry.io/)-based error logging
 
 ### General
 
@@ -228,6 +229,7 @@
 - [Jarvify](https://jarvify.com/)
 - [Sonda](https://www.sonda.com/en/)
 - [Wino](https://wino.fr)
+- [YourSoft.run](https://www.yoursoft.run)
 
 > If you don't see your company here, [tell us](https://github.com/moleculerjs/moleculer/issues/101).
 
