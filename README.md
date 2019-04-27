@@ -166,6 +166,7 @@
 - [moleculer-segment](https://github.com/winoteam/moleculer-segment) - Service for [Segment](https://segment.com/)
 - [moleculer-sharp](https://github.com/designtesbrot/moleculer-sharp) - A Moleculer Service for Image Manipulation using [sharp](http://sharp.pixelplumbing.com/en/stable/)
 - [moleculer-cls](https://github.com/cupsadarius/moleculer-cls) - Hooked Continuation-Local Storage for Moleculer
+- [moleculer-insee-sirene](https://github.com/YourSoftRun/moleculer-insee-sirene) - Service for [INSEE Sirene API](https://api.insee.fr/catalogue/)
 
 ## Middlewares
 
