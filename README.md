@@ -195,7 +195,9 @@
 
 - [moleculer-bee-queue](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bee-queue#readme) ![Official Moleculer Module][official] - Task queue mixin for [Bee-Queue](https://github.com/bee-queue/bee-queue)
 - [moleculer-bull](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bull#readme) ![Official Moleculer Module][official] - Task queue mixin for [Bull](https://github.com/OptimalBits/bull)
+- [moleculer-faktory](https://github.com/YourSoftRun/moleculer-faktory#readme) - Task queue mixin for [Faktory](https://contribsys.com/faktory/)
 - [moleculer-cron](https://github.com/davidroman0O/moleculer-cron#readme) - Cron mixin [Node-Cron](https://github.com/kelektiv/node-cron)
+
 
 ### Validation
 
