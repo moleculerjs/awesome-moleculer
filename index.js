@@ -68,12 +68,11 @@ function generateCompaniesView (companies) {
 function generateModulesView(modules) {
 	const view = []
 	
-	// Index
-	for (const mod of Object.values(modules)) {
+	for (const entry of Object.values(modules)) {
 		let subtopic = [];
 		let modules = [];
 
-		const keys = Object.keys(mod);
+		const keys = Object.keys(entry);
 
 		// Check if there are no sub-topics
 		if (
@@ -83,23 +82,23 @@ function generateModulesView(modules) {
 		) {
 			// Indication to Mustache that there is nothing add to template
 			subtopic = undefined;
-			modules = buildEntriesList(mod["entries"])
+			modules = buildEntriesList(entry["entries"])
 		} else {
 			modules = undefined;
-			for (const key of Object.keys(mod)) {
+			for (const key of Object.keys(entry)) {
 				if (key !== "title") {
 					subtopic.push({
-						name: mod[key].title,
-						link: mod[key].title.replace(/\s+/g, "-").toLowerCase(),
-						modules: buildEntriesList(mod[key]["entries"])
+						name: entry[key].title,
+						link: entry[key].title.replace(/\s+/g, "-").toLowerCase(),
+						modules: buildEntriesList(entry[key]["entries"])
 					});
 				}
 			}
 		}
 
 		view.push({
-			name: mod.title,
-			link: mod.title.replace(/\s+/g, "-").toLowerCase(),
+			name: entry.title,
+			link: entry.title.replace(/\s+/g, "-").toLowerCase(),
 			subtopic,
 			modules
 		});
