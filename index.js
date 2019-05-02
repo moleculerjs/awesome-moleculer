@@ -4,7 +4,7 @@ const fsPromises = require("fs").promises;
 const Mustache = require("mustache");
 
 // URL pointing to a yaml file that contains the list of companies that use MoleculerJS
-const COMPANIES =
+const COMPANIES_URL =
 	"https://raw.githubusercontent.com/moleculerjs/site/master/source/_data/companies.yml";
 
 const TEMPLATE_PATH = "./templates/readme-template.md";
@@ -34,12 +34,25 @@ async function fetchYaml(url, remote) {
 	}
 }
 
-function generateView(modules, companies) {
-	let view = {
-		index: [],
-		companies: []
-	};
+function generateCompaniesView (companies) {
+	const view = []
 
+	// Companies
+	for (const group of Object.values(companies)) {
+		for (const company of group) {
+			view.push({
+				name: company.name,
+				link: company.link
+			});
+		}
+	}
+
+	return view
+}
+
+function generateModulesView(modules) {
+	const view = []
+	
 	// Index
 	for (const mod of Object.values(modules)) {
 		let subtopic = [];
@@ -54,31 +67,21 @@ function generateView(modules, companies) {
 			keys.includes("modules") === true
 		) {
 			subtopic = undefined;
-
-			for (const entry of Object.values(mod["modules"])) {
-				modules.push({
-					name: entry.name,
-					link: entry.link,
-					official:
-						entry.official === true
-							? "![Official Moleculer Module][official]"
-							: undefined,
-					desc: entry.desc
-				});
-			}
+			modules = buildEntriesList(mod["modules"])
 		} else {
 			modules = undefined;
 			for (const key of Object.keys(mod)) {
 				if (key !== "title") {
 					subtopic.push({
 						name: mod[key].title,
-						link: mod[key].title.replace(/\s+/g, "-").toLowerCase()
+						link: mod[key].title.replace(/\s+/g, "-").toLowerCase(),
+						modules: buildEntriesList(mod[key]["modules"])
 					});
 				}
 			}
 		}
 
-		view.index.push({
+		view.push({
 			topic: mod.title,
 			link: mod.title.replace(/\s+/g, "-").toLowerCase(),
 			subtopic,
@@ -86,19 +89,25 @@ function generateView(modules, companies) {
 		});
 	}
 
-	// console.log(view.index);
-
-	// Companies
-	for (const group of Object.values(companies)) {
-		for (const company of group) {
-			view.companies.push({
-				name: company.name,
-				link: company.link
-			});
-		}
-	}
-
 	return view;
+}
+
+function sanitizeDescription (desc) {
+	return desc.startsWith('/') === true || desc.startsWith('\\') === true ? desc.slice(1) : desc
+}
+
+function buildEntriesList (list) {
+	return list.map(elem => {
+		return {
+			name: elem.name,
+			link: elem.link,
+			official:
+				elem.official === true
+					? "![Official Moleculer Module][official]"
+					: undefined,
+			desc: sanitizeDescription(elem.desc)
+		}
+	})
 }
 
 async function main() {
@@ -113,10 +122,11 @@ async function main() {
 
 		const modules = await fetchYaml("modules.yml", false);
 
-		// console.log(modules);
-
 		// Generate Mustache view object
-		const view = generateView(modules, companies);
+		const view = {
+			index: generateModulesView(modules),
+			companies: generateCompaniesView(companies)
+		}
 
 		// Build readme file
 		const output = Mustache.render(template, view);
@@ -125,6 +135,7 @@ async function main() {
 		await fsPromises.writeFile("newRead.md", output);
 	} catch (error) {
 		console.log(error);
+		process.exit(1);
 	}
 }
 

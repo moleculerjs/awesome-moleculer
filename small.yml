@@ -1,0 +1,21 @@
+---
+services:
+  title: Services
+
+  gateway:
+    title: Gateway
+    modules:
+      - name: moleculer-web
+        link: https://github.com/moleculerjs/moleculer-web#readme
+        desc: Official API Gateway service.
+        official: false
+        author: icebob
+tools:
+  title: Tools
+  modules:
+    - name: moleculer-repl
+      link: https://moleculer.services/docs/0.13/moleculer-repl.html
+      desc: \[Interactive](www.google.pt) developer console.
+      official: true
+      author: icebob
+
