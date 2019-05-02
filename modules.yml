@@ -1,10 +1,131 @@
 ---
+resources:
+  title: Resources
+
+  official:
+    title: Official Resources
+    entries:
+      - name: Website
+        link: https://moleculer.services/
+      - name: Docs
+        link: https://moleculer.services/docs
+      - name: Blog
+        link: https://medium.com/moleculer
+      - name: Gitter
+        link: https://gitter.im/moleculerjs/moleculer
+      - name: Twitter
+        link: https://twitter.com/MoleculerJS
+      - name: Stack Overflow
+        link: https://stackoverflow.com/questions/tagged/moleculer
+
+  cheatsheets:
+    title: Cheatsheets
+    entries:
+      - name: Core Cheatsheets
+        link: https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer.js
+        desc: Cheatsheet for Moleculer's core functionalities.
+      - name: Web Gateway Cheatsheets
+        link: https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer-web.js
+        desc: Cheatsheet for official gateway
+      - name: DB Cheatsheets
+        link: https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer-db.js
+        desc: Cheatsheet for official DB adapters
+      - name: REPL Cheatsheets
+        link: https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer-repl.sh
+        desc: Cheatsheet for official RELP tool
+      - name: CLI Cheatsheets
+        link: https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer-cli.sh
+        desc: Cheatsheet for Moleculer's command-line interface (CLI)
+
+  articles:
+    title: Articles and Blog Posts
+    entries:
+      - name: 5 easy steps to create your REST microservice in NodeJS
+        link: https://medium.com/moleculer/5-easy-steps-to-create-your-rest-microservice-in-nodejs-94aede3249fc
+      - name: What are microservices and how to create one with Node and Moleculer.js
+        link: https://medium.com/@r.heygate.dev/microservices-with-moleculer-js-c7e68803ec09
+      - name: Moleculer — deployment thoughts
+        link: https://dankuida.com/moleculer-deployment-thoughts-8e0fc8c0fb07
+      - name: Знакомимся с микросервисным фреймворком Moleculer
+        link: https://habr.com/en/post/439810/
+        desc: \[The article is in russian]
+
+  talks:
+    title: Talks
+    entries:
+      - name: Microservices 4 Real - Martín Acosta
+        link: https://www.youtube.com/watch?v=FrL8at9qGrQ
+        desc: Talk _in Spanish_ from the JSDayUY 2017 about how a developer that used to work on monolithic apps started to learn and create a complete production app using a microservices architecture on top of Moleculer. [repo](https://github.com/tinchoz49/microservices-for-real)
+
+
+examples:
+  title: Examples
+
+  entries:
+    - name: Conduit
+      link: https://github.com/moleculerjs/moleculer-examples/tree/master/conduit
+      desc: Moleculer + Moleculer Web + Moleculer-DB + MongoDB + JWT + Redis Cacher + Docker
+    - name: Blog
+      link: https://github.com/moleculerjs/moleculer-examples/tree/master/blog
+      desc: Moleculer + ExpressJS + Pug + Moleculer-DB + Mongoose + NATS + Redis Cacher + Traefik
+    - name: Kanban - A Kanban board application
+      link: https://github.com/icebob/kantab
+      desc: Moleculer + Moleculer Web + Full authentication + ACL/RBAC + VueJS + VueX + Vue-router + Much much more
+    - name: Moleculer + Babel Example Starter
+      link: https://github.com/tinchoz49/moleculer-babel-example
+    - name: moleculer-nextjs
+      link: https://github.com/davidroman0O/moleculer-nextjs
+      desc: Server-Side Rendering with Moleculer
+    - name: nestjs-moleculer
+      link: https://github.com/jiangzhuo/nestjs-moleculer
+      desc: Moleculer Module For Nestjs Framework
+    - name: moleculer-docker-development
+      link: https://github.com/nickreese/moleculer-docker-development
+      desc: Simple development enviroment for moleculer with Docker
+    - name: moleculer-exploration
+      link: https://github.com/simsieg/Moleculer-exploration
+      desc: Simple microservices communicating via MoleculerJS.
+    - name: moleculer-mysql-template
+      link: https://github.com/AGenson/moleculer-mysql-template
+      desc: Moleculer template for creating a secure web api, with a remote MySQL database, and a default account management.
+
+
+templates:
+  title: Templates
+
+  javascript:
+    title: Javascript
+    entries:
+      - name: moleculer-template-project
+        link: https://github.com/moleculerjs/moleculer-template-project
+        desc: Project template for Javascript project.
+      - name: moleculer-template-nano
+        link: https://github.com/moleculerjs/moleculer-template-nano
+        desc: Minimal project template for Javascript project.
+      - name: moleculer-template-addon
+        link: https://github.com/moleculerjs/moleculer-template-addon
+        desc: Addon template for moleculer-addons
+      - name: moleculer-template-module
+        link: https://github.com/moleculerjs/moleculer-template-module
+        desc: Simple module template for [moleculer-cli](https://moleculer.services/docs/moleculer-cli.html). _Use it if you want to create a module for Moleculer_
+
+typescript:
+    title: Typescript
+    entries:
+      - name: moleculer-template-project-typescript
+        link: https://github.com/moleculerjs/moleculer-template-project-typescript
+        desc: Project template for Typescript project.
+      - name: moleculer-template-nano-typescript
+        link: https://github.com/moleculerjs/moleculer-template-nano-typescript
+        desc: Minimal project template for Typescript project.
+
+
 services:
   title: Services
 
   gateway:
     title: Gateway
-    modules:
+    entries:
       - name: moleculer-web
         link: https://github.com/moleculerjs/moleculer-web#readme
         desc: Official API Gateway service.
@@ -38,7 +159,7 @@ services:
 
   databases:
     title: Databases and Stores
-    modules:
+    entries:
       - name: moleculer-db
         link: https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db#readme
         desc: A [NeDB](https://github.com/louischatriot/nedb)-based service to persist your data
@@ -91,7 +212,7 @@ services:
         author: cantecim
   metrics:
     title: Metrics and Tracing
-    modules:
+    entries:
       - name: moleculer-console-tracer
         link: https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-console-tracer#readme
         desc: Console-based service
@@ -124,7 +245,7 @@ services:
         author: Hugome
   general:
     title: General
-    modules:
+    entries:
       - name: moleculer-fake
         link: https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-fake#readme
         desc: Fake data generator by [Fakerator](https://github.com/icebob/fakerator)
@@ -167,7 +288,7 @@ services:
         author: is2ei
   security:
     title: Security, Authentication and Authorization
-    modules:
+    entries:
       - name: moleculer-protect-services
         link: https://github.com/icebob/moleculer-protect-services
         desc: \[JWT](https://jwt.io/) protection for service actions
@@ -195,7 +316,7 @@ services:
         author: designtesbrot
   others:
     title: Others
-    modules:
+    entries:
       - name: imicros-flow
         link: https://github.com/al66/imicros-flow
         desc: Service for loose coupled event handling
@@ -242,7 +363,7 @@ middlewares:
 
   general:
     title: General
-    modules:
+    entries:
       - name: Inter-namespace
         link: https://gist.github.com/icebob/c0bce54436379d29c1bee8521ceb5348
         desc: This middleware can connect to other namespaces.
@@ -254,7 +375,7 @@ middlewares:
 
   security:
     title: Security
-    modules:
+    entries:
       - name: moleculer-middleware-permissions
         link: https://github.com/Embraser01/moleculer-middleware-permissions
         desc: A middleware solution to validate permissions of a request.
@@ -265,7 +386,7 @@ mixins:
 
   database:
     title: Database
-    modules:
+    entries:
       - name: Memoize mixin for Moleculer services methods
         link: https://gist.github.com/icebob/40a612ec3c453347aef7a808b82ab747
         desc: Caching for Moleculer service [methods](https://moleculer.services/docs/0.13/services.html#Methods)
@@ -281,7 +402,7 @@ mixins:
 
   tasks:
     title: Tasks, Queues and Jobs
-    modules:
+    entries:
       - name: moleculer-bee-queue
         link: https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bee-queue#readme
         desc: Task queue mixin for [Bee-Queue](https://github.com/bee-queue/bee-queue)
@@ -305,7 +426,7 @@ mixins:
 
   validation:
     title: Validation
-    modules:
+    entries:
       - name: fastest-validator
         link: https://moleculer.services/docs/0.13/validating.html#Built-in-validator
         desc: Moleculer's default validator is based on [fastest-validator](https://github.com/icebob/fastest-validator)
@@ -324,7 +445,7 @@ mixins:
 
   graphql:
     title: GraphQL
-    modules:
+    entries:
       - name: moleculer-postgraphile
         link: https://github.com/ltv/moleculer-postgraphile
         desc: /[Postgraphile](https://www.graphile.org/) Create postgraphile service for automatically detects tables, columns, indexes, relationships, views, types, functions, comments, and more.
@@ -333,7 +454,7 @@ mixins:
 
 tools:
   title: Tools
-  modules:
+  entries:
     - name: moleculer-repl
       link: https://moleculer.services/docs/0.13/moleculer-repl.html
       desc: Interactive developer console.
@@ -355,35 +476,35 @@ polyglot:
 
   java:
     title: Java
-    modules:
+    entries:
       - name: moleculer-java
         link: https://github.com/moleculer-java
         desc: Java implementation of the Moleculer microservices framework.
 
   python:
     title: Python
-    modules:
-      - name: moleculer-java
+    entries:
+      - name: moleculer-python
         link: https://github.com/ToGoBananas/moleculer-python
         desc: Python implementation of the Moleculer microservices framework.
 
   net-core:
     title: .NET Core
-    modules:
-      - name: moleculer-java
+    entries:
+      - name: moleculer-net
         link: https://github.com/alexandredenes/moleculer-net
         desc: NET Core 2.1 implementation of the Moleculer microservices framework.
 
   go:
     title: Go
-    modules:
+    entries:
       - name: moleculer-go
-        link: https://github.com/alexandredenes/moleculer-net
+        link: https://github.com/moleculer-go
         desc: Go implementation of the Moleculer microservices framework.
 
   ruby:
     title: Ruby
-    modules:
+    entries:
       - name: moleculer-ruby
         link: https://github.com/moleculer-ruby
         desc: Ruby implementation of the Moleculer framework.

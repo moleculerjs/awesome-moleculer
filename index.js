@@ -7,16 +7,22 @@ const Mustache = require("mustache");
 const COMPANIES_URL =
 	"https://raw.githubusercontent.com/moleculerjs/site/master/source/_data/companies.yml";
 
+// Readme.MD template
 const TEMPLATE_PATH = "./templates/readme-template.md";
 
+// MoleculerJS modules
+const MODULES_PATH = "modules.yml"
+
 /**
- * Fetch either remote or a local yaml file
+ * Fetch either remote (HTTP GET) or a local yaml file
+ * @param {string} url 
+ * @param {boolean} remote 
  */
 async function fetchYaml(url, remote) {
 	try {
 		let payload;
 		if (remote) {
-			// Get yaml file as string
+			// HTTP GET yaml file as string
 			payload = await rp.get(url);
 		} else {
 			// Get yaml file as string
@@ -25,7 +31,7 @@ async function fetchYaml(url, remote) {
 			});
 		}
 
-		// Parse companies.yml
+		// Parse yaml payload
 		const data = yaml.safeLoad(payload, "utf8");
 
 		return data;
@@ -34,10 +40,14 @@ async function fetchYaml(url, remote) {
 	}
 }
 
+/**
+ * Generate companies view
+ * 
+ * @param {object} companies 
+ */
 function generateCompaniesView (companies) {
 	const view = []
 
-	// Companies
 	for (const group of Object.values(companies)) {
 		for (const company of group) {
 			view.push({
@@ -50,6 +60,11 @@ function generateCompaniesView (companies) {
 	return view
 }
 
+/**
+ * Generate companies view
+ * 
+ * @param {object} modules 
+ */
 function generateModulesView(modules) {
 	const view = []
 	
@@ -60,14 +75,15 @@ function generateModulesView(modules) {
 
 		const keys = Object.keys(mod);
 
-		// If "mod" Object only has "title" and "modules" just skip because there are no sub-topics
+		// Check if there are no sub-topics
 		if (
 			keys.length === 2 &&
 			keys.includes("title") === true &&
-			keys.includes("modules") === true
+			keys.includes("entries") === true
 		) {
+			// Indication to Mustache that there is nothing add to template
 			subtopic = undefined;
-			modules = buildEntriesList(mod["modules"])
+			modules = buildEntriesList(mod["entries"])
 		} else {
 			modules = undefined;
 			for (const key of Object.keys(mod)) {
@@ -75,14 +91,14 @@ function generateModulesView(modules) {
 					subtopic.push({
 						name: mod[key].title,
 						link: mod[key].title.replace(/\s+/g, "-").toLowerCase(),
-						modules: buildEntriesList(mod[key]["modules"])
+						modules: buildEntriesList(mod[key]["entries"])
 					});
 				}
 			}
 		}
 
 		view.push({
-			topic: mod.title,
+			name: mod.title,
 			link: mod.title.replace(/\s+/g, "-").toLowerCase(),
 			subtopic,
 			modules
@@ -92,19 +108,36 @@ function generateModulesView(modules) {
 	return view;
 }
 
+/**
+ * Sanitize the description string
+ * 
+ * @param {string} desc Plain text or Markdown formated string
+ */
 function sanitizeDescription (desc) {
-	return desc.startsWith('/') === true || desc.startsWith('\\') === true ? desc.slice(1) : desc
+	if (desc === undefined) return
+
+	// Slice initial escape char
+	if (desc.startsWith('/') === true || desc.startsWith('\\') === true) 
+		desc = desc.slice(1)
+
+	// Add a dash
+	return ` - ${desc}`
 }
 
-function buildEntriesList (list) {
-	return list.map(elem => {
+/**
+ * Generates an array with Mustache compatible elements
+ * 
+ * @param {array} entries 
+ */
+function buildEntriesList (entries) {
+	return entries.map(elem => {
 		return {
 			name: elem.name,
 			link: elem.link,
 			official:
-				elem.official === true
-					? "![Official Moleculer Module][official]"
-					: undefined,
+			elem.official === true
+				? "![Official Moleculer Module][official]"
+				: undefined,
 			desc: sanitizeDescription(elem.desc)
 		}
 	})
@@ -112,7 +145,7 @@ function buildEntriesList (list) {
 
 async function main() {
 	try {
-		// Get companies list
+		// Get companies list from moleculer/site repo
 		const companies = await fetchYaml("companies.yml", false);
 
 		// Get Template
@@ -120,7 +153,8 @@ async function main() {
 			encoding: "utf8"
 		});
 
-		const modules = await fetchYaml("modules.yml", false);
+		// Load module files
+		const modules = await fetchYaml(MODULES_PATH, false);
 
 		// Generate Mustache view object
 		const view = {
@@ -128,10 +162,10 @@ async function main() {
 			companies: generateCompaniesView(companies)
 		}
 
-		// Build readme file
+		// Generate new ReadMe file
 		const output = Mustache.render(template, view);
 
-		// Write new readme file
+		// Write ReadMe file
 		await fsPromises.writeFile("newRead.md", output);
 	} catch (error) {
 		console.log(error);

@@ -12,7 +12,7 @@
 > A list of awesome things related to Moleculer microservices framework
 
 {{#index}}
-- [{{topic}}](#{{link}})
+- [{{name}}](#{{link}})
     {{#subtopic}}
     - [{{name}}](#{{link}})
     {{/subtopic}}
@@ -20,15 +20,15 @@
 - [Projects Using Moleculer](#projects-using-moleculer)
 
 {{#index}}
-## {{topic}}
+## {{name}}
 {{#subtopic}}
 ### {{name}}
 {{#modules}}
-- [{{name}}]({{{link}}}){{official}} - {{{desc}}}
+- [{{name}}]({{{link}}}){{official}} {{{desc}}}
 {{/modules}}
 {{/subtopic}}
 {{#modules}}
-- [{{name}}]({{{link}}}){{official}} - {{{desc}}}
+- [{{name}}]({{{link}}}){{official}} {{{desc}}}
 {{/modules}}
 {{/index}}
 
