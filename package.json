@@ -1,0 +1,29 @@
+{
+	"name": "awesome-moleculer",
+	"version": "0.0.1",
+	"description": "Awesome MoleculerJS",
+	"main": "index.js",
+	"scripts": {
+		"test": "npm test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AndreMaz/awesome-moleculer.git"
+	},
+	"keywords": [
+		"awesome",
+		"moleculer"
+	],
+	"author": "MoleculerJS",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/AndreMaz/awesome-moleculer/issues"
+	},
+	"homepage": "https://github.com/AndreMaz/awesome-moleculer#readme",
+	"dependencies": {
+		"js-yaml": "^3.13.1",
+		"mustache": "^3.0.1",
+		"request": "^2.88.0",
+		"request-promise": "^4.2.4"
+	}
+}

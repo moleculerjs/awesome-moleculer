@@ -1,0 +1,389 @@
+---
+services:
+  title: Services
+
+  gateway:
+    title: Gateway
+    modules:
+      - name: moleculer-web
+        link: https://github.com/moleculerjs/moleculer-web#readme
+        desc: Official API Gateway service.
+        official: true
+        author: icebob
+      - name: moleculer-apollo-server
+        link: https://github.com/moleculerjs/moleculer-apollo-server
+        desc: \[Apollo GraphQL](https://www.apollographql.com/) server for Moleculer.
+        official: true
+        author: icebob
+      - name: moleculer-graphql
+        link: https://github.com/MerlinLabs/moleculer-graphql#readme
+        desc: GraphQL Schema stitching over a microservice network for co-located type definitions.
+        official: false
+        author: MerlinLabs
+      - name: moleculer-sc
+        link: https://github.com/tiaod/moleculer-sc#readme
+        desc: API Gateway using [SocketCluster](https://socketcluster.io)
+        official: false
+        author: tiaod
+      - name: moleculer-io
+        link: https://github.com/tiaod/moleculer-io
+        desc: Socket.IO-based gateway
+        official: false
+        author: tiaod
+      - name: moleculer-socketio
+        link: https://github.com/davidroman0O/moleculer-socketio
+        desc: Manage Socket.IO events like actions in services
+        official: false
+        author: davidroman0O
+
+  databases:
+    title: Databases and Stores
+    modules:
+      - name: moleculer-db
+        link: https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db#readme
+        desc: A [NeDB](https://github.com/louischatriot/nedb)-based service to persist your data
+        official: true
+        author: icebob
+      - name: moleculer-db-adapter-mongo
+        link: https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-mongo#readme
+        desc: A [MongoDB](https://mongodb.github.io/node-mongodb-native/)-based service to persist your data
+        official: true
+        author: icebob
+      - name: moleculer-db-adapter-mongoose
+        link: https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-mongoose#readme
+        desc: A [Mongoose](https://mongoosejs.com/)-based service to persist your data
+        official: true
+        author: icebob
+      - name: moleculer-db-adapter-sequelize
+        link: https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-sequelize#readme
+        desc: A [Sequelize](http://docs.sequelizejs.com/)-based service to persist your data
+        official: true
+        author: icebob
+      - name: moleculer-db-adapter-couchdb-nano
+        link: https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-couchdb-nano#readme
+        desc: A [CouchDB](http://couchdb.apache.org/) adapter for Moleculer using nano.js
+        official: true
+        author: mrkutin
+      - name: moleculer-db-adapter-typeorm
+        link: https://github.com/dkuida/moleculer-db-adapter-typeorm#readme
+        desc: A [TypeORM](http://typeorm.io/)-based service to persist your data
+        official: false
+        author: dkuida
+      - name: moleculer-db-adapter-dynamodb
+        link: https://github.com/katsanva/moleculer-db-adapter-dynamodb
+        desc: A [DynamoDB](https://aws.amazon.com/dynamodb/) adapter for Moleculer DB service
+        official: false
+        author: katsanva
+      - name: moleculer-storage-google-cloud
+        link: https://github.com/hongkongkiwi/node-moleculer-storage-google-cloud
+        desc: A [Google Cloud Storage](https://cloud.google.com/storage/) module
+        official: false
+        author: hongkongkiwi
+      - name: moleculer-gundb
+        link: https://github.com/smart-matrix/moleculer-gundb
+        desc: A [GunDB](https://gun.eco) mixins for Moleculer DB service.
+        official: false
+        author: smart-matrix
+      - name: moleculer-db-adapter-rethinkdb
+        link: https://github.com/cantecim/moleculer-db-adapter-rethinkdb
+        desc: A [RethinkDB](https://www.rethinkdb.com/) Moleculer service mixin.
+        official: false
+        author: cantecim
+  metrics:
+    title: Metrics and Tracing
+    modules:
+      - name: moleculer-console-tracer
+        link: https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-console-tracer#readme
+        desc: Console-based service
+        official: true
+        author: icebob
+      - name: moleculer-jaeger
+        link: https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-jaeger#readme
+        desc: \[Jaeger](https://www.jaegertracing.io/)-based metrics service
+        official: true
+        author: icebob
+      - name: moleculer-prometheus
+        link: https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-prometheus#readme
+        desc: \[Prometheus](https://prometheus.io/)-based metrics service
+        official: true
+        author: icebob
+      - name: moleculer-zipkin
+        link: https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-zipkin#readme
+        desc: \[Zipkin](https://zipkin.io/)-based metrics service
+        official: true
+        author: icebob
+      - name: moleculer-elastic-apm
+        link: https://github.com/intech/moleculer-elastic-apm#moleculer-elastic-apm
+        desc: \[Elastic APM](https://www.elastic.co/solutions/apm)-based metrics service
+        official: false
+        author: intech
+      - name: moleculer-sentry
+        link: https://github.com/YourSoftRun/moleculer-sentry#readme
+        desc: \[Sentry](https://sentry.io/)-based error logging
+        official: false
+        author: Hugome
+  general:
+    title: General
+    modules:
+      - name: moleculer-fake
+        link: https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-fake#readme
+        desc: Fake data generator by [Fakerator](https://github.com/icebob/fakerator)
+        official: true
+        author: icebob
+      - name: moleculer-mail
+        link: https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-mail#readme
+        desc: Email service based on [Nodemailer](https://nodemailer.com/about/)
+        official: true
+        author: icebob
+      - name: moleculer-twilio
+        link: https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-twilio#readme
+        desc: SMS service based on [Twilio API](https://www.twilio.com/docs/usage/api)
+        official: true
+        author: icebob
+      - name: moleculer-slack
+        link: https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-slack#readme
+        desc: Send Messages to [Slack API](https://api.slack.com/)
+        official: true
+        author: icebob
+      - name: moleculer-elasticsearch
+        link: https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-elasticsearch
+        desc: \[Elasticsearch](https://www.elastic.co/) service for Moleculer.
+        official: true
+        author: icebob
+      - name: moleculer-flydrive
+        link: https://github.com/molobala/moleculer-flydrive#readme
+        desc: Storage manager service with [Node Flydrive](https://github.com/Slynova-Org/node-flydrive).
+        official: false
+        author: Slynova-Org
+      - name: moleculer-markdown
+        link: https://github.com/alsofronie/moleculer-markdown#readme
+        desc: Markdown to HTML Service
+        official: false
+        author: alsofronie
+      - name: moleculer-typetalk
+        link: https://github.com/is2ei/moleculer-typetalk#readme
+        desc: Send Messages to [Typetalk](https://www.typetalk.com)
+        official: false
+        author: is2ei
+  security:
+    title: Security, Authentication and Authorization
+    modules:
+      - name: moleculer-protect-services
+        link: https://github.com/icebob/moleculer-protect-services
+        desc: \[JWT](https://jwt.io/) protection for service actions
+        official: true
+        author: icebob
+      - name: imicros-auth
+        link: https://github.com/al66/imicros-auth
+        desc: Authentication, Authorization and ACL services
+        official: false
+        author: al66
+      - name: moleculer-antivirus
+        link: https://github.com/designtesbrot/moleculer-antivirus
+        desc: Service for [ClamAV](https://www.clamav.net/) Antivirus Scanning
+        official: false
+        author: designtesbrot
+      - name: moleculer-vault
+        link: https://github.com/designtesbrot/moleculer-vault
+        desc: Service for [HashiCorp's Vault](https://www.vaultproject.io/)
+        official: false
+        author: designtesbrot
+      - name: oauth-moleculer
+        link: https://github.com/zerocowl/oauth-moleculer
+        desc: Service for [HashiCorp's Vault](https://www.vaultproject.io/)
+        official: false
+        author: designtesbrot
+  others:
+    title: Others
+    modules:
+      - name: imicros-flow
+        link: https://github.com/al66/imicros-flow
+        desc: Service for loose coupled event handling
+        official: false
+        author: al66
+      - name: serverless-moleculer
+        link: https://github.com/davidroman0O/serverless-moleculer
+        desc: Serverless Framework handler for Moleculer
+        official: false
+        author: davidroman0O
+      - name: moleculer-state-machine
+        link: https://github.com/fugufish/moleculer-state-machine#readme
+        desc: State Machine mixin that extends a Moleculer Service to act as a finite-state machine.
+        official: false
+        author: fugufish
+      - name: moleculer-minio
+        link: https://github.com/designtesbrot/moleculer-minio
+        desc: Service providing actions for managing buckets and objects in an AWS S3 or [Minio](https://www.minio.io/) powered backend
+        official: false
+        author: designtesbrot
+      - name: moleculer-segment
+        link: https://github.com/winoteam/moleculer-segment
+        desc: Service for [Segment](https://segment.com/)
+        official: false
+        author: winoteam
+      - name: moleculer-sharp
+        link: https://github.com/designtesbrot/moleculer-sharp
+        desc: A Moleculer Service for Image Manipulation using [sharp](http://sharp.pixelplumbing.com/en/stable/)
+        official: false
+        author: designtesbrot
+      - name: moleculer-cls
+        link: https://github.com/cupsadarius/moleculer-cls
+        desc: Hooked Continuation-Local Storage for Moleculer
+        official: false
+        author: cupsadarius
+      - name: moleculer-insee-sirene
+        link: https://github.com/YourSoftRun/moleculer-insee-sirene
+        desc: Service for [INSEE Sirene API](https://api.insee.fr/catalogue/). An API with info about all French companies
+        official: false
+        author: Hugome
+
+middlewares:
+  title: Middlewares
+
+  general:
+    title: General
+    modules:
+      - name: Inter-namespace
+        link: https://gist.github.com/icebob/c0bce54436379d29c1bee8521ceb5348
+        desc: This middleware can connect to other namespaces.
+        author: icebob
+      - name: Saga middleware PoC
+        link: https://gist.github.com/icebob/c75d4d532c0d7783eb924a96110b9020
+        desc: Proof of Concept of SAGA pattern.
+        author: icebob
+
+  security:
+    title: Security
+    modules:
+      - name: moleculer-middleware-permissions
+        link: https://github.com/Embraser01/moleculer-middleware-permissions
+        desc: A middleware solution to validate permissions of a request.
+        author: Embraser01
+
+mixins:
+  title: Mixins
+
+  database:
+    title: Database
+    modules:
+      - name: Memoize mixin for Moleculer services methods
+        link: https://gist.github.com/icebob/40a612ec3c453347aef7a808b82ab747
+        desc: Caching for Moleculer service [methods](https://moleculer.services/docs/0.13/services.html#Methods)
+        author: icebob
+      - name: DB handler mixin for Moleculer DB
+        link: https://gist.github.com/icebob/a093d0011ff0fa0f29d02dc4324557be
+        desc: Swap easily between [MongoDB](https://www.mongodb.com/) for development & production and [NeDB](https://github.com/louischatriot/nedb) for unit testing
+        author: icebob
+      - name: Cache cleaner
+        link: https://gist.github.com/icebob/a69082b3078c8769f66de6c6dc4e56ba
+        desc: Cache cleaner mixin for Moleculer DB service
+        author: icebob
+
+  tasks:
+    title: Tasks, Queues and Jobs
+    modules:
+      - name: moleculer-bee-queue
+        link: https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bee-queue#readme
+        desc: Task queue mixin for [Bee-Queue](https://github.com/bee-queue/bee-queue)
+        official: true
+        author: icebob
+      - name: moleculer-bull
+        link: https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bull#readme
+        desc: Task queue mixin for [Bull](https://github.com/OptimalBits/bull)
+        official: true
+        author: icebob
+      - name: moleculer-faktory
+        link: https://github.com/YourSoftRun/moleculer-faktory#readme
+        desc: Task queue mixin for [Faktory](https://contribsys.com/faktory/)
+        official: false
+        author: Hugome
+      - name: moleculer-cron
+        link: https://github.com/davidroman0O/moleculer-cron#readme
+        desc: Cron mixin [Node-Cron](https://github.com/kelektiv/node-cron)
+        official: false
+        author: davidroman0O
+
+  validation:
+    title: Validation
+    modules:
+      - name: fastest-validator
+        link: https://moleculer.services/docs/0.13/validating.html#Built-in-validator
+        desc: Moleculer's default validator is based on [fastest-validator](https://github.com/icebob/fastest-validator)
+        official: true
+        author: icebob
+      - name: Joi
+        link: https://moleculer.services/docs/0.13/validating.html#Create-a-Joi-validator
+        desc: \[Joi](https://github.com/hapijs/joi) based validator
+        official: true
+        author: icebob
+      - name: moleculer-json-schema-validator
+        link: https://github.com/zhaoyao91/moleculer-json-schema-validator#readme
+        desc: \[JSON Schema](https://json-schema.org/) validator
+        official: false
+        author: zhaoyao91
+
+  graphql:
+    title: GraphQL
+    modules:
+      - name: moleculer-postgraphile
+        link: https://github.com/ltv/moleculer-postgraphile
+        desc: /[Postgraphile](https://www.graphile.org/) Create postgraphile service for automatically detects tables, columns, indexes, relationships, views, types, functions, comments, and more.
+        official: false
+        author: ltv
+
+tools:
+  title: Tools
+  modules:
+    - name: moleculer-repl
+      link: https://moleculer.services/docs/0.13/moleculer-repl.html
+      desc: Interactive developer console.
+      official: true
+      author: icebob
+    - name: moleculer-cli
+      link: https://moleculer.services/docs/0.13/moleculer-cli.html
+      desc: Command-Line Tool for development & testing.
+      official: true
+      author: icebob
+    - name: moleculer-decorators
+      link: https://moleculer.services/docs/0.13/services.html#Use-decorators
+      desc: ES7/TS decorators for Service declaration.
+      official: true
+      author: ColonelBundy
+
+polyglot:
+  title: Polyglot Implementations
+
+  java:
+    title: Java
+    modules:
+      - name: moleculer-java
+        link: https://github.com/moleculer-java
+        desc: Java implementation of the Moleculer microservices framework.
+
+  python:
+    title: Python
+    modules:
+      - name: moleculer-java
+        link: https://github.com/ToGoBananas/moleculer-python
+        desc: Python implementation of the Moleculer microservices framework.
+
+  net-core:
+    title: .NET Core
+    modules:
+      - name: moleculer-java
+        link: https://github.com/alexandredenes/moleculer-net
+        desc: NET Core 2.1 implementation of the Moleculer microservices framework.
+
+  go:
+    title: Go
+    modules:
+      - name: moleculer-go
+        link: https://github.com/alexandredenes/moleculer-net
+        desc: Go implementation of the Moleculer microservices framework.
+
+  ruby:
+    title: Ruby
+    modules:
+      - name: moleculer-ruby
+        link: https://github.com/moleculer-ruby
+        desc: Ruby implementation of the Moleculer framework.
