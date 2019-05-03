@@ -8,7 +8,7 @@ const COMPANIES_URL =
 	"https://raw.githubusercontent.com/moleculerjs/site/master/source/_data/companies.yml";
 
 // Readme.MD template
-const TEMPLATE_PATH = "./templates/readme-template.md";
+const TEMPLATE_PATH = "/templates/readme-template.md";
 
 // MoleculerJS modules
 const MODULES_PATH = "modules.yml";
@@ -148,7 +148,7 @@ async function main() {
 		const companies = await fetchYaml(COMPANIES_URL, true);
 
 		// Get Template
-		const template = await fsPromises.readFile(TEMPLATE_PATH, {
+		const template = await fsPromises.readFile(__dirname + TEMPLATE_PATH, {
 			encoding: "utf8"
 		});
 

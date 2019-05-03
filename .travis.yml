@@ -1,14 +1,14 @@
 language: ruby
 rvm:
   - 2.2
-node_js: "12"
+node_js: "10"
 
 before_script:
-  - gem install awesome_bot
   - npm install
+  - gem install awesome_bot
 script:
-  - awesome_bot README.md --allow-redirect --allow-ssl --skip-save-results --allow-dupe
-  - npm run build
+  - npm run build # Build new Readme
+  - awesome_bot README.md --allow-redirect --allow-ssl --skip-save-results --allow-dupe # Check the links
 deploy:
   provider: pages
   skip_cleanup: true
