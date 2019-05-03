@@ -19,7 +19,7 @@
 - [Examples](#examples)
 - [Templates](#templates)
     - [Javascript](#javascript)
-- [Typescript](#typescript)
+    - [Typescript](#typescript)
 - [Services](#services)
     - [Gateway](#gateway)
     - [Databases and Stores](#databases-and-stores)
@@ -81,7 +81,7 @@
 - [moleculer-template-nano](https://github.com/moleculerjs/moleculer-template-nano)  - Minimal project template for Javascript project.
 - [moleculer-template-addon](https://github.com/moleculerjs/moleculer-template-addon)  - Addon template for moleculer-addons
 - [moleculer-template-module](https://github.com/moleculerjs/moleculer-template-module)  - Simple module template for [moleculer-cli](https://moleculer.services/docs/moleculer-cli.html). _Use it if you want to create a module for Moleculer_
-## Typescript
+### Typescript
 - [moleculer-template-project-typescript](https://github.com/moleculerjs/moleculer-template-project-typescript)  - Project template for Typescript project.
 - [moleculer-template-nano-typescript](https://github.com/moleculerjs/moleculer-template-nano-typescript)  - Minimal project template for Typescript project.
 ## Services

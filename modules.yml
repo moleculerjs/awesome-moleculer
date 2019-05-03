@@ -109,7 +109,7 @@ templates:
         link: https://github.com/moleculerjs/moleculer-template-module
         desc: Simple module template for [moleculer-cli](https://moleculer.services/docs/moleculer-cli.html). _Use it if you want to create a module for Moleculer_
 
-typescript:
+  typescript:
     title: Typescript
     entries:
       - name: moleculer-template-project-typescript
