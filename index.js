@@ -1,7 +1,13 @@
 const rp = require("request-promise");
 const yaml = require("js-yaml");
-const fsPromises = require("fs").promises;
 const Mustache = require("mustache");
+
+// Travis don't like fsPromises
+// const fsPromises = require("fs").promises;
+const fs = require("fs");
+const util = require("util");
+const readFile = util.promisify(fs.readFile);
+const writeFile = util.promisify(fs.writeFile);
 
 // URL pointing to a yaml file that contains the list of companies that use MoleculerJS
 const COMPANIES_URL =
@@ -26,7 +32,7 @@ async function fetchYaml(url, remote) {
 			payload = await rp.get(url);
 		} else {
 			// Get yaml file as string
-			payload = await fsPromises.readFile(url, {
+			payload = await readFile(url, {
 				encoding: "utf8"
 			});
 		}
@@ -148,7 +154,7 @@ async function main() {
 		const companies = await fetchYaml(COMPANIES_URL, true);
 
 		// Get Template
-		const template = await fsPromises.readFile(__dirname + TEMPLATE_PATH, {
+		const template = await readFile(__dirname + TEMPLATE_PATH, {
 			encoding: "utf8"
 		});
 
@@ -165,7 +171,7 @@ async function main() {
 		const output = Mustache.render(template, view);
 
 		// Write ReadMe file
-		await fsPromises.writeFile("README.md", output);
+		await writeFile("README.md", output);
 	} catch (error) {
 		console.log(error);
 		process.exit(1);
