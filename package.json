@@ -4,7 +4,7 @@
 	"description": "Awesome MoleculerJS",
 	"main": "index.js",
 	"scripts": {
-		"gen": "node index.js",
+		"build": "node index.js",
 		"test": "npm test"
 	},
 	"repository": {

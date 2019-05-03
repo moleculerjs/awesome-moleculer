@@ -11,12 +11,12 @@ const COMPANIES_URL =
 const TEMPLATE_PATH = "./templates/readme-template.md";
 
 // MoleculerJS modules
-const MODULES_PATH = "modules.yml"
+const MODULES_PATH = "modules.yml";
 
 /**
  * Fetch either remote (HTTP GET) or a local yaml file
- * @param {string} url 
- * @param {boolean} remote 
+ * @param {string} url
+ * @param {boolean} remote
  */
 async function fetchYaml(url, remote) {
 	try {
@@ -42,11 +42,11 @@ async function fetchYaml(url, remote) {
 
 /**
  * Generate companies view
- * 
- * @param {object} companies 
+ *
+ * @param {object} companies
  */
-function generateCompaniesView (companies) {
-	const view = []
+function generateCompaniesView(companies) {
+	const view = [];
 
 	for (const group of Object.values(companies)) {
 		for (const company of group) {
@@ -57,17 +57,17 @@ function generateCompaniesView (companies) {
 		}
 	}
 
-	return view
+	return view;
 }
 
 /**
  * Generate companies view
- * 
- * @param {object} modules 
+ *
+ * @param {object} modules
  */
 function generateModulesView(modules) {
-	const view = []
-	
+	const view = [];
+
 	for (const entry of Object.values(modules)) {
 		let subtopic = [];
 		let modules = [];
@@ -82,7 +82,7 @@ function generateModulesView(modules) {
 		) {
 			// Indication to Mustache that there is nothing add to template
 			subtopic = undefined;
-			modules = buildEntriesList(entry["entries"])
+			modules = buildEntriesList(entry["entries"]);
 		} else {
 			modules = undefined;
 			for (const key of Object.keys(entry)) {
@@ -109,43 +109,43 @@ function generateModulesView(modules) {
 
 /**
  * Sanitize the description string
- * 
+ *
  * @param {string} desc Plain text or Markdown formated string
  */
-function sanitizeDescription (desc) {
-	if (desc === undefined) return
+function sanitizeDescription(desc) {
+	if (desc === undefined) return;
 
 	// Slice initial escape char
-	if (desc.startsWith('/') === true || desc.startsWith('\\') === true) 
-		desc = desc.slice(1)
+	if (desc.startsWith("/") === true || desc.startsWith("\\") === true)
+		desc = desc.slice(1);
 
 	// Add a dash
-	return ` - ${desc}`
+	return ` - ${desc}`;
 }
 
 /**
  * Generates an array with Mustache compatible elements
- * 
- * @param {array} entries 
+ *
+ * @param {array} entries
  */
-function buildEntriesList (entries) {
+function buildEntriesList(entries) {
 	return entries.map(elem => {
 		return {
 			name: elem.name,
 			link: elem.link,
 			official:
-			elem.official === true
-				? "![Official Moleculer Module][official]"
-				: undefined,
+				elem.official === true
+					? "![Official Moleculer Module][official]"
+					: undefined,
 			desc: sanitizeDescription(elem.desc)
-		}
-	})
+		};
+	});
 }
 
 async function main() {
 	try {
 		// Get companies list from moleculer/site repo
-		const companies = await fetchYaml("companies.yml", false);
+		const companies = await fetchYaml(COMPANIES_URL, true);
 
 		// Get Template
 		const template = await fsPromises.readFile(TEMPLATE_PATH, {
@@ -159,13 +159,13 @@ async function main() {
 		const view = {
 			index: generateModulesView(modules),
 			companies: generateCompaniesView(companies)
-		}
+		};
 
 		// Generate new ReadMe file
 		const output = Mustache.render(template, view);
 
 		// Write ReadMe file
-		await fsPromises.writeFile("newRead.md", output);
+		await fsPromises.writeFile("README.md", output);
 	} catch (error) {
 		console.log(error);
 		process.exit(1);
