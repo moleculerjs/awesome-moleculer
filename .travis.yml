@@ -1,5 +1,5 @@
 dist: xenial
-language: ruby
+language: generic
 rvm:
   - 2.2
 node_js: "12"
