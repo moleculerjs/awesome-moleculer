@@ -1,5 +1,5 @@
 
-## :memo: Guide to add new module
+## :memo: Guide to add a new module
 
 ### Step 1
 
@@ -9,7 +9,7 @@ Make sure you are **master** branch
 
 - Open `modules.yml` file.
 - Find the appropriate topic and sub-topic for you module.
-For example, assuming that you want to share an awesome gateway, you need to go
+For example, assuming that you want to share an awesome gateway, you need to go:
 ```yaml
 services:
   title: Services
@@ -28,7 +28,7 @@ services:
   author: Your Name
 ```
 ## Note: 
-If your `desc` starts with a special char please add an escape char (\ or /)
+If your `desc` starts with a special char please add an escape char (`\` or `/`)
 
 Example of an **INVALID** `desc`:  
 ```yaml
