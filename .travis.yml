@@ -1,7 +1,23 @@
-language: ruby
+dist: xenial
+language: generic
 rvm:
   - 2.2
+node_js: "12"
+
+cache:
+  directories:
+  - node_modules
+
 before_script:
+  - npm install
   - gem install awesome_bot
 script:
-  - awesome_bot README.md --allow-redirect --allow-ssl --skip-save-results --allow-dupe
+  - npm run build # Build new Readme
+  - awesome_bot README.md --allow-redirect --allow-ssl --skip-save-results --allow-dupe # Check the links
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: master
