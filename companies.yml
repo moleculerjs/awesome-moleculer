@@ -1,0 +1,77 @@
+group1:
+  - name: Concierge Auctions
+    link: https://www.conciergeauctions.com/
+    logo: https://s3.amazonaws.com/media.conciergeauctions.com/logo.jpg
+  - name: ingenious
+    link: http://www.ingsw.com/
+    logo: https://user-images.githubusercontent.com/306521/31340277-edc01780-ad05-11e7-952e-0c959a107a2c.png
+  - name: THB
+    link: https://www.thb.co.in/
+    logo: https://thehealthybillion.com/images/thb/landingpage/logobig.png
+group2:
+  - name: Zaoblako
+    link: https://zaoblako.ru/
+    logo: https://zaoblako.ru/images/zaoblako_l.png
+  - name: Altcoin mining pools
+    link: http://altcoinminingpools.com
+    logo: https://user-images.githubusercontent.com/306521/47951511-e5801b80-df61-11e8-9eda-48904d096090.png
+  - name: zebbra
+    link: https://zebbra.ch/
+    logo: https://user-images.githubusercontent.com/902525/37777279-6ce23b44-2de7-11e8-9667-b16a7a6c5be9.png
+group3:
+  - name: Uiza
+    link: https://uiza.io
+    logo: https://user-images.githubusercontent.com/37431811/37808054-23436c08-2e7b-11e8-9bed-49f82ca45379.png
+  - name: Distopik
+    link: https://www.mixanalog.com/?utm_medium=partner&utm_source=moleculer&utm_campaign=moleculer_footer_logo&utm_content=logo
+    logo: https://files.gitter.im/baadc0de/ugWV/m_logo_cutout_with_text.svg
+  - name: AMRetail
+    link: http://amretail.ru
+    logo: https://user-images.githubusercontent.com/451306/39246653-e08631cc-489f-11e8-99a4-5c05840a05f3.png
+group4:
+  - name: DAZTA
+    link: https://dazta.com
+    logo: https://dazta.com/dazta.svg
+  - name: SmartTones Media
+    link: http://www.smarttonesmedia.com/
+    logo: https://user-images.githubusercontent.com/12611390/39895710-379afa6c-5479-11e8-8c93-08ff306315a0.png
+  - name: Helpster
+    link: https://www.helpster.asia/id/business-en/
+    logo: https://www.helpster.asia/static/helpster-logo-8a159bf1c613935d09efb63372286b39.png
+group5:
+  - name: Textalk
+    link: https://www.textalk.com/
+    logo: https://user-images.githubusercontent.com/862631/40703729-69dda23c-63e6-11e8-88b6-fb7bfeed0727.png
+  - name: GetTechDone
+    link: https://www.gtechd.com/
+    logo: https://user-images.githubusercontent.com/13996786/42906853-8210bd9a-8adc-11e8-8ccf-18d4b47fae0b.png
+  - name: Jarvify
+    link: https://jarvify.com/
+    logo: https://user-images.githubusercontent.com/15986928/43243296-44e58cdc-90a6-11e8-93cb-70b97cc4bd19.png
+group6:
+  - name: Sonda
+    link: https://www.sonda.com/en/
+    logo: https://user-images.githubusercontent.com/11587806/47947778-d2d5fa00-df01-11e8-8614-87536873bccb.png
+  - name: Wino
+    link: https://wino.fr
+    logo: https://files.gitter.im/baloran/93J3/logo_wino_violet.png
+  - name: YourSoft.run
+    link: https://www.yoursoft.run/
+    logo: https://user-images.githubusercontent.com/1301995/51427608-264f0e80-1bfa-11e9-8a74-04c356e4257d.png
+group7:
+  - name: Instarem
+    link: https://www.instarem.com/
+    logo: https://cdn.instarem.com/images/logo.png?v=0.9
+  - name: Wispay
+    link: https://www.wispay.io/
+    logo: https://assets.wispay.io/logo_text_blue.png
+  - name: Kriblet
+    link: https://kriblet.com/
+    logo: https://kriblet.com/img/logo-kriblet.png
+group8:
+  - name: Ghost
+    link: https://ghost.org/
+    logo: https://user-images.githubusercontent.com/1253072/55296596-99071200-5413-11e9-89b7-9fef1d282e5b.png
+  - name: QOALA
+    link: https://www.qoala.id/
+    logo: https://user-images.githubusercontent.com/10978695/56790671-65ab7d80-682f-11e9-8bef-7d09169039c4.png
