@@ -9,41 +9,6 @@
 
 # Awesome Moleculer [![Mentioned in Awesome Node.js](https://awesome.re/mentioned-badge.svg)](https://github.com/sindresorhus/awesome-nodejs)
 
-> A list of awesome things related to Moleculer microservices framework
-
-- [Resources](#resources)
-    - [Official Resources](#official-resources)
-    - [Cheatsheets](#cheatsheets)
-    - [Articles and Blog Posts](#articles-and-blog-posts)
-    - [Talks](#talks)
-- [Examples](#examples)
-- [Templates](#templates)
-    - [Javascript](#javascript)
-    - [Typescript](#typescript)
-- [Services](#services)
-    - [Gateway](#gateway)
-    - [Databases and Stores](#databases-and-stores)
-    - [Metrics and Tracing](#metrics-and-tracing)
-    - [General](#general)
-    - [Security, Authentication and Authorization](#security,-authentication-and-authorization)
-    - [Others](#others)
-- [Middlewares](#middlewares)
-    - [General](#general)
-    - [Security](#security)
-- [Mixins](#mixins)
-    - [Database](#database)
-    - [Tasks, Queues and Jobs](#tasks,-queues-and-jobs)
-    - [Validation](#validation)
-    - [GraphQL](#graphql)
-- [Tools](#tools)
-- [Polyglot Implementations](#polyglot-implementations)
-    - [Java](#java)
-    - [Python](#python)
-    - [.NET Core](#.net-core)
-    - [Go](#go)
-    - [Ruby](#ruby)
-- [Projects Using Moleculer](#projects-using-moleculer)
-
 ## Resources
 ### Official Resources
 - [Website](https://moleculer.services/) 
