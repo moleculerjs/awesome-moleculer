@@ -5,3 +5,10 @@ before_script:
   - gem install awesome_bot
 script:
   - awesome_bot README.md --allow-redirect --allow-ssl --skip-save-results --allow-dupe
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: master
