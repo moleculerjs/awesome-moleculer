@@ -1,8 +1,11 @@
 language: ruby
 rvm:
   - 2.2
+node_js: "12"
+
 before_script:
   - gem install awesome_bot
+  - npm install
 script:
   - awesome_bot README.md --allow-redirect --allow-ssl --skip-save-results --allow-dupe
   - npm run build
