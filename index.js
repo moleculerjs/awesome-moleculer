@@ -11,7 +11,7 @@ const writeFile = util.promisify(fs.writeFile);
 
 // URL pointing to a yaml file that contains the list of companies that use MoleculerJS
 const COMPANIES_URL =
-	"https://raw.g-ithubusercontent.com/moleculerjs/site/master/source/_data/companies.yml";
+	"https://raw.githubusercontent.com/moleculerjs/site/master/source/_data/companies.yml";
 // Backup yaml with companies
 const BACKUP_COMPANIES = "companies.yml";
 
@@ -152,16 +152,15 @@ function buildEntriesList(entries) {
 
 async function main() {
 	try {
-		
-		let companies
+		let companies;
 		try {
 			// GET companies list from moleculer/site repo
-			companies = await fetchYaml(COMPANIES_URL, true);		
+			companies = await fetchYaml(COMPANIES_URL, true);
 		} catch (error) {
 			// Use backup (probably outdated) companies.yml
-			companies = await fetchYaml(BACKUP_COMPANIES, false);	
+			companies = await fetchYaml(BACKUP_COMPANIES, false);
 		}
-	
+
 		// Get Template
 		const template = await readFile(__dirname + TEMPLATE_PATH, {
 			encoding: "utf8"
