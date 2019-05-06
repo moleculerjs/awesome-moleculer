@@ -2,7 +2,9 @@ dist: xenial
 language: generic
 rvm:
   - 2.2
-node_js: "12"
+# node_js: "12"
+
+if: sender != traviscibot # Don't build if build request was triggered by Travis
 
 cache:
   directories:
@@ -16,6 +18,7 @@ script:
   - awesome_bot README.md --allow-redirect --allow-ssl --skip-save-results --allow-dupe # Check the links
 deploy:
   provider: pages
+  target_branch: master # Push to master
   skip_cleanup: true
   github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
