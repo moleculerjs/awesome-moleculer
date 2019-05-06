@@ -97,7 +97,7 @@ function generateModulesView(modules) {
 				if (key !== "title") {
 					subtopic.push({
 						name: entry[key].title,
-						link: entry[key].title.replace(/\s+/g, "-").toLowerCase(),
+						link: generateValidLink(entry[key].title),
 						modules: buildEntriesList(entry[key]["entries"])
 					});
 				}
@@ -106,13 +106,25 @@ function generateModulesView(modules) {
 
 		view.push({
 			name: entry.title,
-			link: entry.title.replace(/\s+/g, "-").toLowerCase(),
+			link: generateValidLink(entry.title),
 			subtopic,
 			modules
 		});
 	}
 
 	return view;
+}
+
+function generateValidLink(link) {
+	// To lowe case
+	link = link.toLowerCase();
+	// Remove punctuation signs
+	link = link.replace(/[.,\-//]/g, "");
+
+	// Replace empty spaces with dash
+	link = link.replace(/\s+/g, "-");
+
+	return link;
 }
 
 /**

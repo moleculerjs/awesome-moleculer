@@ -311,9 +311,9 @@ services:
         author: designtesbrot
       - name: oauth-moleculer
         link: https://github.com/zerocowl/oauth-moleculer
-        desc: Service for [HashiCorp's Vault](https://www.vaultproject.io/)
+        desc: \[OAuth2](https://oauth.net/2/) Service
         official: false
-        author: designtesbrot
+        author: zerocowl
   others:
     title: Others
     entries:

@@ -3,7 +3,7 @@
 
 ### Step 1
 
-Make sure you are **master** branch
+Make sure you are on **master** branch
 
 ### Step 2
 
@@ -28,15 +28,14 @@ services:
   author: Your Name
 ```
 ## Note: 
-If your `desc` starts with a special char please add an escape char (`\` or `/`)
+If your `desc:` starts with a special char please add an escape char (`\`)
 
-Example of an **INVALID** `desc`:  
+Example of an **INVALID** `desc:`:  
 ```yaml
 desc: [MoleculerJS](https://moleculer.services/)
 ```
 
-Example of a **VALID** `desc`:
+Example of a **VALID** `desc:`:
 ```yaml
 desc: \[MoleculerJS](https://moleculer.services/)
-desc: /[MoleculerJS](https://moleculer.services/)
 ```
