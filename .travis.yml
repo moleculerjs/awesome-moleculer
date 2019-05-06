@@ -4,14 +4,12 @@ rvm:
   - 2.2
 # node_js: "12"
 
-branch = master
-sender != traviscibot # Don't build if build request was triggered by Travis
-
 cache:
   directories:
   - node_modules
 
 before_script:
+  - if: sender != traviscibot # Don't build if build request was triggered by Travis
   - npm install
   - gem install awesome_bot
 script:
