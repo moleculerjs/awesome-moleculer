@@ -4,8 +4,7 @@ rvm:
   - 2.2
 # node_js: "12"
 
-if: sender != traviscibot OR sender != Travis
- # Don't build if build request was triggered by Travis
+if: sender != traviscibot OR sender != Travis # Don't build if build request was triggered by Travis
 
 cache:
   directories:
