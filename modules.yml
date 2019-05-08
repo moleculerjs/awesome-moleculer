@@ -125,6 +125,7 @@ services:
 
   gateway:
     title: Gateway
+    to-pub-on-site: true
     entries:
       - name: moleculer-web
         link: https://github.com/moleculerjs/moleculer-web#readme
@@ -159,6 +160,7 @@ services:
 
   databases:
     title: Databases and Stores
+    to-pub-on-site: true
     entries:
       - name: moleculer-db
         link: https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db#readme
@@ -212,6 +214,7 @@ services:
         author: cantecim
   metrics:
     title: Metrics and Tracing
+    to-pub-on-site: true
     entries:
       - name: moleculer-console-tracer
         link: https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-console-tracer#readme
@@ -245,6 +248,7 @@ services:
         author: Hugome
   general:
     title: General
+    to-pub-on-site: true
     entries:
       - name: moleculer-fake
         link: https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-fake#readme
@@ -288,6 +292,7 @@ services:
         author: is2ei
   security:
     title: Security, Authentication and Authorization
+    to-pub-on-site: true
     entries:
       - name: moleculer-protect-services
         link: https://github.com/icebob/moleculer-protect-services
@@ -316,6 +321,7 @@ services:
         author: zerocowl
   others:
     title: Others
+    to-pub-on-site: true
     entries:
       - name: imicros-flow
         link: https://github.com/al66/imicros-flow
@@ -402,6 +408,7 @@ mixins:
 
   tasks:
     title: Tasks, Queues and Jobs
+    to-pub-on-site: true
     entries:
       - name: moleculer-bee-queue
         link: https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bee-queue#readme
@@ -426,6 +433,7 @@ mixins:
 
   validation:
     title: Validation
+    to-pub-on-site: true
     entries:
       - name: fastest-validator
         link: https://moleculer.services/docs/0.13/validating.html#Built-in-validator
@@ -454,6 +462,7 @@ mixins:
 
 tools:
   title: Tools
+  to-pub-on-site: true
   entries:
     - name: moleculer-repl
       link: https://moleculer.services/docs/0.13/moleculer-repl.html
