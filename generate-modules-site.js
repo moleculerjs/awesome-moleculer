@@ -12,6 +12,9 @@ const striptags = require("striptags");
 // YAML parser
 const yaml = require("js-yaml");
 
+// Checks if NPM package exists
+const NPMExists = require('npm-exists');
+
 // MoleculerJS modules
 const MODULES_PATH = "modules.yml";
 
@@ -23,21 +26,24 @@ const SITE_MODULES = "out/site_modules.yml";
  *
  * @param {object} modules
  */
-function transform(modules) {
+async function transform(modules) {
 	const obj = {};
 
 	for (const moduleKey of Object.keys(modules)) {
 		const entry = modules[moduleKey];
 
 		if (toTransform(entry)) {
-			obj[moduleKey] = entry.entries.map(elem => sanitizeEntry(elem));
+			// Sanitize all entries
+			const promises = await Promise.all(entry.entries.map(elem => sanitizeEntry(elem)))
+			obj[moduleKey] = promises
 		} else {
 			// Sub-topics
 			for (const subModuleKey of Object.keys(entry)) {
 				const subEntry = entry[subModuleKey];
 				if (toTransform(subEntry)) {
-					// console.log(subEntry);
-					obj[subModuleKey] = subEntry.entries.map(elem => sanitizeEntry(elem));
+					// Sanitize all entries
+					const promises = await Promise.all(subEntry.entries.map(elem => sanitizeEntry(elem)))
+					obj[subModuleKey] = promises
 				}
 			}
 		}
@@ -51,7 +57,7 @@ function transform(modules) {
  *
  * @param {object} entry
  */
-function sanitizeEntry(entry) {
+async function sanitizeEntry(entry) {
 	try {
 		// Slice initial escape char
 		if (
@@ -68,8 +74,15 @@ function sanitizeEntry(entry) {
 		// Prepare the description for moleculer/site
 		entry.desc = striptags(entry.desc, ["a"]);
 
-		// ToDo ???
-		// test if module is available at NPM???
+		if(!entry.name) {
+			console.log(desc)
+		}
+
+		// Check if module is registered at NPM
+		const moduleExists = await NPMExists(entry.name)
+		// Set CSS value for display tag
+		// This is going to be used to build modules page
+		entry.display = moduleExists ? 'unset': 'none'
 
 		return entry;
 	} catch (error) {
@@ -80,7 +93,7 @@ function sanitizeEntry(entry) {
 }
 
 /**
- *
+ * Checks if a list of modules should be published on site or not
  */
 function toTransform(entry) {
 	const keys = Object.keys(entry);
@@ -99,7 +112,7 @@ async function main() {
 		const modules = yaml.safeLoad(payload, "utf8");
 
 		// Transform into site acceptable format
-		const siteModules = transform(modules);
+		const siteModules = await transform(modules);
 
 		// Store new file
 		await writeFile(

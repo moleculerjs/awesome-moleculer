@@ -279,7 +279,7 @@ services:
         link: https://github.com/molobala/moleculer-flydrive#readme
         desc: Storage manager service with [Node Flydrive](https://github.com/Slynova-Org/node-flydrive).
         official: false
-        author: Slynova-Org
+        author: molobala
       - name: moleculer-markdown
         link: https://github.com/alsofronie/moleculer-markdown#readme
         desc: Markdown to HTML Service

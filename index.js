@@ -119,8 +119,13 @@ function generateModulesView(modules) {
 	return view;
 }
 
+/**
+ * Given a string generates a valid link
+ * 
+ * @param {string} link 
+ */
 function generateValidLink(link) {
-	// To lowe case
+	// To lower case
 	link = link.toLowerCase();
 	// Remove punctuation signs
 	link = link.replace(/[.,\-//]/g, "");
