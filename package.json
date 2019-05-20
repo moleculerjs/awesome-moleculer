@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"build": "node index.js",
-		"test": "npm test"
+		"gen": "node generate-modules-site.js"
 	},
 	"repository": {
 		"type": "git",
