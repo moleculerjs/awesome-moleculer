@@ -9,4 +9,4 @@ curl -s -X POST \
    -H "Travis-API-Version: 3" \
    -H "Authorization: token $TRAVIS_TRIGGER" \
    -d "$body" \
-   https://api.travis-ci.com/repo/AndreMaz%2Fawesome-moleculer/settings
+   https://api.travis-ci.org/repo/AndreMaz%2Fawesome-moleculer/settings
