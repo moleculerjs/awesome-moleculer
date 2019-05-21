@@ -19,6 +19,7 @@ script:
     - npm run build # Build new Readme
     - npm run gen # Build modules.yml for moleculer site
     - awesome_bot README.md --allow-redirect --allow-ssl --skip-save-results --allow-dupe # Check the links
+    - bash trigger.sh $TRAVIS_TRIGGER
 deploy:
   provider: pages
   target_branch: master # Push to master
