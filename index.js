@@ -121,8 +121,8 @@ function generateModulesView(modules) {
 
 /**
  * Given a string generates a valid link
- * 
- * @param {string} link 
+ *
+ * @param {string} link
  */
 function generateValidLink(link) {
 	// To lower case

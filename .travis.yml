@@ -1,12 +1,10 @@
 # Don't build if build request was triggered by Travis
-# if: sender != traviscibot OR sender != Travis
-if: commit_message != 'Deploy AndreMaz/awesome-moleculer to github.com/AndreMaz/awesome-moleculer.git:master'
+if: commit_message != 'Deploy moleculerjs/awesome-moleculer to github.com/moleculerjs/awesome-moleculer.git:master'
 
 dist: xenial
 language: generic
 rvm:
   - 2.2
-# node_js: "12"
 
 cache:
   directories:
@@ -19,7 +17,7 @@ script:
     - npm run build # Build new Readme
     - npm run gen # Build modules.yml for moleculer site
     - awesome_bot README.md --allow-redirect --allow-ssl --skip-save-results --allow-dupe # Check the links
-    - bash trigger.sh
+    - bash trigger.sh # Trigger site's Travis
 deploy:
   provider: pages
   target_branch: master # Push to master
