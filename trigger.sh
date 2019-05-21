@@ -1,6 +1,7 @@
 body='{
 "request": {
-"branch":"master"
+   "message":"Trigger from Awesome Repo",
+   "branch":"master"
 }}'
 
 curl -s -X POST \
