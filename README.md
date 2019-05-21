@@ -197,6 +197,8 @@
 - [Kriblet](https://kriblet.com/)
 - [Ghost](https://ghost.org/)
 - [QOALA](https://www.qoala.id/)
+- [Koodoo](https://koodoo.io)
+- [Power CMS](https://power-cms.com/)
 
 # Contact
 

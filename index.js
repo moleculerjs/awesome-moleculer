@@ -84,9 +84,13 @@ function generateModulesView(modules) {
 
 		// Check if there are no sub-topics
 		if (
-			keys.length === 2 &&
-			keys.includes("title") === true &&
-			keys.includes("entries") === true
+			(keys.length === 2 &&
+				keys.includes("title") === true &&
+				keys.includes("entries") === true) ||
+			(keys.length === 3 &&
+				keys.includes("title") === true &&
+				keys.includes("entries") === true &&
+				keys.includes("to-pub-on-site") === true)
 		) {
 			// Indication to Mustache that there is nothing add to template
 			subtopic = undefined;
@@ -94,7 +98,7 @@ function generateModulesView(modules) {
 		} else {
 			modules = undefined;
 			for (const key of Object.keys(entry)) {
-				if (key !== "title") {
+				if (key !== "title" && key !== "to-pub-on-site") {
 					subtopic.push({
 						name: entry[key].title,
 						link: generateValidLink(entry[key].title),
@@ -115,8 +119,13 @@ function generateModulesView(modules) {
 	return view;
 }
 
+/**
+ * Given a string generates a valid link
+ *
+ * @param {string} link
+ */
 function generateValidLink(link) {
-	// To lowe case
+	// To lower case
 	link = link.toLowerCase();
 	// Remove punctuation signs
 	link = link.replace(/[.,\-//]/g, "");
