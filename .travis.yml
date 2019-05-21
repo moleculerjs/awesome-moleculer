@@ -1,6 +1,6 @@
 # Don't build if build request was triggered by Travis
 # if: sender != traviscibot OR sender != Travis
-if: commit_message != 'Deploy moleculerjs/awesome-moleculer to github.com/moleculerjs/awesome-moleculer.git:master'
+if: commit_message != 'Deploy AndreMaz/awesome-moleculer to github.com/AndreMaz/awesome-moleculer.git:master'
 
 dist: xenial
 language: generic
