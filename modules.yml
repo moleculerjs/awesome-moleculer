@@ -475,10 +475,15 @@ tools:
       official: true
       author: icebob
     - name: moleculer-decorators
-      link: https://moleculer.services/docs/0.13/services.html#Use-decorators
+      link: https://github.com/ColonelBundy/moleculer-decorators
       desc: ES7/TS decorators for Service declaration.
-      official: true
+      official: false
       author: ColonelBundy
+    - name: moleculer-service-decorators
+      link: https://github.com/rmccallum81/moleculer-service-decorators
+      desc: ES7/TS decorators for Service declaration.
+      official: false
+      author: rmccallum81
 
 polyglot:
   title: Polyglot Implementations
