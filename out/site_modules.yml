@@ -372,9 +372,16 @@ tools:
     author: icebob
     display: unset
   - name: moleculer-decorators
-    link: 'https://moleculer.services/docs/0.13/services.html#Use-decorators'
+    link: 'https://github.com/ColonelBundy/moleculer-decorators'
     desc: |
       ES7/TS decorators for Service declaration.
-    official: true
+    official: false
     author: ColonelBundy
+    display: unset
+  - name: moleculer-service-decorators
+    link: 'https://github.com/rmccallum81/moleculer-service-decorators'
+    desc: |
+      ES7/TS decorators for Service declaration.
+    official: false
+    author: rmccallum81
     display: unset
