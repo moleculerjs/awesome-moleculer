@@ -157,6 +157,11 @@ services:
         desc: Manage Socket.IO events like actions in services
         official: false
         author: davidroman0O
+      - name: hapi-moleculer
+        link: https://github.com/felipegcampos/hapi-moleculer
+        desc: \[Hapi](https://hapijs.com/) plugin for the Moleculer.
+        official: false
+        author: davidroman0O
 
   databases:
     title: Databases and Stores
@@ -197,11 +202,6 @@ services:
         desc: A [DynamoDB](https://aws.amazon.com/dynamodb/) adapter for Moleculer DB service
         official: false
         author: katsanva
-      - name: moleculer-storage-google-cloud
-        link: https://github.com/hongkongkiwi/node-moleculer-storage-google-cloud
-        desc: A [Google Cloud Storage](https://cloud.google.com/storage/) module
-        official: false
-        author: hongkongkiwi
       - name: moleculer-gundb
         link: https://github.com/smart-matrix/moleculer-gundb
         desc: A [GunDB](https://gun.eco) mixins for Moleculer DB service.

@@ -92,6 +92,7 @@
 - [moleculer-sc](https://github.com/tiaod/moleculer-sc#readme)  - API Gateway using [SocketCluster](https://socketcluster.io)
 - [moleculer-io](https://github.com/tiaod/moleculer-io)  - Socket.IO-based gateway
 - [moleculer-socketio](https://github.com/davidroman0O/moleculer-socketio)  - Manage Socket.IO events like actions in services
+- [hapi-moleculer](https://github.com/felipegcampos/hapi-moleculer)  - [Hapi](https://hapijs.com/) plugin for the Moleculer.
 ### Databases and Stores
 - [moleculer-db](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db#readme)![Official Moleculer Module][official]  - A [NeDB](https://github.com/louischatriot/nedb)-based service to persist your data
 - [moleculer-db-adapter-mongo](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-mongo#readme)![Official Moleculer Module][official]  - A [MongoDB](https://mongodb.github.io/node-mongodb-native/)-based service to persist your data
@@ -100,7 +101,6 @@
 - [moleculer-db-adapter-couchdb-nano](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-couchdb-nano#readme)![Official Moleculer Module][official]  - A [CouchDB](http://couchdb.apache.org/) adapter for Moleculer using nano.js
 - [moleculer-db-adapter-typeorm](https://github.com/dkuida/moleculer-db-adapter-typeorm#readme)  - A [TypeORM](http://typeorm.io/)-based service to persist your data
 - [moleculer-db-adapter-dynamodb](https://github.com/katsanva/moleculer-db-adapter-dynamodb)  - A [DynamoDB](https://aws.amazon.com/dynamodb/) adapter for Moleculer DB service
-- [moleculer-storage-google-cloud](https://github.com/hongkongkiwi/node-moleculer-storage-google-cloud)  - A [Google Cloud Storage](https://cloud.google.com/storage/) module
 - [moleculer-gundb](https://github.com/smart-matrix/moleculer-gundb)  - A [GunDB](https://gun.eco) mixins for Moleculer DB service.
 - [moleculer-db-adapter-rethinkdb](https://github.com/cantecim/moleculer-db-adapter-rethinkdb)  - A [RethinkDB](https://www.rethinkdb.com/) Moleculer service mixin.
 ### Metrics and Tracing
