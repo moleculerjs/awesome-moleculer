@@ -63,7 +63,7 @@ resources:
 examples:
   title: Examples
 
-	repo:
+  repo:
     title: Repositories
     entries:
       - name: Conduit
@@ -92,7 +92,7 @@ examples:
       - name: moleculer-mysql-template
         link: https://github.com/AGenson/moleculer-mysql-template
         desc: Moleculer template for creating a secure web api, with a remote MySQL database, and a default account management.
-	
+
   sandboxes:
     title: Sandboxes on Codesandbox.io
     entries:
