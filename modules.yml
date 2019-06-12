@@ -63,34 +63,45 @@ resources:
 examples:
   title: Examples
 
-  entries:
-    - name: Conduit
-      link: https://github.com/moleculerjs/moleculer-examples/tree/master/conduit
-      desc: Moleculer + Moleculer Web + Moleculer-DB + MongoDB + JWT + Redis Cacher + Docker
-    - name: Blog
-      link: https://github.com/moleculerjs/moleculer-examples/tree/master/blog
-      desc: Moleculer + ExpressJS + Pug + Moleculer-DB + Mongoose + NATS + Redis Cacher + Traefik
-    - name: Kanban - A Kanban board application
-      link: https://github.com/icebob/kantab
-      desc: Moleculer + Moleculer Web + Full authentication + ACL/RBAC + VueJS + VueX + Vue-router + Much much more
-    - name: Moleculer + Babel Example Starter
-      link: https://github.com/tinchoz49/moleculer-babel-example
-    - name: moleculer-nextjs
-      link: https://github.com/davidroman0O/moleculer-nextjs
-      desc: Server-Side Rendering with Moleculer
-    - name: nestjs-moleculer
-      link: https://github.com/jiangzhuo/nestjs-moleculer
-      desc: Moleculer Module For Nestjs Framework
-    - name: moleculer-docker-development
-      link: https://github.com/nickreese/moleculer-docker-development
-      desc: Simple development enviroment for moleculer with Docker
-    - name: moleculer-exploration
-      link: https://github.com/simsieg/Moleculer-exploration
-      desc: Simple microservices communicating via MoleculerJS.
-    - name: moleculer-mysql-template
-      link: https://github.com/AGenson/moleculer-mysql-template
-      desc: Moleculer template for creating a secure web api, with a remote MySQL database, and a default account management.
+  repo:
+    title: Repositories
+    entries:
+      - name: Conduit
+        link: https://github.com/moleculerjs/moleculer-examples/tree/master/conduit
+        desc: Moleculer + Moleculer Web + Moleculer-DB + MongoDB + JWT + Redis Cacher + Docker
+      - name: Blog
+        link: https://github.com/moleculerjs/moleculer-examples/tree/master/blog
+        desc: Moleculer + ExpressJS + Pug + Moleculer-DB + Mongoose + NATS + Redis Cacher + Traefik
+      - name: Kanban - A Kanban board application
+        link: https://github.com/icebob/kantab
+        desc: Moleculer + Moleculer Web + Full authentication + ACL/RBAC + VueJS + VueX + Vue-router + Much much more
+      - name: Moleculer + Babel Example Starter
+        link: https://github.com/tinchoz49/moleculer-babel-example
+      - name: moleculer-nextjs
+        link: https://github.com/davidroman0O/moleculer-nextjs
+        desc: Server-Side Rendering with Moleculer
+      - name: nestjs-moleculer
+        link: https://github.com/jiangzhuo/nestjs-moleculer
+        desc: Moleculer Module For Nestjs Framework
+      - name: moleculer-docker-development
+        link: https://github.com/nickreese/moleculer-docker-development
+        desc: Simple development enviroment for moleculer with Docker
+      - name: moleculer-exploration
+        link: https://github.com/simsieg/Moleculer-exploration
+        desc: Simple microservices communicating via MoleculerJS.
+      - name: moleculer-mysql-template
+        link: https://github.com/AGenson/moleculer-mysql-template
+        desc: Moleculer template for creating a secure web api, with a remote MySQL database, and a default account management.
 
+  sandboxes:
+    title: Sandboxes on Codesandbox.io
+    entries:
+      - name: Simple project
+        link: https://codesandbox.io/s/github/moleculerjs/sandbox-moleculer-project
+        desc: Moleculer + Moleculer Web + Greeter service
+      - name: API routing example
+        link: https://codesandbox.io/s/github/moleculerjs/sandbox-moleculer-api-routing
+        desc: Moleculer + Moleculer Web + Routing examples
 
 templates:
   title: Templates
