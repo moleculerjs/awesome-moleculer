@@ -17,6 +17,8 @@
     - [Articles and Blog Posts](#articles-and-blog-posts)
     - [Talks](#talks)
 - [Examples](#examples)
+    - [Repositories](#repositories)
+    - [Sandboxes on Codesandbox.io](#sandboxes-on-codesandboxio)
 - [Templates](#templates)
     - [Javascript](#javascript)
     - [Typescript](#typescript)
@@ -63,9 +65,11 @@
 - [What are microservices and how to create one with Node and Moleculer.js](https://medium.com/@r.heygate.dev/microservices-with-moleculer-js-c7e68803ec09) 
 - [Moleculer — deployment thoughts](https://dankuida.com/moleculer-deployment-thoughts-8e0fc8c0fb07) 
 - [Знакомимся с микросервисным фреймворком Moleculer](https://habr.com/en/post/439810/)  - [The article is in russian]
+- [Moleculer — Beginner’s introduction](https://medium.com/@rzvdaniel_71068/moleculer-a-beginners-introduction-2dd71164c57b) 
 ### Talks
 - [Microservices 4 Real - Martín Acosta](https://www.youtube.com/watch?v=FrL8at9qGrQ)  - Talk _in Spanish_ from the JSDayUY 2017 about how a developer that used to work on monolithic apps started to learn and create a complete production app using a microservices architecture on top of Moleculer. [repo](https://github.com/tinchoz49/microservices-for-real)
 ## Examples
+### Repositories
 - [Conduit](https://github.com/moleculerjs/moleculer-examples/tree/master/conduit)  - Moleculer + Moleculer Web + Moleculer-DB + MongoDB + JWT + Redis Cacher + Docker
 - [Blog](https://github.com/moleculerjs/moleculer-examples/tree/master/blog)  - Moleculer + ExpressJS + Pug + Moleculer-DB + Mongoose + NATS + Redis Cacher + Traefik
 - [Kanban - A Kanban board application](https://github.com/icebob/kantab)  - Moleculer + Moleculer Web + Full authentication + ACL/RBAC + VueJS + VueX + Vue-router + Much much more
@@ -75,6 +79,9 @@
 - [moleculer-docker-development](https://github.com/nickreese/moleculer-docker-development)  - Simple development enviroment for moleculer with Docker
 - [moleculer-exploration](https://github.com/simsieg/Moleculer-exploration)  - Simple microservices communicating via MoleculerJS.
 - [moleculer-mysql-template](https://github.com/AGenson/moleculer-mysql-template)  - Moleculer template for creating a secure web api, with a remote MySQL database, and a default account management.
+### Sandboxes on Codesandbox.io
+- [Simple project](https://codesandbox.io/s/github/moleculerjs/sandbox-moleculer-project)  - Moleculer + Moleculer Web + Greeter service
+- [API routing example](https://codesandbox.io/s/github/moleculerjs/sandbox-moleculer-api-routing)  - Moleculer + Moleculer Web + Routing examples
 ## Templates
 ### Javascript
 - [moleculer-template-project](https://github.com/moleculerjs/moleculer-template-project)  - Project template for Javascript project.
@@ -184,7 +191,6 @@
 - [Uiza](https://uiza.io)
 - [Distopik](https://www.mixanalog.com/?utm_medium=partner&utm_source=moleculer&utm_campaign=moleculer_footer_logo&utm_content=logo)
 - [AMRetail](http://amretail.ru)
-- [DAZTA](https://dazta.com)
 - [SmartTones Media](http://www.smarttonesmedia.com/)
 - [Helpster](https://www.helpster.asia/id/business-en/)
 - [Textalk](https://www.textalk.com/)

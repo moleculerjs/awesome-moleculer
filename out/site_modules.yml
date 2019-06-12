@@ -41,6 +41,13 @@ gateway:
     official: false
     author: davidroman0O
     display: unset
+  - name: hapi-moleculer
+    link: 'https://github.com/felipegcampos/hapi-moleculer'
+    desc: |
+      <a href="https://hapijs.com/">Hapi</a> plugin for the Moleculer.
+    official: false
+    author: davidroman0O
+    display: unset
 databases:
   - name: moleculer-db
     link: 'https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db#readme'
@@ -91,13 +98,6 @@ databases:
     official: false
     author: katsanva
     display: unset
-  - name: moleculer-storage-google-cloud
-    link: 'https://github.com/hongkongkiwi/node-moleculer-storage-google-cloud'
-    desc: |
-      A <a href="https://cloud.google.com/storage/">Google Cloud Storage</a> module
-    official: false
-    author: hongkongkiwi
-    display: none
   - name: moleculer-gundb
     link: 'https://github.com/smart-matrix/moleculer-gundb'
     desc: |
