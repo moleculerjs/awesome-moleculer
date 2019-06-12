@@ -46,7 +46,7 @@ gateway:
     desc: |
       <a href="https://hapijs.com/">Hapi</a> plugin for the Moleculer.
     official: false
-    author: davidroman0O
+    author: felipegcampos
     display: unset
 databases:
   - name: moleculer-db
