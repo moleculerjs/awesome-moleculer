@@ -49,7 +49,9 @@ resources:
       - name: Знакомимся с микросервисным фреймворком Moleculer
         link: https://habr.com/en/post/439810/
         desc: \[The article is in russian]
-
+      - name: Moleculer — Beginner’s introduction
+        link: https://medium.com/@rzvdaniel_71068/moleculer-a-beginners-introduction-2dd71164c57b
+        
   talks:
     title: Talks
     entries:
