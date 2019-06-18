@@ -161,6 +161,7 @@
 - [fastest-validator](https://moleculer.services/docs/0.13/validating.html#Built-in-validator)![Official Moleculer Module][official]  - Moleculer's default validator is based on [fastest-validator](https://github.com/icebob/fastest-validator)
 - [Joi](https://moleculer.services/docs/0.13/validating.html#Create-a-Joi-validator)![Official Moleculer Module][official]  - [Joi](https://github.com/hapijs/joi) based validator
 - [moleculer-json-schema-validator](https://github.com/zhaoyao91/moleculer-json-schema-validator#readme)  - [JSON Schema](https://json-schema.org/) validator
+- [ts-transformer-json-schema](https://github.com/ipetrovic11/ts-transformer-json-schema)  - Use Typescript Intefraces as validator.
 ### GraphQL
 - [moleculer-postgraphile](https://github.com/ltv/moleculer-postgraphile)  - [Postgraphile](https://www.graphile.org/) Create postgraphile service for automatically detects tables, columns, indexes, relationships, views, types, functions, comments, and more.
 ## Tools
@@ -206,6 +207,7 @@
 - [QOALA](https://www.qoala.id/)
 - [Koodoo](https://koodoo.io)
 - [Power CMS](https://power-cms.com/)
+- [Vakavic](https://vakavic.com/)
 
 # Contact
 
