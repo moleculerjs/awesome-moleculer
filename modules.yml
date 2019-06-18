@@ -174,7 +174,7 @@ services:
         link: https://github.com/felipegcampos/hapi-moleculer
         desc: \[Hapi](https://hapijs.com/) plugin for the Moleculer.
         official: false
-        author: davidroman0O
+        author: felipegcampos
 
   databases:
     title: Databases and Stores
@@ -463,6 +463,11 @@ mixins:
         desc: \[JSON Schema](https://json-schema.org/) validator
         official: false
         author: zhaoyao91
+      - name: ts-transformer-json-schema
+        link: https://github.com/ipetrovic11/ts-transformer-json-schema
+        desc: Use Typescript Intefraces as validator.
+        official: false
+        author: ipetrovic11
 
   graphql:
     title: GraphQL

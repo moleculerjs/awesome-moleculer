@@ -356,6 +356,13 @@ validation:
     official: false
     author: zhaoyao91
     display: unset
+  - name: ts-transformer-json-schema
+    link: 'https://github.com/ipetrovic11/ts-transformer-json-schema'
+    desc: |
+      Use Typescript Intefraces as validator.
+    official: false
+    author: ipetrovic11
+    display: unset
 tools:
   - name: moleculer-repl
     link: 'https://moleculer.services/docs/0.13/moleculer-repl.html'
