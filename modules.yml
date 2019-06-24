@@ -51,6 +51,8 @@ resources:
         desc: \[The article is in russian]
       - name: Moleculer — Beginner’s introduction
         link: https://medium.com/@rzvdaniel_71068/moleculer-a-beginners-introduction-2dd71164c57b
+      - name: Building microservices architecture with Node.js and Moleculer
+        link: https://www.merixstudio.com/blog/microservices-nodejs-moleculer
         
   talks:
     title: Talks
