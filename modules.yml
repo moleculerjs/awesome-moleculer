@@ -397,6 +397,10 @@ middlewares:
         link: https://gist.github.com/icebob/c75d4d532c0d7783eb924a96110b9020
         desc: Proof of Concept of SAGA pattern.
         author: icebob
+      - name: Health-check middleware
+        link: https://gist.github.com/icebob/c717ae22002b9ecaa4b253a67952da3a
+        desc: Health-check middleware for Moleculer (for Kubernetes liveness readiness checks)
+        author: icebob
 
   security:
     title: Security
