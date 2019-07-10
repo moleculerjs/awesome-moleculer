@@ -78,7 +78,7 @@ examples:
       - name: Blog
         link: https://github.com/moleculerjs/moleculer-examples/tree/master/blog
         desc: Moleculer + ExpressJS + Pug + Moleculer-DB + Mongoose + NATS + Redis Cacher + Traefik
-      - name: Kanban - A Kanban board application
+      - name: Kantab - A Kanban board application
         link: https://github.com/icebob/kantab
         desc: Moleculer + Moleculer Web + Full authentication + ACL/RBAC + VueJS + VueX + Vue-router + Much much more
       - name: Moleculer + Babel Example Starter
