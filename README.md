@@ -65,15 +65,17 @@
 - [What are microservices and how to create one with Node and Moleculer.js](https://medium.com/@r.heygate.dev/microservices-with-moleculer-js-c7e68803ec09) 
 - [Moleculer — deployment thoughts](https://dankuida.com/moleculer-deployment-thoughts-8e0fc8c0fb07) 
 - [Знакомимся с микросервисным фреймворком Moleculer](https://habr.com/en/post/439810/)  - [The article is in russian]
-- [Moleculer — Beginner’s introduction](https://medium.com/@rzvdaniel_71068/moleculer-a-beginners-introduction-2dd71164c57b) 
 - [Building microservices architecture with Node.js and Moleculer](https://www.merixstudio.com/blog/microservices-nodejs-moleculer) 
+- [Moleculer First Project](https://medium.com/@rzvdaniel_71068/moleculer-first-project-50d60fd5bc70) 
+- [Moleculer Routing](https://medium.com/@rzvdaniel_71068/moleculer-routing-3c6c7cb29ddb) 
+- [Moleculer Mixins](https://medium.com/@rzvdaniel_71068/moleculer-mixins-a-short-introduction-a69f053148f5) 
 ### Talks
 - [Microservices 4 Real - Martín Acosta](https://www.youtube.com/watch?v=FrL8at9qGrQ)  - Talk _in Spanish_ from the JSDayUY 2017 about how a developer that used to work on monolithic apps started to learn and create a complete production app using a microservices architecture on top of Moleculer. [repo](https://github.com/tinchoz49/microservices-for-real)
 ## Examples
 ### Repositories
 - [Conduit](https://github.com/moleculerjs/moleculer-examples/tree/master/conduit)  - Moleculer + Moleculer Web + Moleculer-DB + MongoDB + JWT + Redis Cacher + Docker
 - [Blog](https://github.com/moleculerjs/moleculer-examples/tree/master/blog)  - Moleculer + ExpressJS + Pug + Moleculer-DB + Mongoose + NATS + Redis Cacher + Traefik
-- [Kantab - A Kanban board application](https://github.com/icebob/kantab)  - Moleculer + Moleculer Web + Full authentication + ACL/RBAC + VueJS + VueX + Vue-router + Much much more
+- [Kanban - A Kanban board application](https://github.com/icebob/kantab)  - Moleculer + Moleculer Web + Full authentication + ACL/RBAC + VueJS + VueX + Vue-router + Much much more
 - [Moleculer + Babel Example Starter](https://github.com/tinchoz49/moleculer-babel-example) 
 - [moleculer-nextjs](https://github.com/davidroman0O/moleculer-nextjs)  - Server-Side Rendering with Moleculer
 - [nestjs-moleculer](https://github.com/jiangzhuo/nestjs-moleculer)  - Moleculer Module For Nestjs Framework
@@ -209,6 +211,8 @@
 - [Koodoo](https://koodoo.io)
 - [Power CMS](https://power-cms.com/)
 - [Vakavic](https://vakavic.com/)
+- [HunterCo](https://www.hunterco.com.br/)
+- [StretchShop](https://stretchshop.app/)
 
 # Contact
 

@@ -49,10 +49,14 @@ resources:
       - name: Знакомимся с микросервисным фреймворком Moleculer
         link: https://habr.com/en/post/439810/
         desc: \[The article is in russian]
-      - name: Moleculer — Beginner’s introduction
-        link: https://medium.com/@rzvdaniel_71068/moleculer-a-beginners-introduction-2dd71164c57b
       - name: Building microservices architecture with Node.js and Moleculer
         link: https://www.merixstudio.com/blog/microservices-nodejs-moleculer
+      - name: Moleculer First Project
+        link: https://medium.com/@rzvdaniel_71068/moleculer-first-project-50d60fd5bc70
+      - name: Moleculer Routing
+        link: https://medium.com/@rzvdaniel_71068/moleculer-routing-3c6c7cb29ddb
+      - name: Moleculer Mixins
+        link: https://medium.com/@rzvdaniel_71068/moleculer-mixins-a-short-introduction-a69f053148f5
         
   talks:
     title: Talks
