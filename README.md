@@ -148,6 +148,7 @@
 ### General
 - [Inter-namespace](https://gist.github.com/icebob/c0bce54436379d29c1bee8521ceb5348)  - This middleware can connect to other namespaces.
 - [Saga middleware PoC](https://gist.github.com/icebob/c75d4d532c0d7783eb924a96110b9020)  - Proof of Concept of SAGA pattern.
+- [Health-check middleware](https://gist.github.com/icebob/c717ae22002b9ecaa4b253a67952da3a)  - Health-check middleware for Moleculer (for Kubernetes liveness readiness checks)
 ### Security
 - [moleculer-middleware-permissions](https://github.com/Embraser01/moleculer-middleware-permissions)  - A middleware solution to validate permissions of a request.
 ## Mixins
