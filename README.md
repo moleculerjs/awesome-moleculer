@@ -82,6 +82,7 @@
 - [moleculer-docker-development](https://github.com/nickreese/moleculer-docker-development)  - Simple development enviroment for moleculer with Docker
 - [moleculer-exploration](https://github.com/simsieg/Moleculer-exploration)  - Simple microservices communicating via MoleculerJS.
 - [moleculer-mysql-template](https://github.com/AGenson/moleculer-mysql-template)  - Moleculer template for creating a secure web api, with a remote MySQL database, and a default account management.
+- [moleculerjs-boilerplate](https://github.com/pankod/moleculerjs-boilerplate)  - A well-structured Moleculer JS Boilerplate with Typescript, CLI, Service Helpers, Swagger, Jest support and everything you'll ever need to deploy rock solid projects.
 ### Sandboxes on Codesandbox.io
 - [Simple project](https://codesandbox.io/s/github/moleculerjs/sandbox-moleculer-project)  - Moleculer + Moleculer Web + Greeter service
 - [API routing example](https://codesandbox.io/s/github/moleculerjs/sandbox-moleculer-api-routing)  - Moleculer + Moleculer Web + Routing examples
