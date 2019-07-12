@@ -98,7 +98,10 @@ examples:
       - name: moleculer-mysql-template
         link: https://github.com/AGenson/moleculer-mysql-template
         desc: Moleculer template for creating a secure web api, with a remote MySQL database, and a default account management.
-
+      - name: moleculerjs-boilerplate
+        link: https://github.com/pankod/moleculerjs-boilerplate
+        desc: A well-structured Moleculer JS Boilerplate with Typescript, CLI, Service Helpers, Swagger, Jest support and everything you'll ever need to deploy rock solid projects.
+				
   sandboxes:
     title: Sandboxes on Codesandbox.io
     entries:
