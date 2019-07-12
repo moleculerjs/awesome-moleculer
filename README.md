@@ -48,12 +48,12 @@
 
 ## Resources
 ### Official Resources
-- [Website](https://moleculer.services/) 
-- [Docs](https://moleculer.services/docs) 
-- [Blog](https://medium.com/moleculer) 
-- [Gitter](https://gitter.im/moleculerjs/moleculer) 
-- [Twitter](https://twitter.com/MoleculerJS) 
-- [Stack Overflow](https://stackoverflow.com/questions/tagged/moleculer) 
+- [Website](https://moleculer.services/)
+- [Docs](https://moleculer.services/docs)
+- [Blog](https://medium.com/moleculer)
+- [Gitter](https://gitter.im/moleculerjs/moleculer)
+- [Twitter](https://twitter.com/MoleculerJS)
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/moleculer)
 ### Cheatsheets
 - [Core Cheatsheets](https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer.js)  - Cheatsheet for Moleculer's core functionalities.
 - [Web Gateway Cheatsheets](https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer-web.js)  - Cheatsheet for official gateway
@@ -61,14 +61,14 @@
 - [REPL Cheatsheets](https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer-repl.sh)  - Cheatsheet for official RELP tool
 - [CLI Cheatsheets](https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer-cli.sh)  - Cheatsheet for Moleculer's command-line interface (CLI)
 ### Articles and Blog Posts
-- [5 easy steps to create your REST microservice in NodeJS](https://medium.com/moleculer/5-easy-steps-to-create-your-rest-microservice-in-nodejs-94aede3249fc) 
-- [What are microservices and how to create one with Node and Moleculer.js](https://medium.com/@r.heygate.dev/microservices-with-moleculer-js-c7e68803ec09) 
-- [Moleculer — deployment thoughts](https://dankuida.com/moleculer-deployment-thoughts-8e0fc8c0fb07) 
+- [5 easy steps to create your REST microservice in NodeJS](https://medium.com/moleculer/5-easy-steps-to-create-your-rest-microservice-in-nodejs-94aede3249fc)
+- [What are microservices and how to create one with Node and Moleculer.js](https://medium.com/@r.heygate.dev/microservices-with-moleculer-js-c7e68803ec09)
+- [Moleculer — deployment thoughts](https://dankuida.com/moleculer-deployment-thoughts-8e0fc8c0fb07)
 - [Знакомимся с микросервисным фреймворком Moleculer](https://habr.com/en/post/439810/)  - [The article is in russian]
-- [Building microservices architecture with Node.js and Moleculer](https://www.merixstudio.com/blog/microservices-nodejs-moleculer) 
-- [Moleculer First Project](https://medium.com/@rzvdaniel_71068/moleculer-first-project-50d60fd5bc70) 
-- [Moleculer Routing](https://medium.com/@rzvdaniel_71068/moleculer-routing-3c6c7cb29ddb) 
-- [Moleculer Mixins](https://medium.com/@rzvdaniel_71068/moleculer-mixins-a-short-introduction-a69f053148f5) 
+- [Building microservices architecture with Node.js and Moleculer](https://www.merixstudio.com/blog/microservices-nodejs-moleculer)
+- [Moleculer First Project](https://medium.com/@rzvdaniel_71068/moleculer-first-project-50d60fd5bc70)
+- [Moleculer Routing](https://medium.com/@rzvdaniel_71068/moleculer-routing-3c6c7cb29ddb)
+- [Moleculer Mixins](https://medium.com/@rzvdaniel_71068/moleculer-mixins-a-short-introduction-a69f053148f5)
 ### Talks
 - [Microservices 4 Real - Martín Acosta](https://www.youtube.com/watch?v=FrL8at9qGrQ)  - Talk _in Spanish_ from the JSDayUY 2017 about how a developer that used to work on monolithic apps started to learn and create a complete production app using a microservices architecture on top of Moleculer. [repo](https://github.com/tinchoz49/microservices-for-real)
 ## Examples
@@ -76,12 +76,13 @@
 - [Conduit](https://github.com/moleculerjs/moleculer-examples/tree/master/conduit)  - Moleculer + Moleculer Web + Moleculer-DB + MongoDB + JWT + Redis Cacher + Docker
 - [Blog](https://github.com/moleculerjs/moleculer-examples/tree/master/blog)  - Moleculer + ExpressJS + Pug + Moleculer-DB + Mongoose + NATS + Redis Cacher + Traefik
 - [Kantab - A Kanban board application](https://github.com/icebob/kantab)  - Moleculer + Moleculer Web + Full authentication + ACL/RBAC + VueJS + VueX + Vue-router + Much much more
-- [Moleculer + Babel Example Starter](https://github.com/tinchoz49/moleculer-babel-example) 
+- [Moleculer + Babel Example Starter](https://github.com/tinchoz49/moleculer-babel-example)
 - [moleculer-nextjs](https://github.com/davidroman0O/moleculer-nextjs)  - Server-Side Rendering with Moleculer
 - [nestjs-moleculer](https://github.com/jiangzhuo/nestjs-moleculer)  - Moleculer Module For Nestjs Framework
 - [moleculer-docker-development](https://github.com/nickreese/moleculer-docker-development)  - Simple development enviroment for moleculer with Docker
 - [moleculer-exploration](https://github.com/simsieg/Moleculer-exploration)  - Simple microservices communicating via MoleculerJS.
 - [moleculer-mysql-template](https://github.com/AGenson/moleculer-mysql-template)  - Moleculer template for creating a secure web api, with a remote MySQL database, and a default account management.
+- [moleculerjs-boilerplate](https://github.com/pankod/moleculerjs-boilerplate)  - A well-structured Moleculer JS Boilerplate with Typescript, CLI, Service Helpers, Swagger, Jest support and everything you'll ever need to deploy rock solid projects.
 ### Sandboxes on Codesandbox.io
 - [Simple project](https://codesandbox.io/s/github/moleculerjs/sandbox-moleculer-project)  - Moleculer + Moleculer Web + Greeter service
 - [API routing example](https://codesandbox.io/s/github/moleculerjs/sandbox-moleculer-api-routing)  - Moleculer + Moleculer Web + Routing examples
