@@ -305,6 +305,13 @@ others:
     official: false
     author: Hugome
     display: unset
+  - name: moleculer-http-client
+    link: 'https://github.com/AndreMaz/moleculer-http-client'
+    desc: |
+      HTTP client mixin that allows Moleculer services to communicate with remote REST APIs
+    official: false
+    author: AndreMaz
+    display: unset
 tasks:
   - name: moleculer-bee-queue
     link: 'https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bee-queue#readme'

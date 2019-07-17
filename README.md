@@ -145,6 +145,7 @@
 - [moleculer-sharp](https://github.com/designtesbrot/moleculer-sharp)  - A Moleculer Service for Image Manipulation using [sharp](http://sharp.pixelplumbing.com/en/stable/)
 - [moleculer-cls](https://github.com/cupsadarius/moleculer-cls)  - Hooked Continuation-Local Storage for Moleculer
 - [moleculer-insee-sirene](https://github.com/YourSoftRun/moleculer-insee-sirene)  - Service for [INSEE Sirene API](https://api.insee.fr/catalogue/). An API with info about all French companies
+- [moleculer-http-client](https://github.com/AndreMaz/moleculer-http-client)  - HTTP client mixin that allows Moleculer services to communicate with remote REST APIs
 ## Middlewares
 ### General
 - [Inter-namespace](https://gist.github.com/icebob/c0bce54436379d29c1bee8521ceb5348)  - This middleware can connect to other namespaces.
