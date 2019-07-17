@@ -385,6 +385,11 @@ services:
         desc: Service for [INSEE Sirene API](https://api.insee.fr/catalogue/). An API with info about all French companies
         official: false
         author: Hugome
+      - name: moleculer-http-client
+        link: https://github.com/AndreMaz/moleculer-http-client
+        desc: HTTP client mixin that allows Moleculer services to communicate with remote REST APIs
+        official: false
+        author: AndreMaz
 
 middlewares:
   title: Middlewares
