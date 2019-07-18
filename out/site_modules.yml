@@ -312,6 +312,13 @@ others:
     official: false
     author: AndreMaz
     display: unset
+  - name: moleculer-axios
+    link: 'https://github.com/adam-mccormick/moleculer-axios'
+    desc: |
+      Axios based HTTP client for Moleculer services
+    official: false
+    author: adam-mccormick
+    display: unset
 tasks:
   - name: moleculer-bee-queue
     link: 'https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bee-queue#readme'
