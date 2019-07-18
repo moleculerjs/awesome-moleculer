@@ -390,6 +390,11 @@ services:
         desc: HTTP client mixin that allows Moleculer services to communicate with remote REST APIs
         official: false
         author: AndreMaz
+      - name: moleculer-axios
+        link: https://github.com/adam-mccormick/moleculer-axios
+        desc: Axios based HTTP client for Moleculer services
+        official: false
+        author: adam-mccormick
 
 middlewares:
   title: Middlewares
