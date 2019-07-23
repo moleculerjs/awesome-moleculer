@@ -57,7 +57,7 @@ resources:
         link: https://medium.com/@rzvdaniel_71068/moleculer-routing-3c6c7cb29ddb
       - name: Moleculer Mixins
         link: https://medium.com/@rzvdaniel_71068/moleculer-mixins-a-short-introduction-a69f053148f5
-        
+
   talks:
     title: Talks
     entries:
@@ -466,6 +466,11 @@ mixins:
         desc: Cron mixin [Node-Cron](https://github.com/kelektiv/node-cron)
         official: false
         author: davidroman0O
+      - name: moleculer-amqp-queue
+        link: https://github.com/lehno/moleculer-amqp-queue#readme
+        desc: Task queue mixin for [AMQP](https://www.amqp.org/)
+        official: false
+        author: lehno
 
   validation:
     title: Validation
