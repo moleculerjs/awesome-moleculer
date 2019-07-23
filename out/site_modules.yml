@@ -348,6 +348,13 @@ tasks:
     official: false
     author: davidroman0O
     display: unset
+  - name: moleculer-amqp-queue
+    link: 'https://github.com/lehno/moleculer-amqp-queue#readme'
+    desc: |
+      Task queue mixin for <a href="https://www.amqp.org/">AMQP</a>
+    official: false
+    author: lehno
+    display: none
 validation:
   - name: fastest-validator
     link: 'https://moleculer.services/docs/0.13/validating.html#Built-in-validator'

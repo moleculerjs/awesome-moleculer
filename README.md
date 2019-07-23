@@ -164,6 +164,7 @@
 - [moleculer-bull](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bull#readme)![Official Moleculer Module][official]  - Task queue mixin for [Bull](https://github.com/OptimalBits/bull)
 - [moleculer-faktory](https://github.com/YourSoftRun/moleculer-faktory#readme)  - Task queue mixin for [Faktory](https://contribsys.com/faktory/)
 - [moleculer-cron](https://github.com/davidroman0O/moleculer-cron#readme)  - Cron mixin [Node-Cron](https://github.com/kelektiv/node-cron)
+- [moleculer-amqp-queue](https://github.com/lehno/moleculer-amqp-queue#readme)  - Task queue mixin for [AMQP](https://www.amqp.org/)
 ### Validation
 - [fastest-validator](https://moleculer.services/docs/0.13/validating.html#Built-in-validator)![Official Moleculer Module][official]  - Moleculer's default validator is based on [fastest-validator](https://github.com/icebob/fastest-validator)
 - [Joi](https://moleculer.services/docs/0.13/validating.html#Create-a-Joi-validator)![Official Moleculer Module][official]  - [Joi](https://github.com/hapijs/joi) based validator
@@ -217,6 +218,7 @@
 - [Vakavic](https://vakavic.com/)
 - [HunterCo](https://www.hunterco.com.br/)
 - [StretchShop](https://stretchshop.app/)
+- [CodeYard](http://codeyard.eu/?locale=en)
 
 # Contact
 
