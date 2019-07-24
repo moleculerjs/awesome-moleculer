@@ -395,6 +395,11 @@ services:
         desc: Axios based HTTP client for Moleculer services
         official: false
         author: adam-mccormick
+      - name: moleculer-browser
+        link: https://github.com/geut/moleculer-browser
+        desc: Moleculer for the browser.
+        official: false
+        author: geut
 
 middlewares:
   title: Middlewares
@@ -530,6 +535,11 @@ tools:
       desc: ES7/TS decorators for Service declaration.
       official: false
       author: rmccallum81
+    - name: moldock
+      link: https://github.com/amroessam/moldock
+      desc: A CLI tool to deconstruct moleculer projects into their own dependant projects, to be able to dockerize them individually.
+      official: false
+      author: amroessam
 
 polyglot:
   title: Polyglot Implementations
