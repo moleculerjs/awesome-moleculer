@@ -319,6 +319,13 @@ others:
     official: false
     author: adam-mccormick
     display: unset
+  - name: moleculer-browser
+    link: 'https://github.com/geut/moleculer-browser'
+    desc: |
+      Moleculer for the browser.
+    official: false
+    author: geut
+    display: none
 tasks:
   - name: moleculer-bee-queue
     link: 'https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bee-queue#readme'
@@ -413,3 +420,10 @@ tools:
     official: false
     author: rmccallum81
     display: unset
+  - name: moldock
+    link: 'https://github.com/amroessam/moldock'
+    desc: |
+      A CLI tool to deconstruct moleculer projects into their own dependant projects, to be able to dockerize them individually.
+    official: false
+    author: amroessam
+    display: none

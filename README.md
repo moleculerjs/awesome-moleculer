@@ -147,6 +147,7 @@
 - [moleculer-insee-sirene](https://github.com/YourSoftRun/moleculer-insee-sirene)  - Service for [INSEE Sirene API](https://api.insee.fr/catalogue/). An API with info about all French companies
 - [moleculer-http-client](https://github.com/AndreMaz/moleculer-http-client)  - HTTP client mixin that allows Moleculer services to communicate with remote REST APIs
 - [moleculer-axios](https://github.com/adam-mccormick/moleculer-axios)  - Axios based HTTP client for Moleculer services
+- [moleculer-browser](https://github.com/geut/moleculer-browser)  - Moleculer for the browser.
 ## Middlewares
 ### General
 - [Inter-namespace](https://gist.github.com/icebob/c0bce54436379d29c1bee8521ceb5348)  - This middleware can connect to other namespaces.
@@ -177,6 +178,7 @@
 - [moleculer-cli](https://moleculer.services/docs/0.13/moleculer-cli.html)![Official Moleculer Module][official]  - Command-Line Tool for development & testing.
 - [moleculer-decorators](https://github.com/ColonelBundy/moleculer-decorators)  - ES7/TS decorators for Service declaration.
 - [moleculer-service-decorators](https://github.com/rmccallum81/moleculer-service-decorators)  - ES7/TS decorators for Service declaration.
+- [moldock](https://github.com/amroessam/moldock)  - A CLI tool to deconstruct moleculer projects into their own dependant projects, to be able to dockerize them individually.
 ## Polyglot Implementations
 ### Java
 - [moleculer-java](https://github.com/moleculer-java)  - Java implementation of the Moleculer microservices framework.
