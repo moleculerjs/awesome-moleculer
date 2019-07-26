@@ -148,6 +148,7 @@
 - [moleculer-http-client](https://github.com/AndreMaz/moleculer-http-client)  - HTTP client mixin that allows Moleculer services to communicate with remote REST APIs
 - [moleculer-axios](https://github.com/adam-mccormick/moleculer-axios)  - Axios based HTTP client for Moleculer services
 - [moleculer-browser](https://github.com/geut/moleculer-browser)  - Moleculer for the browser.
+- [moleculer-stripe](https://github.com/YourSoftRun/moleculer-stripe)  - Service for [Stripe](https://stripe.com/)
 ## Middlewares
 ### General
 - [Inter-namespace](https://gist.github.com/icebob/c0bce54436379d29c1bee8521ceb5348)  - This middleware can connect to other namespaces.

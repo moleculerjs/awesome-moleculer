@@ -326,6 +326,13 @@ others:
     official: false
     author: geut
     display: none
+  - name: moleculer-stripe
+    link: 'https://github.com/YourSoftRun/moleculer-stripe'
+    desc: |
+      Service for <a href="https://stripe.com/">Stripe</a>
+    official: false
+    author: Hugome
+    display: unset
 tasks:
   - name: moleculer-bee-queue
     link: 'https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bee-queue#readme'
@@ -426,4 +433,4 @@ tools:
       A CLI tool to deconstruct moleculer projects into their own dependant projects, to be able to dockerize them individually.
     official: false
     author: amroessam
-    display: none
+    display: unset
