@@ -400,6 +400,11 @@ services:
         desc: Moleculer for the browser.
         official: false
         author: geut
+      - name: moleculer-stripe
+        link: https://github.com/YourSoftRun/moleculer-stripe
+        desc: Service for [Stripe](https://stripe.com/)
+        official: false
+        author: Hugome
 
 middlewares:
   title: Middlewares
