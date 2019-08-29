@@ -312,11 +312,6 @@ services:
         desc: Send Messages to [Typetalk](https://www.typetalk.com)
         official: false
         author: is2ei
-      - name: node-red-contrib-moleculer
-        link: https://github.com/chameleonbr/node-red-contrib-moleculer#readme
-        desc: Node Red client for Moleculer with events, emit, call, request and response support.
-        official: false
-        author: chameleonbr
   security:
     title: Security, Authentication and Authorization
     to-pub-on-site: true
@@ -410,6 +405,11 @@ services:
         desc: Service for [Stripe](https://stripe.com/)
         official: false
         author: Hugome
+      - name: node-red-contrib-moleculer
+        link: https://github.com/chameleonbr/node-red-contrib-moleculer#readme
+        desc: Node Red client for Moleculer with events, emit, call, request and response support.
+        official: false
+        author: chameleonbr
 
 middlewares:
   title: Middlewares

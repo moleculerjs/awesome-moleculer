@@ -212,13 +212,6 @@ general:
     official: false
     author: is2ei
     display: unset
-  - name: node-red-contrib-moleculer
-    link: 'https://github.com/chameleonbr/node-red-contrib-moleculer#readme'
-    desc: |
-      Node Red client for Moleculer with events, emit, call, request and response support.
-    official: false
-    author: chameleonbr
-    display: unset
 security:
   - name: moleculer-protect-services
     link: 'https://github.com/icebob/moleculer-protect-services'
@@ -339,6 +332,13 @@ others:
       Service for <a href="https://stripe.com/">Stripe</a>
     official: false
     author: Hugome
+    display: unset
+  - name: node-red-contrib-moleculer
+    link: 'https://github.com/chameleonbr/node-red-contrib-moleculer#readme'
+    desc: |
+      Node Red client for Moleculer with events, emit, call, request and response support.
+    official: false
+    author: chameleonbr
     display: unset
 tasks:
   - name: moleculer-bee-queue
