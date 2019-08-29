@@ -130,6 +130,7 @@
 - [moleculer-flydrive](https://github.com/molobala/moleculer-flydrive#readme)  - Storage manager service with [Node Flydrive](https://github.com/Slynova-Org/node-flydrive).
 - [moleculer-markdown](https://github.com/alsofronie/moleculer-markdown#readme)  - Markdown to HTML Service
 - [moleculer-typetalk](https://github.com/is2ei/moleculer-typetalk#readme)  - Send Messages to [Typetalk](https://www.typetalk.com)
+- [node-red-contrib-moleculer](https://github.com/chameleonbr/node-red-contrib-moleculer#readme)  - Node Red client for Moleculer with events, emit, call, request and response support.
 ### Security, Authentication and Authorization
 - [moleculer-protect-services](https://github.com/icebob/moleculer-protect-services)![Official Moleculer Module][official]  - [JWT](https://jwt.io/) protection for service actions
 - [imicros-auth](https://github.com/al66/imicros-auth)  - Authentication, Authorization and ACL services
@@ -222,6 +223,7 @@
 - [HunterCo](https://www.hunterco.com.br/)
 - [StretchShop](https://stretchshop.app/)
 - [CodeYard](http://codeyard.eu/?locale=en)
+- [Shareworks](https://www.shareworks.com/)
 
 # Contact
 
