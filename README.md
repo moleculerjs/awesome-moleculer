@@ -69,6 +69,8 @@
 - [Moleculer First Project](https://medium.com/@rzvdaniel_71068/moleculer-first-project-50d60fd5bc70) 
 - [Moleculer Routing](https://medium.com/@rzvdaniel_71068/moleculer-routing-3c6c7cb29ddb) 
 - [Moleculer Mixins](https://medium.com/@rzvdaniel_71068/moleculer-mixins-a-short-introduction-a69f053148f5) 
+- [Control as a Service - A Microservice Approach to Industry 4.0](https://ieeexplore.ieee.org/document/8792918) 
+- [Scaling Electron.js application with Microservices](https://medium.com/@bushevuv/scaling-electron-js-application-with-microservices-c9d73718a882) 
 ### Talks
 - [Microservices 4 Real - Martín Acosta](https://www.youtube.com/watch?v=FrL8at9qGrQ)  - Talk _in Spanish_ from the JSDayUY 2017 about how a developer that used to work on monolithic apps started to learn and create a complete production app using a microservices architecture on top of Moleculer. [repo](https://github.com/tinchoz49/microservices-for-real)
 ## Examples
