@@ -59,6 +59,8 @@ resources:
         link: https://medium.com/@rzvdaniel_71068/moleculer-mixins-a-short-introduction-a69f053148f5
       - name: Control as a Service - A Microservice Approach to Industry 4.0
         link: https://ieeexplore.ieee.org/document/8792918
+      - name: Scaling Electron.js application with Microservices
+        link: https://medium.com/@bushevuv/scaling-electron-js-application-with-microservices-c9d73718a882
 
   talks:
     title: Talks
