@@ -57,6 +57,8 @@ resources:
         link: https://medium.com/@rzvdaniel_71068/moleculer-routing-3c6c7cb29ddb
       - name: Moleculer Mixins
         link: https://medium.com/@rzvdaniel_71068/moleculer-mixins-a-short-introduction-a69f053148f5
+      - name: Control as a Service - A Microservice Approach to Industry 4.0
+        link: https://ieeexplore.ieee.org/document/8792918
 
   talks:
     title: Talks
