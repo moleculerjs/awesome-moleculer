@@ -61,6 +61,8 @@ resources:
         link: https://ieeexplore.ieee.org/document/8792918
       - name: Scaling Electron.js application with Microservices
         link: https://medium.com/@bushevuv/scaling-electron-js-application-with-microservices-c9d73718a882
+      - name: MoleculerJS Is Your NodeJS Framework For Microservices
+        link: https://wiredelta.com/moleculerjs-framework-for-nodejs/
 
   talks:
     title: Talks
