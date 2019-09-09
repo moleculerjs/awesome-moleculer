@@ -15,7 +15,7 @@
     - [Official Resources](#official-resources)
     - [Cheatsheets](#cheatsheets)
     - [Articles and Blog Posts](#articles-and-blog-posts)
-    - [Talks](#talks)
+    - [Videos](#videos)
 - [Examples](#examples)
     - [Repositories](#repositories)
     - [Sandboxes on Codesandbox.io](#sandboxes-on-codesandboxio)
@@ -72,8 +72,9 @@
 - [Control as a Service - A Microservice Approach to Industry 4.0](https://ieeexplore.ieee.org/document/8792918) 
 - [Scaling Electron.js application with Microservices](https://medium.com/@bushevuv/scaling-electron-js-application-with-microservices-c9d73718a882) 
 - [MoleculerJS Is Your NodeJS Framework For Microservices](https://wiredelta.com/moleculerjs-framework-for-nodejs/) 
-### Talks
+### Videos
 - [Microservices 4 Real - Martín Acosta](https://www.youtube.com/watch?v=FrL8at9qGrQ)  - Talk _in Spanish_ from the JSDayUY 2017 about how a developer that used to work on monolithic apps started to learn and create a complete production app using a microservices architecture on top of Moleculer. [repo](https://github.com/tinchoz49/microservices-for-real)
+- [An Introduction to Moleculer JS](https://www.youtube.com/watch?v=t4YR6MWrugw)  - Video tutorial explaining Moleculer's core concepts and [template project](https://moleculer.services/docs/0.13/usage.html#Create-a-Moleculer-project)
 ## Examples
 ### Repositories
 - [Conduit](https://github.com/moleculerjs/moleculer-examples/tree/master/conduit)  - Moleculer + Moleculer Web + Moleculer-DB + MongoDB + JWT + Redis Cacher + Docker
