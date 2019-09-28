@@ -125,6 +125,9 @@ examples:
       - name: API routing example
         link: https://codesandbox.io/s/github/moleculerjs/sandbox-moleculer-api-routing
         desc: Moleculer + Moleculer Web + Routing examples
+      - name: Moleculer DB example
+        link: https://codesandbox.io/s/github/moleculerjs/sandbox-moleculer-db
+        desc: Moleculer + Moleculer Web + Moleculer DB
 
 templates:
   title: Templates
