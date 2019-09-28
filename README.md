@@ -92,6 +92,7 @@
 ### Sandboxes on Codesandbox.io
 - [Simple project](https://codesandbox.io/s/github/moleculerjs/sandbox-moleculer-project)  - Moleculer + Moleculer Web + Greeter service
 - [API routing example](https://codesandbox.io/s/github/moleculerjs/sandbox-moleculer-api-routing)  - Moleculer + Moleculer Web + Routing examples
+- [Moleculer DB example](https://codesandbox.io/s/github/moleculerjs/sandbox-moleculer-db)  - Moleculer + Moleculer Web + Moleculer DB
 ## Templates
 ### Javascript
 - [moleculer-template-project](https://github.com/moleculerjs/moleculer-template-project)  - Project template for Javascript project.
