@@ -112,6 +112,9 @@ examples:
       - name: moleculerjs-boilerplate
         link: https://github.com/pankod/moleculerjs-boilerplate
         desc: A well-structured Moleculer JS Boilerplate with Typescript, CLI, Service Helpers, Swagger, Jest support and everything you'll ever need to deploy rock solid projects.
+      - name: StretchShop
+        link: https://github.com/Wradgio/StretchShop
+        desc: Fast & scalable e-business REST API backend based on Moleculer framework, which makes it easy to run as monolithic or microservices application.
 
   sandboxes:
     title: Sandboxes on Codesandbox.io
