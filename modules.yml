@@ -427,6 +427,11 @@ services:
         desc: Node Red client for Moleculer with events, emit, call, request and response support.
         official: false
         author: chameleonbr
+      - name: moleculer-pdf
+        link: https://github.com/olivmonnier/moleculer-pdf
+        desc: A [Puppeteer](https://github.com/GoogleChrome/puppeteer)-based Moleculer service that generates PDF from HTML.
+        official: false
+        author: olivmonnier
 
 middlewares:
   title: Middlewares
