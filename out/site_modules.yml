@@ -340,6 +340,13 @@ others:
     official: false
     author: chameleonbr
     display: unset
+  - name: moleculer-pdf
+    link: 'https://github.com/olivmonnier/moleculer-pdf'
+    desc: |
+      A <a href="https://github.com/GoogleChrome/puppeteer">Puppeteer</a>-based Moleculer service that generates PDF from HTML.
+    official: false
+    author: olivmonnier
+    display: unset
 tasks:
   - name: moleculer-bee-queue
     link: 'https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bee-queue#readme'

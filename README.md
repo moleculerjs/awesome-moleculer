@@ -157,6 +157,7 @@
 - [moleculer-browser](https://github.com/geut/moleculer-browser)  - Moleculer for the browser.
 - [moleculer-stripe](https://github.com/YourSoftRun/moleculer-stripe)  - Service for [Stripe](https://stripe.com/)
 - [node-red-contrib-moleculer](https://github.com/chameleonbr/node-red-contrib-moleculer#readme)  - Node Red client for Moleculer with events, emit, call, request and response support.
+- [moleculer-pdf](https://github.com/olivmonnier/moleculer-pdf)  - A [Puppeteer](https://github.com/GoogleChrome/puppeteer)-based Moleculer service that generates PDF from HTML.
 ## Middlewares
 ### General
 - [Inter-namespace](https://gist.github.com/icebob/c0bce54436379d29c1bee8521ceb5348)  - This middleware can connect to other namespaces.
@@ -234,6 +235,8 @@
 - [MultiRoad](https://www.multiroad.online/)
 - [Innovation INCUBATOR](https://innovationincubator.com/)
 - [Wiredelta](https://wiredelta.com/)
+- [VITEKEY](https://vitekey.com/)
+- [Hangar](https://www.thehangar.cr/)
 
 # Contact
 
