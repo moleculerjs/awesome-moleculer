@@ -63,6 +63,8 @@ resources:
         link: https://medium.com/@bushevuv/scaling-electron-js-application-with-microservices-c9d73718a882
       - name: MoleculerJS Is Your NodeJS Framework For Microservices
         link: https://wiredelta.com/moleculerjs-framework-for-nodejs/
+      - name: Get Started with Moleculer microservices framework
+        link: https://medium.com/@joesithixaydouangchak/get-started-with-moleculer-microservices-framework-eddffb1ccb2e
       - name: Develop Ecommerce features using Microservice architecture
         link: https://medium.com/swlh/moleculer-develop-ecommerce-features-using-microservice-architecture-37a4a0d48788
 
