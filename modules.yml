@@ -253,6 +253,11 @@ services:
         desc: A [RethinkDB](https://www.rethinkdb.com/) Moleculer service mixin.
         official: false
         author: cantecim
+      - name: moleculer-db-adapter-macrometa
+        link: https://github.com/moleculerjs/moleculer-db-adapter-macrometa
+        desc: Data access service for [MacroMeta](https://www.macrometa.co/)
+        official: true
+        author: icebob
   metrics:
     title: Metrics and Tracing
     to-pub-on-site: true
