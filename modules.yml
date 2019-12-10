@@ -255,7 +255,7 @@ services:
         author: cantecim
       - name: moleculer-db-adapter-macrometa
         link: https://github.com/moleculerjs/moleculer-db-adapter-macrometa
-        desc: Data access service for [MacroMeta](https://www.macrometa.co/)
+        desc: [MacroMeta](https://www.macrometa.co/) adapter for Moleculer DB service.
         official: true
         author: icebob
   metrics:
