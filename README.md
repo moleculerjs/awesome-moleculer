@@ -72,6 +72,7 @@
 - [Control as a Service - A Microservice Approach to Industry 4.0](https://ieeexplore.ieee.org/document/8792918) 
 - [Scaling Electron.js application with Microservices](https://medium.com/@bushevuv/scaling-electron-js-application-with-microservices-c9d73718a882) 
 - [MoleculerJS Is Your NodeJS Framework For Microservices](https://wiredelta.com/moleculerjs-framework-for-nodejs/) 
+- [Get Started with Moleculer microservices framework](https://medium.com/@joesithixaydouangchak/get-started-with-moleculer-microservices-framework-eddffb1ccb2e) 
 - [Develop Ecommerce features using Microservice architecture](https://medium.com/swlh/moleculer-develop-ecommerce-features-using-microservice-architecture-37a4a0d48788) 
 ### Videos
 - [Microservices 4 Real - Martín Acosta](https://www.youtube.com/watch?v=FrL8at9qGrQ)  - Talk _in Spanish_ from the JSDayUY 2017 about how a developer that used to work on monolithic apps started to learn and create a complete production app using a microservices architecture on top of Moleculer. [repo](https://github.com/tinchoz49/microservices-for-real)
@@ -121,6 +122,7 @@
 - [moleculer-db-adapter-dynamodb](https://github.com/katsanva/moleculer-db-adapter-dynamodb)  - A [DynamoDB](https://aws.amazon.com/dynamodb/) adapter for Moleculer DB service
 - [moleculer-gundb](https://github.com/smart-matrix/moleculer-gundb)  - A [GunDB](https://gun.eco) mixins for Moleculer DB service.
 - [moleculer-db-adapter-rethinkdb](https://github.com/cantecim/moleculer-db-adapter-rethinkdb)  - A [RethinkDB](https://www.rethinkdb.com/) Moleculer service mixin.
+- [moleculer-db-adapter-macrometa](https://github.com/moleculerjs/moleculer-db-adapter-macrometa)![Official Moleculer Module][official]  - [MacroMeta](https://www.macrometa.co/) adapter for Moleculer DB service.
 ### Metrics and Tracing
 - [moleculer-console-tracer](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-console-tracer#readme)![Official Moleculer Module][official]  - Console-based service
 - [moleculer-jaeger](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-jaeger#readme)![Official Moleculer Module][official]  - [Jaeger](https://www.jaegertracing.io/)-based metrics service
@@ -188,6 +190,7 @@
 - [moleculer-cli](https://moleculer.services/docs/0.13/moleculer-cli.html)![Official Moleculer Module][official]  - Command-Line Tool for development & testing.
 - [moleculer-decorators](https://github.com/ColonelBundy/moleculer-decorators)  - ES7/TS decorators for Service declaration.
 - [moleculer-service-decorators](https://github.com/rmccallum81/moleculer-service-decorators)  - ES7/TS decorators for Service declaration.
+- [moleculer-ts](https://github.com/jarvify/moleculer-ts)  - TypeScript service actions/events types generator.
 - [moldock](https://github.com/amroessam/moldock)  - A CLI tool to deconstruct moleculer projects into their own dependant projects, to be able to dockerize them individually.
 ## Polyglot Implementations
 ### Java
@@ -213,7 +216,6 @@
 - [Distopik](https://www.mixanalog.com/?utm_medium=partner&utm_source=moleculer&utm_campaign=moleculer_footer_logo&utm_content=logo)
 - [AMRetail](http://amretail.ru)
 - [SmartTones Media](http://www.smarttonesmedia.com/)
-- [Helpster](https://www.helpster.asia/id/business-en/)
 - [Textalk](https://www.textalk.com/)
 - [GetTechDone](https://www.gtechd.com/)
 - [Jarvify](https://jarvify.com/)
@@ -226,7 +228,6 @@
 - [Ghost](https://ghost.org/)
 - [QOALA](https://www.qoala.id/)
 - [Koodoo](https://koodoo.io)
-- [Power CMS](https://power-cms.com/)
 - [Vakavic](https://vakavic.com/)
 - [HunterCo](https://www.hunterco.com.br/)
 - [StretchShop](https://stretchshop.app/)
@@ -237,6 +238,16 @@
 - [Wiredelta](https://wiredelta.com/)
 - [VITEKEY](https://vitekey.com/)
 - [Hangar](https://www.thehangar.cr/)
+- [Autodrop3d](https://autodrop3d.com)
+- [Desarrollo e Innovacion Rancagua](https://smart.rancagua.cl/)
+- [Reguity Group](https://www.reguity.com/)
+- [Pankod](https://www.pankod.com/)
+- [e-PlanSoft](https://eplansoft.com/)
+- [Делимобиль](https://delimobil.ru)
+- [Cryptonoid](https://cryptonoid.io/)
+- [Workpuls](https://www.workpuls.com/)
+- [Motivac](https://motivac.io)
+- [TuntsCorp](http://www.tuntscorp.com/site/)
 
 # Contact
 
