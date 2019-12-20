@@ -574,6 +574,11 @@ tools:
       desc: ES7/TS decorators for Service declaration.
       official: false
       author: rmccallum81
+    - name: moleculer-ts
+      link: https://github.com/jarvify/moleculer-ts
+      desc: TypeScript service actions/events types generator.
+      official: false
+      author: Jarvify
     - name: moldock
       link: https://github.com/amroessam/moldock
       desc: A CLI tool to deconstruct moleculer projects into their own dependant projects, to be able to dockerize them individually.
