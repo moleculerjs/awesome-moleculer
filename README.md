@@ -191,6 +191,7 @@
 - [moleculer-decorators](https://github.com/ColonelBundy/moleculer-decorators)  - ES7/TS decorators for Service declaration.
 - [moleculer-service-decorators](https://github.com/rmccallum81/moleculer-service-decorators)  - ES7/TS decorators for Service declaration.
 - [moleculer-ts](https://github.com/jarvify/moleculer-ts)  - TypeScript service actions/events types generator.
+- [moleculer-service-ts](https://github.com/bytetechnology/moleculer-service-ts)  - Typescript support for moleculer service actions and events.
 - [moldock](https://github.com/amroessam/moldock)  - A CLI tool to deconstruct moleculer projects into their own dependant projects, to be able to dockerize them individually.
 ## Polyglot Implementations
 ### Java
@@ -214,7 +215,6 @@
 - [zebbra](https://zebbra.ch/)
 - [Uiza](https://uiza.io)
 - [Distopik](https://www.mixanalog.com/?utm_medium=partner&utm_source=moleculer&utm_campaign=moleculer_footer_logo&utm_content=logo)
-- [AMRetail](http://amretail.ru)
 - [SmartTones Media](http://www.smarttonesmedia.com/)
 - [Textalk](https://www.textalk.com/)
 - [GetTechDone](https://www.gtechd.com/)
@@ -223,8 +223,6 @@
 - [Wino](https://wino.fr)
 - [YourSoft.run](https://www.yoursoft.run/)
 - [Instarem](https://www.instarem.com/)
-- [Wispay](https://www.wispay.io/)
-- [Kriblet](https://kriblet.com/)
 - [Ghost](https://ghost.org/)
 - [QOALA](https://www.qoala.id/)
 - [Koodoo](https://koodoo.io)
@@ -248,6 +246,7 @@
 - [Workpuls](https://www.workpuls.com/)
 - [Motivac](https://motivac.io)
 - [TuntsCorp](http://www.tuntscorp.com/site/)
+- [LALALAB](https://www.lalalab.com/en)
 
 # Contact
 
