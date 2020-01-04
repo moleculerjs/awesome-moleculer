@@ -112,6 +112,13 @@ databases:
     official: false
     author: cantecim
     display: unset
+  - name: moleculer-db-adapter-macrometa
+    link: 'https://github.com/moleculerjs/moleculer-db-adapter-macrometa'
+    desc: |
+      <a href="https://www.macrometa.co/">MacroMeta</a> adapter for Moleculer DB service.
+    official: true
+    author: icebob
+    display: unset
 metrics:
   - name: moleculer-console-tracer
     link: 'https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-console-tracer#readme'
@@ -440,6 +447,20 @@ tools:
       ES7/TS decorators for Service declaration.
     official: false
     author: rmccallum81
+    display: unset
+  - name: moleculer-ts
+    link: 'https://github.com/jarvify/moleculer-ts'
+    desc: |
+      TypeScript service actions/events types generator.
+    official: false
+    author: Jarvify
+    display: unset
+  - name: moleculer-service-ts
+    link: 'https://github.com/bytetechnology/moleculer-service-ts'
+    desc: |
+      Typescript support for moleculer service actions and events.
+    official: false
+    author: bytetechnology
     display: unset
   - name: moldock
     link: 'https://github.com/amroessam/moldock'
