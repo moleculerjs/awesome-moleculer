@@ -191,6 +191,8 @@
 - [moleculer-cli](https://moleculer.services/docs/0.13/moleculer-cli.html)![Official Moleculer Module][official]  - Command-Line Tool for development & testing.
 - [moleculer-decorators](https://github.com/ColonelBundy/moleculer-decorators)  - ES7/TS decorators for Service declaration.
 - [moleculer-service-decorators](https://github.com/rmccallum81/moleculer-service-decorators)  - ES7/TS decorators for Service declaration.
+- [moleculer-ts](https://github.com/jarvify/moleculer-ts)  - TypeScript service actions/events types generator.
+- [moleculer-service-ts](https://github.com/bytetechnology/moleculer-service-ts)  - Typescript support for moleculer service actions and events.
 - [moldock](https://github.com/amroessam/moldock)  - A CLI tool to deconstruct moleculer projects into their own dependant projects, to be able to dockerize them individually.
 ## Polyglot Implementations
 ### Java
