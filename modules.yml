@@ -48,7 +48,7 @@ resources:
         link: https://dankuida.com/moleculer-deployment-thoughts-8e0fc8c0fb07
       - name: Знакомимся с микросервисным фреймворком Moleculer
         link: https://habr.com/en/post/439810/
-        desc: \[The article is in russian]
+        desc: \[The article is in Russian]
       - name: Building microservices architecture with Node.js and Moleculer
         link: https://www.merixstudio.com/blog/microservices-nodejs-moleculer
       - name: Moleculer First Project
@@ -67,6 +67,9 @@ resources:
         link: https://medium.com/@joesithixaydouangchak/get-started-with-moleculer-microservices-framework-eddffb1ccb2e
       - name: Develop Ecommerce features using Microservice architecture
         link: https://medium.com/swlh/moleculer-develop-ecommerce-features-using-microservice-architecture-37a4a0d48788
+      - name: Escribiendo microservicios con Moleculer
+        link: https://pablomagaz.com/blog/escribiendo-microservicios-con-moleculer
+        desc: \[The article is in Spanish]
 
   talks:
     title: Videos
