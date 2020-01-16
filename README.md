@@ -75,6 +75,8 @@
 - [Get Started with Moleculer microservices framework](https://medium.com/@joesithixaydouangchak/get-started-with-moleculer-microservices-framework-eddffb1ccb2e) 
 - [Develop Ecommerce features using Microservice architecture](https://medium.com/swlh/moleculer-develop-ecommerce-features-using-microservice-architecture-37a4a0d48788) 
 - [Escribiendo microservicios con Moleculer](https://pablomagaz.com/blog/escribiendo-microservicios-con-moleculer)  - [The article is in Spanish]
+- [Moleculer Life Cycle](https://cybermemos.com/developent/javascripts/life-cycle-of-a-moleculer-project/)  - by Sasha Laventhan in Cyber Memos
+- [Moleculer Microservice Example](https://cybermemos.com/developent/javascripts/creating-moleculer-microservice-redis-caching/)  - by Sasha Laventhan in [Cyber Memos](https://github.com/cybermemos/currency_price_update)
 ### Videos
 - [Microservices 4 Real - Martín Acosta](https://www.youtube.com/watch?v=FrL8at9qGrQ)  - Talk _in Spanish_ from the JSDayUY 2017 about how a developer that used to work on monolithic apps started to learn and create a complete production app using a microservices architecture on top of Moleculer. [repo](https://github.com/tinchoz49/microservices-for-real)
 - [An Introduction to Moleculer JS](https://www.youtube.com/watch?v=t4YR6MWrugw)  - Video tutorial explaining Moleculer's core concepts and [template project](https://moleculer.services/docs/0.13/usage.html#Create-a-Moleculer-project)

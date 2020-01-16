@@ -70,6 +70,12 @@ resources:
       - name: Escribiendo microservicios con Moleculer
         link: https://pablomagaz.com/blog/escribiendo-microservicios-con-moleculer
         desc: \[The article is in Spanish]
+      - name: Moleculer Life Cycle
+        link: https://cybermemos.com/developent/javascripts/life-cycle-of-a-moleculer-project/
+        desc: by Sasha Laventhan in Cyber Memos
+      - name: Moleculer Microservice Example
+        link: https://cybermemos.com/developent/javascripts/creating-moleculer-microservice-redis-caching/
+        desc: by Sasha Laventhan in [Cyber Memos](https://github.com/cybermemos/currency_price_update)
 
   talks:
     title: Videos
