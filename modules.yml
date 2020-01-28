@@ -261,6 +261,11 @@ services:
         desc: \[MacroMeta](https://www.macrometa.co/) adapter for Moleculer DB service.
         official: true
         author: icebob
+      - name: moleculer-db-adapter-orientdb
+        link: https://github.com/saeedtabrizi/moleculer-db-adapter-orientdb
+        desc: Moleculer [orientDB](https://orientdb.com/) database adapter.
+        official: false
+        author: saeedtabrizi
   metrics:
     title: Metrics and Tracing
     to-pub-on-site: true
