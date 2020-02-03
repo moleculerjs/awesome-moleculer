@@ -182,6 +182,7 @@
 - [moleculer-faktory](https://github.com/YourSoftRun/moleculer-faktory#readme)  - Task queue mixin for [Faktory](https://contribsys.com/faktory/)
 - [moleculer-cron](https://github.com/davidroman0O/moleculer-cron#readme)  - Cron mixin [Node-Cron](https://github.com/kelektiv/node-cron)
 - [moleculer-amqp-queue](https://github.com/lehno/moleculer-amqp-queue#readme)  - Task queue mixin for [AMQP](https://www.amqp.org/)
+- [moleculer-bullmq](https://github.com/Hugome/moleculer-bullmq#readme)  - Task queue mixin for [BullMq](https://github.com/taskforcesh/bullmq)
 ### Validation
 - [fastest-validator](https://moleculer.services/docs/0.13/validating.html#Built-in-validator)![Official Moleculer Module][official]  - Moleculer's default validator is based on [fastest-validator](https://github.com/icebob/fastest-validator)
 - [Joi](https://moleculer.services/docs/0.13/validating.html#Create-a-Joi-validator)![Official Moleculer Module][official]  - [Joi](https://github.com/hapijs/joi) based validator

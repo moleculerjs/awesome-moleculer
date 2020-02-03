@@ -397,6 +397,12 @@ tasks:
     official: false
     author: lehno
     display: unset
+  - name: moleculer-bullmq
+    link: 'https://github.com/Hugome/moleculer-bullmq#readme'
+    desc: |
+      Task queue mixin for <a href="https://github.com/taskforcesh/bullmq">BullMq</a>
+    author: Hugome
+    display: unset
 validation:
   - name: fastest-validator
     link: 'https://moleculer.services/docs/0.13/validating.html#Built-in-validator'
