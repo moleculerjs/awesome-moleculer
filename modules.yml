@@ -529,6 +529,10 @@ mixins:
         desc: Task queue mixin for [AMQP](https://www.amqp.org/)
         official: false
         author: lehno
+      - name: moleculer-bullmq
+        link: https://github.com/Hugome/moleculer-bullmq#readme
+        desc: Task queue mixin for [BullMq](https://github.com/taskforcesh/bullmq)
+        author: Hugome
 
   validation:
     title: Validation
