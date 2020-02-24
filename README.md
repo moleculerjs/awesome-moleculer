@@ -61,6 +61,7 @@
 - [REPL Cheatsheets](https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer-repl.sh)  - Cheatsheet for official RELP tool
 - [CLI Cheatsheets](https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer-cli.sh)  - Cheatsheet for Moleculer's command-line interface (CLI)
 ### Articles and Blog Posts
+- [Moleculer v0.14 — Making Microservices Accessible for Everyone](https://medium.com/moleculer/moleculer-v0-14-making-microservices-accessible-for-everyone-eadeefa5156c) 
 - [5 easy steps to create your REST microservice in NodeJS](https://medium.com/moleculer/5-easy-steps-to-create-your-rest-microservice-in-nodejs-94aede3249fc) 
 - [What are microservices and how to create one with Node and Moleculer.js](https://medium.com/@r.heygate.dev/microservices-with-moleculer-js-c7e68803ec09) 
 - [Moleculer — deployment thoughts](https://dankuida.com/moleculer-deployment-thoughts-8e0fc8c0fb07) 
@@ -252,6 +253,8 @@
 - [Motivac](https://motivac.io)
 - [TuntsCorp](http://www.tuntscorp.com/site/)
 - [LALALAB](https://www.lalalab.com/en)
+- [AdmitKard](https://www.admitkard.com/)
+- [Integrity](https://integrity.ooo/)
 
 # Contact
 

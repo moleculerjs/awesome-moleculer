@@ -40,6 +40,8 @@ resources:
   articles:
     title: Articles and Blog Posts
     entries:
+      - name: Moleculer v0.14 — Making Microservices Accessible for Everyone
+        link: https://medium.com/moleculer/moleculer-v0-14-making-microservices-accessible-for-everyone-eadeefa5156c
       - name: 5 easy steps to create your REST microservice in NodeJS
         link: https://medium.com/moleculer/5-easy-steps-to-create-your-rest-microservice-in-nodejs-94aede3249fc
       - name: What are microservices and how to create one with Node and Moleculer.js
