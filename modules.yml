@@ -128,6 +128,9 @@ examples:
       - name: StretchShop
         link: https://github.com/Wradgio/StretchShop
         desc: Fast & scalable e-business REST API backend based on Moleculer framework, which makes it easy to run as monolithic or microservices application.
+      - name: Catalyst
+        link: https://github.com/derekbar90/catalyst
+        desc: NodeJS Microservices Boilerplate - Moleculer, GraphQL, REST, OAuth2, Jaeger, Grafana, Prometheus
 
   sandboxes:
     title: Sandboxes on Codesandbox.io
@@ -381,6 +384,11 @@ services:
         desc: \[OAuth2](https://oauth.net/2/) Service
         official: false
         author: zerocowl
+      - name: moleculer-iam
+        link: https://github.com/qmit-pro/moleculer-iam
+        desc: Centralized IAM module for moleculer.
+        official: false
+        author: qmit-pro
   others:
     title: Others
     to-pub-on-site: true
@@ -482,6 +490,14 @@ middlewares:
         link: https://github.com/Embraser01/moleculer-middleware-permissions
         desc: A middleware solution to validate permissions of a request.
         author: Embraser01
+
+  database:
+    title: Database
+    entries:
+      - name: moleculer-middleware-permissions
+        link: https://github.com/bytetechnology/moleculer-context-db
+        desc: A database integrator for injecting a transaction safe database session into the context of the action.
+        author: bytetechnology
 
 mixins:
   title: Mixins
@@ -609,6 +625,11 @@ tools:
       desc: A CLI tool to deconstruct moleculer projects into their own dependant projects, to be able to dockerize them individually.
       official: false
       author: amroessam
+    - name: fastest-validator-decorators
+      link: https://github.com/tobydeh/fastest-validator-decorators
+      desc: Typescript decorators for the fastest-validator library.
+      official: false
+      author: tobydeh
 
 polyglot:
   title: Polyglot Implementations

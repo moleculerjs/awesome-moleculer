@@ -32,6 +32,7 @@
 - [Middlewares](#middlewares)
     - [General](#general)
     - [Security](#security)
+    - [Database](#database)
 - [Mixins](#mixins)
     - [Database](#database)
     - [Tasks, Queues and Jobs](#tasks-queues-and-jobs)
@@ -94,6 +95,7 @@
 - [moleculer-mysql-template](https://github.com/AGenson/moleculer-mysql-template)  - Moleculer template for creating a secure web api, with a remote MySQL database, and a default account management.
 - [moleculerjs-boilerplate](https://github.com/pankod/moleculerjs-boilerplate)  - A well-structured Moleculer JS Boilerplate with Typescript, CLI, Service Helpers, Swagger, Jest support and everything you'll ever need to deploy rock solid projects.
 - [StretchShop](https://github.com/Wradgio/StretchShop)  - Fast & scalable e-business REST API backend based on Moleculer framework, which makes it easy to run as monolithic or microservices application.
+- [Catalyst](https://github.com/derekbar90/catalyst)  - NodeJS Microservices Boilerplate - Moleculer, GraphQL, REST, OAuth2, Jaeger, Grafana, Prometheus
 ### Sandboxes on Codesandbox.io
 - [Simple project](https://codesandbox.io/s/github/moleculerjs/sandbox-moleculer-project)  - Moleculer + Moleculer Web + Greeter service
 - [API routing example](https://codesandbox.io/s/github/moleculerjs/sandbox-moleculer-api-routing)  - Moleculer + Moleculer Web + Routing examples
@@ -150,6 +152,7 @@
 - [moleculer-antivirus](https://github.com/designtesbrot/moleculer-antivirus)  - Service for [ClamAV](https://www.clamav.net/) Antivirus Scanning
 - [moleculer-vault](https://github.com/designtesbrot/moleculer-vault)  - Service for [HashiCorp's Vault](https://www.vaultproject.io/)
 - [oauth-moleculer](https://github.com/zerocowl/oauth-moleculer)  - [OAuth2](https://oauth.net/2/) Service
+- [moleculer-iam](https://github.com/qmit-pro/moleculer-iam)  - Centralized IAM module for moleculer.
 ### Others
 - [imicros-flow](https://github.com/al66/imicros-flow)  - Service for loose coupled event handling
 - [serverless-moleculer](https://github.com/davidroman0O/serverless-moleculer)  - Serverless Framework handler for Moleculer
@@ -172,6 +175,8 @@
 - [Health-check middleware](https://gist.github.com/icebob/c717ae22002b9ecaa4b253a67952da3a)  - Health-check middleware for Moleculer (for Kubernetes liveness readiness checks)
 ### Security
 - [moleculer-middleware-permissions](https://github.com/Embraser01/moleculer-middleware-permissions)  - A middleware solution to validate permissions of a request.
+### Database
+- [moleculer-middleware-permissions](https://github.com/bytetechnology/moleculer-context-db)  - A database integrator for injecting a transaction safe database session into the context of the action.
 ## Mixins
 ### Database
 - [Memoize mixin for Moleculer services methods](https://gist.github.com/icebob/40a612ec3c453347aef7a808b82ab747)  - Caching for Moleculer service [methods](https://moleculer.services/docs/0.13/services.html#Methods)
@@ -199,6 +204,7 @@
 - [moleculer-ts](https://github.com/jarvify/moleculer-ts)  - TypeScript service actions/events types generator.
 - [moleculer-service-ts](https://github.com/bytetechnology/moleculer-service-ts)  - Typescript support for moleculer service actions and events.
 - [moldock](https://github.com/amroessam/moldock)  - A CLI tool to deconstruct moleculer projects into their own dependant projects, to be able to dockerize them individually.
+- [fastest-validator-decorators](https://github.com/tobydeh/fastest-validator-decorators)  - Typescript decorators for the fastest-validator library.
 ## Polyglot Implementations
 ### Java
 - [moleculer-java](https://github.com/moleculer-java)  - Java implementation of the Moleculer microservices framework.
@@ -255,6 +261,10 @@
 - [LALALAB](https://www.lalalab.com/en)
 - [AdmitKard](https://www.admitkard.com/)
 - [Integrity](https://integrity.ooo/)
+- [TinkerLink](https://tinkerlink.com/)
+- [eDoctor](https://edoctor.io/)
+- [SmartFocus](https://www.smartfocus.com/)
+- [SwissDevJobs](https://swissdevjobs.ch/)
 
 # Contact
 
