@@ -262,6 +262,13 @@ security:
     official: false
     author: zerocowl
     display: none
+  - name: moleculer-iam
+    link: 'https://github.com/qmit-pro/moleculer-iam'
+    desc: |
+      Centralized IAM module for moleculer.
+    official: false
+    author: qmit-pro
+    display: unset
 others:
   - name: imicros-flow
     link: 'https://github.com/al66/imicros-flow'
@@ -481,4 +488,11 @@ tools:
       A CLI tool to deconstruct moleculer projects into their own dependant projects, to be able to dockerize them individually.
     official: false
     author: amroessam
+    display: unset
+  - name: fastest-validator-decorators
+    link: 'https://github.com/tobydeh/fastest-validator-decorators'
+    desc: |
+      Typescript decorators for the fastest-validator library.
+    official: false
+    author: tobydeh
     display: unset
