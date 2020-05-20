@@ -173,6 +173,9 @@ templates:
       - name: moleculer-template-nano-typescript
         link: https://github.com/moleculerjs/moleculer-template-nano-typescript
         desc: Minimal project template for Typescript project.
+			- name: moleculer-template-project-ts
+			  link: https://github.com/d0whc3r/moleculer-template-project-ts
+				desc: Project template for typescript including decorators and more
 
 
 services:
