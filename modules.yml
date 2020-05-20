@@ -176,7 +176,7 @@ templates:
       - name: moleculer-template-project-ts
         link: https://github.com/d0whc3r/moleculer-template-project-ts
         desc: Project template for typescript including decorators and more
-				author: d0whc3r
+        author: d0whc3r
 
 
 services:
