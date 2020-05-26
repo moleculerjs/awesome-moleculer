@@ -130,7 +130,7 @@ examples:
         desc: Fast & scalable e-business REST API backend based on Moleculer framework, which makes it easy to run as monolithic or microservices application.
       - name: Catalyst
         link: https://github.com/derekbar90/catalyst
-        desc: NodeJS Microservices Boilerplate - Moleculer, GraphQL, REST, OAuth2, Jaeger, Grafana, Prometheus
+        desc: NodeJS Microservices Boilerplate - Typescript NodeJS Microservices Boilerplate with Generator CLI - Moleculer, GraphQL, REST, OAuth2, Jaeger, Grafana, Prometheus, Ory Hydra, Ory Keto w/ Access Control middleware, Moleculer-DB GraphQL mixin, Pug, Redis, sibling client repo (login, persistance layer, react-native-web, ios, android)
 
   sandboxes:
     title: Sandboxes on Codesandbox.io
