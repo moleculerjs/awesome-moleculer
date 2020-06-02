@@ -79,6 +79,7 @@
 - [Escribiendo microservicios con Moleculer](https://pablomagaz.com/blog/escribiendo-microservicios-con-moleculer)  - [The article is in Spanish]
 - [Moleculer Life Cycle](https://cybermemos.com/developent/javascripts/life-cycle-of-a-moleculer-project/)  - by Sasha Laventhan in Cyber Memos
 - [Moleculer Microservice Example](https://cybermemos.com/developent/javascripts/creating-moleculer-microservice-redis-caching/)  - by Sasha Laventhan in [Cyber Memos](https://github.com/cybermemos/currency_price_update)
+- [How to host Moleculer in Firebase](https://medium.com/@rzvdaniel_71068/how-to-host-moleculer-in-firebase-fd36fa4e91f7) 
 ### Videos
 - [Microservices 4 Real - Martín Acosta](https://www.youtube.com/watch?v=FrL8at9qGrQ)  - Talk _in Spanish_ from the JSDayUY 2017 about how a developer that used to work on monolithic apps started to learn and create a complete production app using a microservices architecture on top of Moleculer. [repo](https://github.com/tinchoz49/microservices-for-real)
 - [An Introduction to Moleculer JS](https://www.youtube.com/watch?v=t4YR6MWrugw)  - Video tutorial explaining Moleculer's core concepts and [template project](https://moleculer.services/docs/0.13/usage.html#Create-a-Moleculer-project)
@@ -96,6 +97,7 @@
 - [moleculerjs-boilerplate](https://github.com/pankod/moleculerjs-boilerplate)  - A well-structured Moleculer JS Boilerplate with Typescript, CLI, Service Helpers, Swagger, Jest support and everything you'll ever need to deploy rock solid projects.
 - [StretchShop](https://github.com/Wradgio/StretchShop)  - Fast & scalable e-business REST API backend based on Moleculer framework, which makes it easy to run as monolithic or microservices application.
 - [Catalyst](https://github.com/derekbar90/catalyst)  - NodeJS Microservices Boilerplate - Typescript NodeJS Microservices Boilerplate with Generator CLI - Moleculer, GraphQL, REST, OAuth2, Jaeger, Grafana, Prometheus, Ory Hydra, Ory Keto w/ Access Control middleware, Moleculer-DB GraphQL mixin, Pug, Redis, sibling client repo (login, persistance layer, react-native-web, ios, android)
+- [Cards Against Formality](https://github.com/jordanpawlett/cards-against-formality-services)  - Cards Against Formality aims to be a web based clone of the popular card game "Cards against humanity". TypeScript + Kubernetes + Skaffold + authorization + scaled socket connections
 ### Sandboxes on Codesandbox.io
 - [Simple project](https://codesandbox.io/s/github/moleculerjs/sandbox-moleculer-project)  - Moleculer + Moleculer Web + Greeter service
 - [API routing example](https://codesandbox.io/s/github/moleculerjs/sandbox-moleculer-api-routing)  - Moleculer + Moleculer Web + Routing examples
@@ -268,6 +270,9 @@
 - [SwissDevJobs](https://swissdevjobs.ch/)
 - [Akay Tour](http://akaytour.com/)
 - [Соната](https://sonatazvit.com.ua/)
+- [Cards Against Formality](https://cardsagainstformality.io/)
+- [TIKAJ](https://www.tikaj.com/)
+- [Doubtnut](https://doubtnut.com/)
 
 # Contact
 
