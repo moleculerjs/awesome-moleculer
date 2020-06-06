@@ -151,6 +151,7 @@
 - [moleculer-flydrive](https://github.com/molobala/moleculer-flydrive#readme)  - Storage manager service with [Node Flydrive](https://github.com/Slynova-Org/node-flydrive).
 - [moleculer-markdown](https://github.com/alsofronie/moleculer-markdown#readme)  - Markdown to HTML Service
 - [moleculer-typetalk](https://github.com/is2ei/moleculer-typetalk#readme)  - Send Messages to [Typetalk](https://www.typetalk.com)
+- [moleculer-data-provider](https://github.com/RancaguaInnova/moleculer-data-provider)  - React-Admin Data provider to interact with Moleculer Services APIs
 ### Security, Authentication and Authorization
 - [moleculer-protect-services](https://github.com/icebob/moleculer-protect-services)![Official Moleculer Module][official]  - [JWT](https://jwt.io/) protection for service actions
 - [imicros-auth](https://github.com/al66/imicros-auth)  - Authentication, Authorization and ACL services
