@@ -122,6 +122,7 @@
 - [moleculer-io](https://github.com/tiaod/moleculer-io)  - Socket.IO-based gateway
 - [moleculer-socketio](https://github.com/davidroman0O/moleculer-socketio)  - Manage Socket.IO events like actions in services
 - [hapi-moleculer](https://github.com/felipegcampos/hapi-moleculer)  - [Hapi](https://hapijs.com/) plugin for the Moleculer.
+- [moleculer-grpc-api](https://github.com/brunonunes/moleculer-grpc-api) - [gRPC](https://grpc.io/) server for Moleculer.
 ### Databases and Stores
 - [moleculer-db](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db#readme)![Official Moleculer Module][official]  - A [NeDB](https://github.com/louischatriot/nedb)-based service to persist your data
 - [moleculer-db-adapter-mongo](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-mongo#readme)![Official Moleculer Module][official]  - A [MongoDB](https://mongodb.github.io/node-mongodb-native/)-based service to persist your data

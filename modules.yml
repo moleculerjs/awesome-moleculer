@@ -228,6 +228,12 @@ services:
         desc: \[Hapi](https://hapijs.com/) plugin for the Moleculer.
         official: false
         author: felipegcampos
+      - name: moleculer-grpc-api
+        link: https://github.com/brunonunes/moleculer-grpc-api
+        desc: \[gRPC](https://grpc.io/) server for Moleculer.
+        official: false
+        author: brunonunes
+
 
   databases:
     title: Databases and Stores
