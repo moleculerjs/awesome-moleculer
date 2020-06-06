@@ -48,6 +48,13 @@ gateway:
     official: false
     author: felipegcampos
     display: unset
+  - name: moleculer-grpc-api
+    link: 'https://github.com/brunonunes/moleculer-grpc-api'
+    desc: |
+      <a href="https://grpc.io/">gRPC</a> server for Moleculer.
+    official: false
+    author: brunonunes
+    display: unset
 databases:
   - name: moleculer-db
     link: 'https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db#readme'
