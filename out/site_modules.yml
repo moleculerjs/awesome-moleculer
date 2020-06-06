@@ -233,6 +233,13 @@ general:
     official: false
     author: is2ei
     display: unset
+  - name: moleculer-data-provider
+    link: 'https://github.com/RancaguaInnova/moleculer-data-provider'
+    desc: |
+      React-Admin Data provider to interact with Moleculer Services APIs
+    official: false
+    author: RancaguaInnova
+    display: unset
 security:
   - name: moleculer-protect-services
     link: 'https://github.com/icebob/moleculer-protect-services'
