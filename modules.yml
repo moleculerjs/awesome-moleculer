@@ -372,6 +372,11 @@ services:
         desc: Send Messages to [Typetalk](https://www.typetalk.com)
         official: false
         author: is2ei
+			- name: moleculer-data-provider
+			  link: https://github.com/RancaguaInnova/moleculer-data-provider
+				desc: React-Admin Data provider to interact with Moleculer Services APIs
+				official: false
+				author: RancaguaInnova
   security:
     title: Security, Authentication and Authorization
     to-pub-on-site: true
