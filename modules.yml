@@ -138,6 +138,10 @@ examples:
       - name: Cards Against Formality
         link: https://github.com/jordanpawlett/cards-against-formality-services
         desc: Cards Against Formality aims to be a web based clone of the popular card game "Cards against humanity". TypeScript + Kubernetes + Skaffold + authorization + scaled socket connections
+      - name: moleculer-barebone
+        link: https://github.com/manjufy/moleculer-bare
+        desc: Barebone Moleculer With A Gateway and Service (Run without moleculer-runner)
+        author: Manjunath Reddy
 
   sandboxes:
     title: Sandboxes on Codesandbox.io
