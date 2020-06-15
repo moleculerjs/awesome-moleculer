@@ -181,6 +181,7 @@
 - [Health-check middleware](https://gist.github.com/icebob/c717ae22002b9ecaa4b253a67952da3a)  - Health-check middleware for Moleculer (for Kubernetes liveness readiness checks)
 ### Security
 - [moleculer-middleware-permissions](https://github.com/Embraser01/moleculer-middleware-permissions)  - A middleware solution to validate permissions of a request.
+- [moleculer-keto](https://github.com/derekbar90/moleculer-keto)  - [Ory Keto](https://www.ory.sh/keto/docs/) Middleware and Mixin for an extensible permissions layer. [NPM](https://www.npmjs.com/package/@thesatoshicompany/moleculer-keto)
 ### Database
 - [moleculer-middleware-permissions](https://github.com/bytetechnology/moleculer-context-db)  - A database integrator for injecting a transaction safe database session into the context of the action.
 ## Mixins
@@ -202,6 +203,7 @@
 - [ts-transformer-json-schema](https://github.com/ipetrovic11/ts-transformer-json-schema)  - Use Typescript Intefraces as validator.
 ### GraphQL
 - [moleculer-postgraphile](https://github.com/ltv/moleculer-postgraphile)  - [Postgraphile](https://www.graphile.org/) Create postgraphile service for automatically detects tables, columns, indexes, relationships, views, types, functions, comments, and more.
+- [moleculer-db-graphql](https://github.com/derekbar90/moleculer-db-graphql)  - Complementary mixin which provides a graphql schema that matches those exposed my moleculer-db. [NPM](https://www.npmjs.com/package/@thesatoshicompany/moleculer-db-graphql)
 ## Tools
 - [moleculer-repl](https://moleculer.services/docs/0.13/moleculer-repl.html)![Official Moleculer Module][official]  - Interactive developer console.
 - [moleculer-cli](https://moleculer.services/docs/0.13/moleculer-cli.html)![Official Moleculer Module][official]  - Command-Line Tool for development & testing.
@@ -216,6 +218,7 @@
 - [moleculer-java](https://github.com/moleculer-java)  - Java implementation of the Moleculer microservices framework.
 ### Python
 - [moleculer-python](https://github.com/ToGoBananas/moleculer-python)  - Python implementation of the Moleculer microservices framework.
+- [moleculer-client](https://github.com/CaioFilus/moleculer-client)  - Simple Client to communicate with Moleculer services using NATS.
 ### .NET Core
 - [moleculer-net](https://github.com/alexandredenes/moleculer-net)  - NET Core 2.1 implementation of the Moleculer microservices framework.
 ### Go

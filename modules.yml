@@ -412,6 +412,7 @@ services:
         desc: Centralized IAM module for moleculer.
         official: false
         author: qmit-pro
+
   others:
     title: Others
     to-pub-on-site: true
@@ -513,6 +514,11 @@ middlewares:
         link: https://github.com/Embraser01/moleculer-middleware-permissions
         desc: A middleware solution to validate permissions of a request.
         author: Embraser01
+      - name: moleculer-keto
+        link: https://github.com/derekbar90/moleculer-keto
+        desc: \[Ory Keto](https://www.ory.sh/keto/docs/) Middleware and Mixin for an extensible permissions layer. [NPM](https://www.npmjs.com/package/@thesatoshicompany/moleculer-keto)
+        official: false
+        author: derekbar90
 
   database:
     title: Database
@@ -608,6 +614,11 @@ mixins:
         desc: /[Postgraphile](https://www.graphile.org/) Create postgraphile service for automatically detects tables, columns, indexes, relationships, views, types, functions, comments, and more.
         official: false
         author: ltv
+      - name: moleculer-db-graphql
+        link: https://github.com/derekbar90/moleculer-db-graphql
+        desc: Complementary mixin which provides a graphql schema that matches those exposed my moleculer-db. [NPM](https://www.npmjs.com/package/@thesatoshicompany/moleculer-db-graphql)
+        official: false
+        author: derekbar90
 
 tools:
   title: Tools
@@ -670,6 +681,9 @@ polyglot:
       - name: moleculer-python
         link: https://github.com/ToGoBananas/moleculer-python
         desc: Python implementation of the Moleculer microservices framework.
+      - name: moleculer-client
+        link: https://github.com/CaioFilus/moleculer-client
+        desc: Simple Client to communicate with Moleculer services using NATS.
 
   net-core:
     title: .NET Core
