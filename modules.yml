@@ -664,7 +664,12 @@ tools:
       desc: Typescript decorators for the fastest-validator library.
       official: false
       author: tobydeh
-
+    - name: moleculer-snippets
+      link: https://github.com/pavittarx/moleculer-snippets
+      desc: vscode extension for inserting moleculerjs code snippets
+      official: false
+      author: pavittarx
+      
 polyglot:
   title: Polyglot Implementations
 
