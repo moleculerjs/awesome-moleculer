@@ -510,3 +510,10 @@ tools:
     official: false
     author: tobydeh
     display: unset
+  - name: moleculer-snippets
+    link: 'https://github.com/pavittarx/moleculer-snippets'
+    desc: |
+      vscode extension for inserting moleculerjs code snippets
+    official: false
+    author: pavittarx
+    display: none
