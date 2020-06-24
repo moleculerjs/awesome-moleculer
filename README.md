@@ -52,9 +52,10 @@
 - [Website](https://moleculer.services/) 
 - [Docs](https://moleculer.services/docs) 
 - [Blog](https://medium.com/moleculer) 
-- [Gitter](https://gitter.im/moleculerjs/moleculer) 
+- [Discord chat](https://discord.gg/TSEcDRP) 
 - [Twitter](https://twitter.com/MoleculerJS) 
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/moleculer) 
+- [Telegram [Russian Community]](https://t.me/moleculerchat) 
 ### Cheatsheets
 - [Core Cheatsheets](https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer.js)  - Cheatsheet for Moleculer's core functionalities.
 - [Web Gateway Cheatsheets](https://github.com/moleculerjs/moleculer-cheatsheets/blob/master/moleculer-web.js)  - Cheatsheet for official gateway
@@ -279,6 +280,8 @@
 - [Cards Against Formality](https://cardsagainstformality.io/)
 - [TIKAJ](https://www.tikaj.com/)
 - [Doubtnut](https://doubtnut.com/)
+- [2Labs Technology](https://2labs.com.br/)
+- [Prabandhak](https://reverieinc.com/prabandhak)
 
 # Contact
 

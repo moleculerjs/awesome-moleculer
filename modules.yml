@@ -11,12 +11,14 @@ resources:
         link: https://moleculer.services/docs
       - name: Blog
         link: https://medium.com/moleculer
-      - name: Gitter
-        link: https://gitter.im/moleculerjs/moleculer
+      - name: Discord chat
+        link: https://discord.gg/TSEcDRP
       - name: Twitter
         link: https://twitter.com/MoleculerJS
       - name: Stack Overflow
         link: https://stackoverflow.com/questions/tagged/moleculer
+      - name: Telegram [Russian Community]
+        link: https://t.me/moleculerchat
 
   cheatsheets:
     title: Cheatsheets
