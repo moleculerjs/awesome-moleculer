@@ -94,7 +94,9 @@ resources:
       - name: An Introduction to Moleculer JS
         link: https://www.youtube.com/watch?v=t4YR6MWrugw
         desc: Video tutorial explaining Moleculer's core concepts and [template project](https://moleculer.services/docs/0.13/usage.html#Create-a-Moleculer-project)
-
+      - name: Обзор MoleculerJS
+        link: https://www.youtube.com/watch?v=H8gl5IpDWKA
+        desc: The video is in Russian
 
 examples:
   title: Examples

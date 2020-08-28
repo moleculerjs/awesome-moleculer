@@ -85,6 +85,7 @@
 ### Videos
 - [Microservices 4 Real - Martín Acosta](https://www.youtube.com/watch?v=FrL8at9qGrQ)  - Talk _in Spanish_ from the JSDayUY 2017 about how a developer that used to work on monolithic apps started to learn and create a complete production app using a microservices architecture on top of Moleculer. [repo](https://github.com/tinchoz49/microservices-for-real)
 - [An Introduction to Moleculer JS](https://www.youtube.com/watch?v=t4YR6MWrugw)  - Video tutorial explaining Moleculer's core concepts and [template project](https://moleculer.services/docs/0.13/usage.html#Create-a-Moleculer-project)
+- [Обзор MoleculerJS](https://www.youtube.com/watch?v=H8gl5IpDWKA)  - The video is in Russian
 ## Examples
 ### Repositories
 - [Conduit](https://github.com/moleculerjs/moleculer-examples/tree/master/conduit)  - Moleculer + Moleculer Web + Moleculer-DB + MongoDB + JWT + Redis Cacher + Docker
@@ -283,6 +284,10 @@
 - [Doubtnut](https://doubtnut.com/)
 - [2Labs Technology](https://2labs.com.br/)
 - [Prabandhak](https://reverieinc.com/prabandhak)
+- [FairManager](https://fairmanager.de/)
+- [FINFORT](https://finfort.ru/)
+- [Zimpligital](https://zimpligital.com)
+- [Gurucan](https://www.gurucan.com/)
 
 # Contact
 
