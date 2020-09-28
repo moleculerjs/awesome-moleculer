@@ -122,7 +122,7 @@ examples:
         link: https://github.com/jiangzhuo/nestjs-moleculer
         desc: Moleculer Module For Nestjs Framework
       - name: moleculer-docker-development
-        link: https://github.com/nickreese/moleculer-docker-development
+        link: https://github.com/funcode50/moleculer-docker-development
         desc: Simple development enviroment for moleculer with Docker
       - name: moleculer-exploration
         link: https://github.com/simsieg/Moleculer-exploration
