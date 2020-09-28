@@ -295,7 +295,7 @@ services:
         author: icebob
       - name: moleculer-db-adapter-orientdb
         link: https://github.com/saeedtabrizi/moleculer-db-adapter-orientdb
-        desc: Moleculer [orientDB](https://orientdb.com/) database adapter.
+        desc: Moleculer [orientDB](https://orientdb.org/) database adapter.
         official: false
         author: saeedtabrizi
   metrics:
