@@ -94,7 +94,7 @@
 - [Moleculer + Babel Example Starter](https://github.com/tinchoz49/moleculer-babel-example) 
 - [moleculer-nextjs](https://github.com/davidroman0O/moleculer-nextjs)  - Server-Side Rendering with Moleculer
 - [nestjs-moleculer](https://github.com/jiangzhuo/nestjs-moleculer)  - Moleculer Module For Nestjs Framework
-- [moleculer-docker-development](https://github.com/nickreese/moleculer-docker-development)  - Simple development enviroment for moleculer with Docker
+- [moleculer-docker-development](https://github.com/funcode50/moleculer-docker-development)  - Simple development enviroment for moleculer with Docker
 - [moleculer-exploration](https://github.com/simsieg/Moleculer-exploration)  - Simple microservices communicating via MoleculerJS.
 - [moleculer-mysql-template](https://github.com/AGenson/moleculer-mysql-template)  - Moleculer template for creating a secure web api, with a remote MySQL database, and a default account management.
 - [moleculerjs-boilerplate](https://github.com/pankod/moleculerjs-boilerplate)  - A well-structured Moleculer JS Boilerplate with Typescript, CLI, Service Helpers, Swagger, Jest support and everything you'll ever need to deploy rock solid projects.
@@ -136,7 +136,7 @@
 - [moleculer-gundb](https://github.com/smart-matrix/moleculer-gundb)  - A [GunDB](https://gun.eco) mixins for Moleculer DB service.
 - [moleculer-db-adapter-rethinkdb](https://github.com/cantecim/moleculer-db-adapter-rethinkdb)  - A [RethinkDB](https://www.rethinkdb.com/) Moleculer service mixin.
 - [moleculer-db-adapter-macrometa](https://github.com/moleculerjs/moleculer-db-adapter-macrometa)![Official Moleculer Module][official]  - [MacroMeta](https://www.macrometa.co/) adapter for Moleculer DB service.
-- [moleculer-db-adapter-orientdb](https://github.com/saeedtabrizi/moleculer-db-adapter-orientdb)  - Moleculer [orientDB](https://orientdb.com/) database adapter.
+- [moleculer-db-adapter-orientdb](https://github.com/saeedtabrizi/moleculer-db-adapter-orientdb)  - Moleculer [orientDB](https://orientdb.org/) database adapter.
 ### Metrics and Tracing
 - [moleculer-console-tracer](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-console-tracer#readme)![Official Moleculer Module][official]  - Console-based service
 - [moleculer-jaeger](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-jaeger#readme)![Official Moleculer Module][official]  - [Jaeger](https://www.jaegertracing.io/)-based metrics service
@@ -180,7 +180,7 @@
 ### General
 - [Inter-namespace](https://gist.github.com/icebob/c0bce54436379d29c1bee8521ceb5348)  - This middleware can connect to other namespaces.
 - [Saga middleware PoC](https://gist.github.com/icebob/c75d4d532c0d7783eb924a96110b9020)  - Proof of Concept of SAGA pattern.
-- [Health-check middleware](https://gist.github.com/icebob/c717ae22002b9ecaa4b253a67952da3a)  - Health-check middleware for Moleculer (for Kubernetes liveness readiness checks)
+- [Health-check middleware](https://github.com/r2d2bzh/moleculer-healthcheck-middleware)  - Health-check middleware for Moleculer (for Kubernetes liveness readiness checks)
 ### Security
 - [moleculer-middleware-permissions](https://github.com/Embraser01/moleculer-middleware-permissions)  - A middleware solution to validate permissions of a request.
 - [moleculer-keto](https://github.com/derekbar90/moleculer-keto)  - [Ory Keto](https://www.ory.sh/keto/docs/) Middleware and Mixin for an extensible permissions layer. [NPM](https://www.npmjs.com/package/@thesatoshicompany/moleculer-keto)
@@ -288,6 +288,8 @@
 - [FINFORT](https://finfort.ru/)
 - [Zimpligital](https://zimpligital.com)
 - [Gurucan](https://www.gurucan.com/)
+- [Knawat](https://www.knawat.com/)
+- [Q-net](https://q-net.pro/)
 
 # Contact
 

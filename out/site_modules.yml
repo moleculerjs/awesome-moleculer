@@ -129,7 +129,7 @@ databases:
   - name: moleculer-db-adapter-orientdb
     link: 'https://github.com/saeedtabrizi/moleculer-db-adapter-orientdb'
     desc: |
-      Moleculer <a href="https://orientdb.com/">orientDB</a> database adapter.
+      Moleculer <a href="https://orientdb.org/">orientDB</a> database adapter.
     official: false
     author: saeedtabrizi
     display: unset
