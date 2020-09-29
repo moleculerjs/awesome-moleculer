@@ -122,7 +122,7 @@ examples:
         link: https://github.com/jiangzhuo/nestjs-moleculer
         desc: Moleculer Module For Nestjs Framework
       - name: moleculer-docker-development
-        link: https://github.com/nickreese/moleculer-docker-development
+        link: https://github.com/funcode50/moleculer-docker-development
         desc: Simple development enviroment for moleculer with Docker
       - name: moleculer-exploration
         link: https://github.com/simsieg/Moleculer-exploration
@@ -295,7 +295,7 @@ services:
         author: icebob
       - name: moleculer-db-adapter-orientdb
         link: https://github.com/saeedtabrizi/moleculer-db-adapter-orientdb
-        desc: Moleculer [orientDB](https://orientdb.com/) database adapter.
+        desc: Moleculer [orientDB](https://orientdb.org/) database adapter.
         official: false
         author: saeedtabrizi
   metrics:
@@ -507,9 +507,9 @@ middlewares:
         desc: Proof of Concept of SAGA pattern.
         author: icebob
       - name: Health-check middleware
-        link: https://gist.github.com/icebob/c717ae22002b9ecaa4b253a67952da3a
+        link: https://github.com/r2d2bzh/moleculer-healthcheck-middleware
         desc: Health-check middleware for Moleculer (for Kubernetes liveness readiness checks)
-        author: icebob
+        author: icebob + r2d2bzh
 
   security:
     title: Security
