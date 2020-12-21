@@ -97,6 +97,12 @@ resources:
       - name: Обзор MoleculerJS
         link: https://www.youtube.com/watch?v=H8gl5IpDWKA
         desc: The video is in Russian
+      - name: Microsserviços - Atualizando seu legado de maneira progressiva
+        link: https://youtu.be/7jlCgFhdqP0?t=1899
+        desc: The video is in Portuguese
+      - name: Introdução ao MoleculerJS
+        link: https://www.youtube.com/watch?v=CMMtK98ZL70
+        desc: The video is in Portuguese
 
 examples:
   title: Examples

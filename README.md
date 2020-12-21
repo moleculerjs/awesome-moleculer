@@ -86,6 +86,8 @@
 - [Microservices 4 Real - Martín Acosta](https://www.youtube.com/watch?v=FrL8at9qGrQ)  - Talk _in Spanish_ from the JSDayUY 2017 about how a developer that used to work on monolithic apps started to learn and create a complete production app using a microservices architecture on top of Moleculer. [repo](https://github.com/tinchoz49/microservices-for-real)
 - [An Introduction to Moleculer JS](https://www.youtube.com/watch?v=t4YR6MWrugw)  - Video tutorial explaining Moleculer's core concepts and [template project](https://moleculer.services/docs/0.13/usage.html#Create-a-Moleculer-project)
 - [Обзор MoleculerJS](https://www.youtube.com/watch?v=H8gl5IpDWKA)  - The video is in Russian
+- [Microsserviços - Atualizando seu legado de maneira progressiva](https://youtu.be/7jlCgFhdqP0?t=1899)  - The video is in Portuguese
+- [Introdução ao MoleculerJS](https://www.youtube.com/watch?v=CMMtK98ZL70)  - The video is in Portuguese
 ## Examples
 ### Repositories
 - [Conduit](https://github.com/moleculerjs/moleculer-examples/tree/master/conduit)  - Moleculer + Moleculer Web + Moleculer-DB + MongoDB + JWT + Redis Cacher + Docker
@@ -248,7 +250,7 @@
 - [YourSoft.run](https://www.yoursoft.run/)
 - [Instarem](https://www.instarem.com/)
 - [Ghost](https://ghost.org/)
-- [QOALA](https://www.qoala.id/)
+- [Qoala](https://www.qoala.app/)
 - [Koodoo](https://koodoo.io)
 - [Vakavic](https://vakavic.com/)
 - [HunterCo](https://www.hunterco.com.br/)
@@ -290,6 +292,16 @@
 - [Gurucan](https://www.gurucan.com/)
 - [Knawat](https://www.knawat.com/)
 - [Q-net](https://q-net.pro/)
+- [Elibot](https://elibot.info)
+- [Rocketo](https://rocketo.com)
+- [messagehub](https://ng.messagehub.lk/)
+- [Kaan Technologies](https://www.kaantechnologies.com/)
+- [codewave](https://codewave.com)
+- [Substring](https://substring.ch/)
+- [seabex](https://www.seabex.com/)
+- [Genesys](https://genesysoftwares.com/)
+- [servereye](https://www.server-eye.de/)
+- [hugo](https://hugoapp.com/)
 
 # Contact
 
