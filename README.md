@@ -218,6 +218,7 @@
 - [moldock](https://github.com/amroessam/moldock)  - A CLI tool to deconstruct moleculer projects into their own dependant projects, to be able to dockerize them individually.
 - [fastest-validator-decorators](https://github.com/tobydeh/fastest-validator-decorators)  - Typescript decorators for the fastest-validator library.
 - [moleculer-snippets](https://github.com/pavittarx/moleculer-snippets)  - vscode extension for inserting moleculerjs code snippets
+- [moleculer-auto-openapi](https://github.com/grinat/moleculer-auto-openapi)  - Auto generate OpenAPI (Swagger) scheme for Moleculer services.
 ## Polyglot Implementations
 ### Java
 - [moleculer-java](https://github.com/moleculer-java)  - Java implementation of the Moleculer microservices framework.
@@ -302,6 +303,10 @@
 - [Genesys](https://genesysoftwares.com/)
 - [servereye](https://www.server-eye.de/)
 - [hugo](https://hugoapp.com/)
+- [Adscook](https://adscook.com/)
+- [Qwip](https://qwip-app.com/)
+- [BerarkRays](https://www.berarkrays.com/)
+- [Teachoo](https://www.teachoo.com/)
 
 # Contact
 

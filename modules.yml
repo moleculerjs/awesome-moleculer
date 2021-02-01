@@ -679,6 +679,11 @@ tools:
       desc: vscode extension for inserting moleculerjs code snippets
       official: false
       author: pavittarx
+    - name: moleculer-auto-openapi
+      link: https://github.com/grinat/moleculer-auto-openapi
+      desc: Auto generate OpenAPI (Swagger) scheme for Moleculer services.
+      official: false
+      author: grinat
       
 polyglot:
   title: Polyglot Implementations
