@@ -28,6 +28,6 @@
 		"npm-exists": "^1.0.1",
 		"request": "^2.88.0",
 		"request-promise": "^4.2.4",
-		"striptags": "^3.1.1"
+		"striptags": "^3.2.0"
 	}
 }
