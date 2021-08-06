@@ -88,7 +88,7 @@
 - [Обзор MoleculerJS](https://www.youtube.com/watch?v=H8gl5IpDWKA)  - The video is in Russian
 - [Microsserviços - Atualizando seu legado de maneira progressiva](https://youtu.be/7jlCgFhdqP0?t=1899)  - The video is in Portuguese
 - [Introdução ao MoleculerJS](https://www.youtube.com/watch?v=CMMtK98ZL70)  - The video is in Portuguese
-- [Moleculer JS tutorial](https://www.youtube.com/watch?v=zILVISG8qh0)
+- [Moleculer JS tutorial](https://www.youtube.com/watch?v=zILVISG8qh0) 
 ## Examples
 ### Repositories
 - [Conduit](https://github.com/moleculerjs/moleculer-examples/tree/master/conduit)  - Moleculer + Moleculer Web + Moleculer-DB + MongoDB + JWT + Redis Cacher + Docker
@@ -118,6 +118,7 @@
 - [moleculer-template-project-typescript](https://github.com/moleculerjs/moleculer-template-project-typescript)  - Project template for Typescript project.
 - [moleculer-template-nano-typescript](https://github.com/moleculerjs/moleculer-template-nano-typescript)  - Minimal project template for Typescript project.
 - [moleculer-template-project-ts](https://github.com/d0whc3r/moleculer-template-project-ts)  - Project template for typescript including decorators and more
+- [moleculer-template-project-ts-swagger](https://github.com/ourparentcenter/moleculer-template-project-ts-swagger)  - Starter template for moleculer with swagger
 ## Services
 ### Gateway
 - [moleculer-web](https://github.com/moleculerjs/moleculer-web#readme)![Official Moleculer Module][official]  - Official API Gateway service.
@@ -138,7 +139,7 @@
 - [moleculer-db-adapter-dynamodb](https://github.com/katsanva/moleculer-db-adapter-dynamodb)  - A [DynamoDB](https://aws.amazon.com/dynamodb/) adapter for Moleculer DB service
 - [moleculer-gundb](https://github.com/smart-matrix/moleculer-gundb)  - A [GunDB](https://gun.eco) mixins for Moleculer DB service.
 - [moleculer-db-adapter-rethinkdb](https://github.com/cantecim/moleculer-db-adapter-rethinkdb)  - A [RethinkDB](https://www.rethinkdb.com/) Moleculer service mixin.
-- [moleculer-db-adapter-macrometa](https://github.com/moleculerjs/moleculer-db-adapter-macrometa)![Official Moleculer Module][official]  - [MacroMeta](https://www.macrometa.co/) adapter for Moleculer DB service.
+- [moleculer-db-adapter-macrometa](https://github.com/moleculerjs/moleculer-db-adapter-macrometa)![Official Moleculer Module][official]  - [MacroMeta](https://www.macrometa.com/) adapter for Moleculer DB service.
 - [moleculer-db-adapter-orientdb](https://github.com/saeedtabrizi/moleculer-db-adapter-orientdb)  - Moleculer [orientDB](https://orientdb.org/) database adapter.
 ### Metrics and Tracing
 - [moleculer-console-tracer](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-console-tracer#readme)![Official Moleculer Module][official]  - Console-based service
@@ -286,7 +287,6 @@
 - [Cards Against Formality](https://cardsagainstformality.io/)
 - [TIKAJ](https://www.tikaj.com/)
 - [Doubtnut](https://doubtnut.com/)
-- [2Labs Technology](https://2labs.com.br/)
 - [Prabandhak](https://reverieinc.com/prabandhak)
 - [FairManager](https://fairmanager.de/)
 - [FINFORT](https://finfort.ru/)
@@ -308,6 +308,15 @@
 - [Qwip](https://qwip-app.com/)
 - [BerarkRays](https://www.berarkrays.com/)
 - [Teachoo](https://www.teachoo.com/)
+- [Lumile](https://www.lumile.com.ar/)
+- [Byte Technology](https://bytetechnology.co/)
+- [GermanTechJobs](https://germantechjobs.de/)
+- [Intelliware Development](https://www.intelliware.com/)
+- [SmartfyLabs](https://smartfylabs.com/)
+- [greenupp](https://cephaschapa.github.io/greenupp)
+- [pianobit](https://www.pianobit.com/)
+- [Doubtbuddy](https://www.doubtbuddy.com/)
+- [Finanza.tech](https://www.finanza.tech/)
 
 # Contact
 

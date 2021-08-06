@@ -103,6 +103,8 @@ resources:
       - name: Introdução ao MoleculerJS
         link: https://www.youtube.com/watch?v=CMMtK98ZL70
         desc: The video is in Portuguese
+      - name: Moleculer JS tutorial
+        link: https://www.youtube.com/watch?v=zILVISG8qh0
 
 examples:
   title: Examples
@@ -194,6 +196,10 @@ templates:
         link: https://github.com/d0whc3r/moleculer-template-project-ts
         desc: Project template for typescript including decorators and more
         author: d0whc3r
+      - name: moleculer-template-project-ts-swagger
+        link: https://github.com/ourparentcenter/moleculer-template-project-ts-swagger
+        desc: Starter template for moleculer with swagger
+        author: ourparentcenter
 
 
 services:
