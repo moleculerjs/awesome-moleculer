@@ -55,6 +55,13 @@ gateway:
     official: false
     author: brunonunes
     display: unset
+  - name: moleculer-web-uws
+    link: 'https://github.com/jimmielovell/moleculer-web-uws'
+    desc: |
+      A fast API gateway based on <a href="https://github.com/uNetworking/uWebSockets.js">uWebSockets.js</a>
+    official: false
+    author: jimmielovell
+    display: unset
 databases:
   - name: moleculer-db
     link: 'https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db#readme'
@@ -122,7 +129,7 @@ databases:
   - name: moleculer-db-adapter-macrometa
     link: 'https://github.com/moleculerjs/moleculer-db-adapter-macrometa'
     desc: |
-      <a href="https://www.macrometa.co/">MacroMeta</a> adapter for Moleculer DB service.
+      <a href="https://www.macrometa.com/">MacroMeta</a> adapter for Moleculer DB service.
     official: true
     author: icebob
     display: unset
@@ -517,3 +524,10 @@ tools:
     official: false
     author: pavittarx
     display: none
+  - name: moleculer-auto-openapi
+    link: 'https://github.com/grinat/moleculer-auto-openapi'
+    desc: |
+      Auto generate OpenAPI (Swagger) scheme for Moleculer services.
+    official: false
+    author: grinat
+    display: unset

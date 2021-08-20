@@ -249,6 +249,11 @@ services:
         desc: \[gRPC](https://grpc.io/) server for Moleculer.
         official: false
         author: brunonunes
+      - name: moleculer-web-uws
+        link: https://github.com/jimmielovell/moleculer-web-uws
+        desc: A fast API gateway based on [uWebSockets.js](https://github.com/uNetworking/uWebSockets.js)
+        official: false
+        author: jimmielovell
 
 
   databases:
