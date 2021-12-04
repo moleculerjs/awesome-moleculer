@@ -508,6 +508,11 @@ services:
         desc: A [Puppeteer](https://github.com/GoogleChrome/puppeteer)-based Moleculer service that generates PDF from HTML.
         official: false
         author: olivmonnier
+      - name: moleculer-discord
+        link: https://www.npmjs.com/package/moleculer-discord
+        desc: Discord Gateway for Moleculer.js framework.
+        official: false
+        author: byterain
 
 middlewares:
   title: Middlewares
