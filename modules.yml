@@ -458,6 +458,11 @@ services:
         desc: Service providing actions for managing buckets and objects in an AWS S3 or [Minio](https://www.minio.io/) powered backend
         official: false
         author: designtesbrot
+      - name: moleculer-aws-s3
+        link: https://github.com/bitcomposer/moleculer-aws-s3
+        desc: Service providing actions for managing buckets and objects in AWS S3 using the AWS S3 v3 JS client library
+        official: false
+        author: bitcomposer
       - name: moleculer-segment
         link: https://github.com/winoteam/moleculer-segment
         desc: Service for [Segment](https://segment.com/)
