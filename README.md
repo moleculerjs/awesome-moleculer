@@ -171,6 +171,7 @@
 - [serverless-moleculer](https://github.com/davidroman0O/serverless-moleculer)  - Serverless Framework handler for Moleculer
 - [moleculer-state-machine](https://github.com/fugufish/moleculer-state-machine#readme)  - State Machine mixin that extends a Moleculer Service to act as a finite-state machine.
 - [moleculer-minio](https://github.com/designtesbrot/moleculer-minio)  - Service providing actions for managing buckets and objects in an AWS S3 or [Minio](https://www.minio.io/) powered backend
+- [moleculer-aws-s3](https://github.com/bitcomposer/moleculer-aws-s3)  - Service providing actions for managing buckets and objects in AWS S3 using the AWS S3 v3 JS client library
 - [moleculer-segment](https://github.com/winoteam/moleculer-segment)  - Service for [Segment](https://segment.com/)
 - [moleculer-sharp](https://github.com/designtesbrot/moleculer-sharp)  - A Moleculer Service for Image Manipulation using [sharp](http://sharp.pixelplumbing.com/en/stable/)
 - [moleculer-cls](https://github.com/cupsadarius/moleculer-cls)  - Hooked Continuation-Local Storage for Moleculer
@@ -326,6 +327,7 @@
 - [Shodget](https://shodget.com/)
 - [PRODLY](https://prodly.ru/)
 - [startup flow](https://www.startupflow.io/)
+- [YACLA](https://yacla.com/)
 
 # Contact
 
