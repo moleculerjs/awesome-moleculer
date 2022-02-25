@@ -328,6 +328,7 @@
 - [PRODLY](https://prodly.ru/)
 - [startup flow](https://www.startupflow.io/)
 - [YACLA](https://yacla.com/)
+- [Tailchat](https://github.com/msgbyte/tailchat-server)
 
 # Contact
 
