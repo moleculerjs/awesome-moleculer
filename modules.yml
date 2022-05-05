@@ -518,6 +518,11 @@ services:
         desc: Discord Gateway for Moleculer.js framework.
         official: false
         author: byterain
+      - name: dns
+        link: https://github.com/FLYBYME/dns
+        desc: DNS nameserver, DNS over HTTPS, DNS resolver
+        official: false
+        author: FLYBYME
 
 middlewares:
   title: Middlewares
