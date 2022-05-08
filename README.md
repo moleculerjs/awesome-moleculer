@@ -183,6 +183,7 @@
 - [node-red-contrib-moleculer](https://github.com/chameleonbr/node-red-contrib-moleculer#readme)  - Node Red client for Moleculer with events, emit, call, request and response support.
 - [moleculer-pdf](https://github.com/olivmonnier/moleculer-pdf)  - A [Puppeteer](https://github.com/GoogleChrome/puppeteer)-based Moleculer service that generates PDF from HTML.
 - [moleculer-discord](https://www.npmjs.com/package/moleculer-discord)  - Discord Gateway for Moleculer.js framework.
+- [dns](https://github.com/FLYBYME/dns)  - DNS nameserver, DNS over HTTPS, DNS resolver
 ## Middlewares
 ### General
 - [Inter-namespace](https://gist.github.com/icebob/c0bce54436379d29c1bee8521ceb5348)  - This middleware can connect to other namespaces.
