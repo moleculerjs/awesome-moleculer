@@ -89,6 +89,7 @@
 - [Microsserviços - Atualizando seu legado de maneira progressiva](https://youtu.be/7jlCgFhdqP0?t=1899)  - The video is in Portuguese
 - [Introdução ao MoleculerJS](https://www.youtube.com/watch?v=CMMtK98ZL70)  - The video is in Portuguese
 - [Moleculer JS tutorial](https://www.youtube.com/watch?v=zILVISG8qh0) 
+- [HolyJS 2021 Moscow - MoleculerJS](https://youtu.be/9c11ENScAtc) - MoleculerJS: high-load, fault tolerance and distributed microservices [HolyJS conference](https://holyjs-moscow.ru/talks/moleculerjs-high-load-fault-tolerance-and-distributed-microservices/) in Russian with transcription
 ## Examples
 ### Repositories
 - [Conduit](https://github.com/moleculerjs/moleculer-examples/tree/master/conduit)  - Moleculer + Moleculer Web + Moleculer-DB + MongoDB + JWT + Redis Cacher + Docker
@@ -199,6 +200,7 @@
 - [Memoize mixin for Moleculer services methods](https://gist.github.com/icebob/40a612ec3c453347aef7a808b82ab747)  - Caching for Moleculer service [methods](https://moleculer.services/docs/0.13/services.html#Methods)
 - [DB handler mixin for Moleculer DB](https://gist.github.com/icebob/a093d0011ff0fa0f29d02dc4324557be)  - Swap easily between [MongoDB](https://www.mongodb.com/) for development & production and [NeDB](https://github.com/louischatriot/nedb) for unit testing
 - [Cache cleaner](https://gist.github.com/icebob/a69082b3078c8769f66de6c6dc4e56ba)  - Cache cleaner mixin for Moleculer DB service
+- [Distributed locks](https://gist.github.com/intech/4c6d064bf4afa38a817df9af69da62f1) - Moleculer implementation of the redlock algorithm for distributed Redis locks
 ### Tasks, Queues and Jobs
 - [moleculer-bee-queue](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bee-queue#readme)![Official Moleculer Module][official]  - Task queue mixin for [Bee-Queue](https://github.com/bee-queue/bee-queue)
 - [moleculer-bull](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bull#readme)![Official Moleculer Module][official]  - Task queue mixin for [Bull](https://github.com/OptimalBits/bull)
