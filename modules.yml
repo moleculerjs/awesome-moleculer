@@ -105,6 +105,9 @@ resources:
         desc: The video is in Portuguese
       - name: Moleculer JS tutorial
         link: https://www.youtube.com/watch?v=zILVISG8qh0
+      - name: HolyJS 2021 Moscow - MoleculerJS
+        link: https://www.youtube.com/watch?v=9c11ENScAtc
+        desc: MoleculerJS high-load, fault tolerance and distributed microservices [HolyJS conference](https://holyjs-moscow.ru/talks/moleculerjs-high-load-fault-tolerance-and-distributed-microservices/) in Russian with transcription
 
 examples:
   title: Examples
@@ -582,6 +585,10 @@ mixins:
         link: https://gist.github.com/icebob/a69082b3078c8769f66de6c6dc4e56ba
         desc: Cache cleaner mixin for Moleculer DB service
         author: icebob
+      - name: Distributed locks
+        link: https://gist.github.com/intech/4c6d064bf4afa38a817df9af69da62f1
+        desc: Moleculer implementation of the redlock algorithm for distributed Redis locks
+        author: intech
 
   tasks:
     title: Tasks, Queues and Jobs
