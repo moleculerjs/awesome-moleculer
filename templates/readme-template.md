@@ -17,7 +17,7 @@
     - [{{name}}](#{{link}})
     {{/subtopic}}
 {{/index}}
-- [Projects Using Moleculer](#projects-using-moleculer)
+- [Companies Using Moleculer](#companies-using-moleculer)
 
 {{#index}}
 ## {{name}}
