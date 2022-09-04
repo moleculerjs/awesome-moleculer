@@ -319,6 +319,13 @@ others:
     official: false
     author: designtesbrot
     display: unset
+  - name: moleculer-aws-s3
+    link: 'https://github.com/bitcomposer/moleculer-aws-s3'
+    desc: |
+      Service providing actions for managing buckets and objects in AWS S3 using the AWS S3 v3 JS client library
+    official: false
+    author: bitcomposer
+    display: none
   - name: moleculer-segment
     link: 'https://github.com/winoteam/moleculer-segment'
     desc: |
@@ -389,6 +396,20 @@ others:
     official: false
     author: olivmonnier
     display: unset
+  - name: moleculer-discord
+    link: 'https://www.npmjs.com/package/moleculer-discord'
+    desc: |
+      Discord Gateway for Moleculer.js framework.
+    official: false
+    author: byterain
+    display: unset
+  - name: dns
+    link: 'https://github.com/FLYBYME/dns'
+    desc: |
+      DNS nameserver, DNS over HTTPS, DNS resolver
+    official: false
+    author: FLYBYME
+    display: unset
 tasks:
   - name: moleculer-bee-queue
     link: 'https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bee-queue#readme'
@@ -412,11 +433,11 @@ tasks:
     author: Hugome
     display: unset
   - name: moleculer-cron
-    link: 'https://github.com/davidroman0O/moleculer-cron#readme'
+    link: 'https://github.com/r2d2bzh/moleculer-cron#readme'
     desc: |
-      Cron mixin <a href="https://github.com/kelektiv/node-cron">Node-Cron</a>
+      Moleculer mixin for <a href="https://github.com/kelektiv/node-cron">node-cron</a>
     official: false
-    author: davidroman0O
+    author: furanzujin
     display: unset
   - name: moleculer-amqp-queue
     link: 'https://github.com/lehno/moleculer-amqp-queue#readme'
