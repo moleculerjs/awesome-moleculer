@@ -26,10 +26,10 @@ jobs:
       run: |
         npm run build
         npm run gen
-    #- name: Check links
-    #  run: awesome_bot README.md --allow-redirect --allow-ssl --skip-save-results --allow-dupe --allow-timeout -t 5
-    # - name: Trigger site's GH Actions
-    #   run: bash trigger.sh
+    - name: Check links
+      run: awesome_bot README.md --allow-redirect --allow-ssl --skip-save-results --allow-dupe --allow-timeout -t 5
+    - name: Trigger site's GH Actions
+       run: bash trigger.sh
     - name: GIT commit and push all changed files
       env: 
         CI_COMMIT_MESSAGE: Deploy moleculerjs/awesome-moleculer to github.com/moleculerjs/awesome-moleculer.git:master
