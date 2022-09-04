@@ -13,8 +13,8 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.2
-    - name: Set up node
+        ruby-version: 2.4
+    - name: Set up Node.js
       uses: actions/setup-node@v1
       with:
         node-version: 12
@@ -26,8 +26,8 @@ jobs:
       run: |
         npm run build
         npm run gen
-    - name: Check links
-      run: awesome_bot README.md --allow-redirect --allow-ssl --skip-save-results --allow-dupe --allow-timeout -t 5
+    # - name: Check links
+    #  run: awesome_bot README.md --allow-redirect --allow-ssl --skip-save-results --allow-dupe --allow-timeout -t 5
     # - name: Trigger site's Travis
     #  run: bash trigger.sh
     # - name: Deploy
