@@ -30,9 +30,13 @@ jobs:
     #  run: awesome_bot README.md --allow-redirect --allow-ssl --skip-save-results --allow-dupe --allow-timeout -t 5
     # - name: Trigger site's GH Actions
     #   run: bash trigger.sh
-    - name: Push to master
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GH_TRIGGER }}
-        branch: master
-        directory: .
+    - name: GIT commit and push all changed files
+      env: 
+        CI_COMMIT_MESSAGE: Deploy moleculerjs/awesome-moleculer to github.com/moleculerjs/awesome-moleculer.git:master
+        CI_COMMIT_AUTHOR: Continuous Integration
+      run: |
+        git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
+        git config --global user.email "ci@noreply.github.com"
+        git pull
+        git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}"
+        git push
