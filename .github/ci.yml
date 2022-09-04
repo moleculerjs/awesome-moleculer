@@ -1,0 +1,39 @@
+name: Readme.md generator
+
+on:
+  push: {}
+  pull_request: {}
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.2
+    - name: Set up node
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12
+    - name: Install dependencies
+      run: |
+        gem install awesome_bot
+        npm install
+    - name: Build
+      run: |
+        npm run build
+        npm run gen
+    - name: Check links
+      run: awesome_bot README.md --allow-redirect --allow-ssl --skip-save-results --allow-dupe --allow-timeout -t 5
+    # - name: Trigger site's Travis
+    #  run: bash trigger.sh
+    # - name: Deploy
+    #  uses: JamesIves/github-pages-deploy-action@releases/v3
+    #  with:
+    #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    #    BRANCH: master
+    #    FOLDER: docs
+    #    CLEAN: true
