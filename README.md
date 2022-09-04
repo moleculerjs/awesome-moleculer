@@ -45,7 +45,7 @@
     - [.NET Core](#net-core)
     - [Go](#go)
     - [Ruby](#ruby)
-- [Projects Using Moleculer](#projects-using-moleculer)
+- [Companies Using Moleculer](#companies-using-moleculer)
 
 ## Resources
 ### Official Resources
