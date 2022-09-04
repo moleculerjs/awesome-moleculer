@@ -45,7 +45,7 @@
     - [.NET Core](#net-core)
     - [Go](#go)
     - [Ruby](#ruby)
-- [Projects Using Moleculer](#projects-using-moleculer)
+- [Companies Using Moleculer](#companies-using-moleculer)
 
 ## Resources
 ### Official Resources
@@ -105,6 +105,7 @@
 - [StretchShop](https://github.com/Wradgio/StretchShop)  - Fast & scalable e-business REST API backend based on Moleculer framework, which makes it easy to run as monolithic or microservices application.
 - [Catalyst](https://github.com/derekbar90/catalyst)  - NodeJS Microservices Boilerplate - Typescript NodeJS Microservices Boilerplate with Generator CLI - Moleculer, GraphQL, REST, OAuth2, Jaeger, Grafana, Prometheus, Ory Hydra, Ory Keto w/ Access Control middleware, Moleculer-DB GraphQL mixin, Pug, Redis, sibling client repo (login, persistance layer, react-native-web, ios, android)
 - [Cards Against Formality](https://github.com/jordanpawlett/cards-against-formality-services)  - Cards Against Formality aims to be a web based clone of the popular card game "Cards against humanity". TypeScript + Kubernetes + Skaffold + authorization + scaled socket connections
+- [Tailchat](https://github.com/msgbyte/tailchat-server)  - Tailchat server
 ### Sandboxes on Codesandbox.io
 - [Simple project](https://codesandbox.io/s/github/moleculerjs/sandbox-moleculer-project)  - Moleculer + Moleculer Web + Greeter service
 - [API routing example](https://codesandbox.io/s/github/moleculerjs/sandbox-moleculer-api-routing)  - Moleculer + Moleculer Web + Routing examples
@@ -240,7 +241,7 @@
 ### Ruby
 - [moleculer-ruby](https://github.com/moleculer-ruby)  - Ruby implementation of the Moleculer framework.
 
-## Projects Using Moleculer
+## Companies Using Moleculer
 
 - [Concierge Auctions](https://www.conciergeauctions.com/)
 - [ingenious](http://www.ingsw.com/)
@@ -334,10 +335,14 @@
 - [Stedos](https://www.steedos.com/)
 - [Nearoo](https://nearoo.com/)
 - [Lowcode Artist](https://lcp.uuyang.cn/secur/app)
+- [Mapeline](https://mapeline.co.id/)
+- [ExchangeGate](https://exchange-gate.io/)
+- [Smart Stop Set](https://smartstopset.com/)
+- [2BuiltIT](https://2buildit.be/)
 
 # Contact
 
-Copyright (c) 2016-2020 MoleculerJS
+Copyright (c) 2016-2022 MoleculerJS
 
 [![@moleculerjs](https://img.shields.io/badge/github-moleculerjs-green.svg)](https://github.com/moleculerjs) [![@MoleculerJS](https://img.shields.io/badge/twitter-MoleculerJS-blue.svg)](https://twitter.com/MoleculerJS)
 
