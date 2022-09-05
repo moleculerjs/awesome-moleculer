@@ -154,8 +154,8 @@ examples:
         link: https://github.com/jordanpawlett/cards-against-formality-services
         desc: Cards Against Formality aims to be a web based clone of the popular card game "Cards against humanity". TypeScript + Kubernetes + Skaffold + authorization + scaled socket connections
       - name: Tailchat
-        link: https://github.com/msgbyte/tailchat-server
-        desc: Tailchat server
+        link: https://github.com/msgbyte/tailchat
+        desc: A Open Source and pluggable IM application which build with MiniStart and Moleculer. Inspired by Discord.
 
   sandboxes:
     title: Sandboxes on Codesandbox.io
