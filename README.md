@@ -196,6 +196,7 @@
 - [moleculer-keto](https://github.com/derekbar90/moleculer-keto)  - [Ory Keto](https://www.ory.sh/keto/docs/) Middleware and Mixin for an extensible permissions layer. [NPM](https://www.npmjs.com/package/@thesatoshicompany/moleculer-keto)
 ### Database
 - [moleculer-middleware-permissions](https://github.com/bytetechnology/moleculer-context-db)  - A database integrator for injecting a transaction safe database session into the context of the action.
+- [moleculer-tracing-methods](https://gist.github.com/intech/503facbc5320056d8f327070557fdf31) - Tracing Moleculer methods with context support via `async_hooks`. (App speed degradation!)
 ## Mixins
 ### Database
 - [Memoize mixin for Moleculer services methods](https://gist.github.com/icebob/40a612ec3c453347aef7a808b82ab747)  - Caching for Moleculer service [methods](https://moleculer.services/docs/0.13/services.html#Methods)
