@@ -548,6 +548,10 @@ middlewares:
         link: https://github.com/r2d2bzh/moleculer-healthcheck-middleware
         desc: Health-check middleware for Moleculer (for Kubernetes liveness readiness checks)
         author: icebob + r2d2bzh
+      - name: Tracing Moleculer methods
+        link: https://gist.github.com/intech/503facbc5320056d8f327070557fdf31
+        desc: Tracing Moleculer methods with context support via `async_hooks`. (App speed degradation!)
+        author: intech
 
   security:
     title: Security
