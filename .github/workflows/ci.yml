@@ -29,12 +29,6 @@ jobs:
     - name: Check links
       run: awesome_bot README.md --allow-redirect --allow-ssl --skip-save-results --allow-dupe --allow 429 --allow-timeout -t 5
     
-    - name: Trigger site's GH Actions
-      if: ${{ github.ref == 'refs/heads/master' }}
-      run: bash trigger.sh
-      env: 
-        GH_TRIGGER: ${{ secrets.GH_TRIGGER }}
-
     - name: GIT commit and push all changed files
       env: 
         CI_COMMIT_MESSAGE: Deploy moleculerjs/awesome-moleculer to github.com/moleculerjs/awesome-moleculer.git:master
@@ -45,3 +39,9 @@ jobs:
         git pull
         git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}" || echo "ignore committing"
         git push
+
+    - name: Trigger site's GH Actions
+      if: ${{ github.ref == 'refs/heads/master' }}
+      run: bash trigger.sh
+      env: 
+        GH_TRIGGER: ${{ secrets.GH_TRIGGER }}
