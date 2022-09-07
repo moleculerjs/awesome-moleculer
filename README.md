@@ -189,6 +189,7 @@
 - [Inter-namespace](https://gist.github.com/icebob/c0bce54436379d29c1bee8521ceb5348)  - This middleware can connect to other namespaces.
 - [Saga middleware PoC](https://gist.github.com/icebob/c75d4d532c0d7783eb924a96110b9020)  - Proof of Concept of SAGA pattern.
 - [Health-check middleware](https://github.com/r2d2bzh/moleculer-healthcheck-middleware)  - Health-check middleware for Moleculer (for Kubernetes liveness readiness checks)
+- [Tracing Moleculer methods](https://gist.github.com/intech/503facbc5320056d8f327070557fdf31) - Tracing Moleculer methods with context support via `async_hooks`. (App speed degradation!)
 ### Security
 - [moleculer-middleware-permissions](https://github.com/Embraser01/moleculer-middleware-permissions)  - A middleware solution to validate permissions of a request.
 - [moleculer-keto](https://github.com/derekbar90/moleculer-keto)  - [Ory Keto](https://www.ory.sh/keto/docs/) Middleware and Mixin for an extensible permissions layer. [NPM](https://www.npmjs.com/package/@thesatoshicompany/moleculer-keto)
