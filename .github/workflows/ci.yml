@@ -32,6 +32,8 @@ jobs:
     - name: Trigger site's GH Actions
       if: ${{ github.ref == 'refs/heads/master' }}
       run: bash trigger.sh
+      env: 
+        GH_TRIGGER: ${{ secrets.GH_TRIGGER }}
 
     - name: GIT commit and push all changed files
       env: 
