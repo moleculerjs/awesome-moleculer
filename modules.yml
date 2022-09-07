@@ -315,6 +315,11 @@ services:
         desc: Moleculer [orientDB](https://orientdb.org/) database adapter.
         official: false
         author: saeedtabrizi
+      - name: moleculer-db-adapter-prisma
+        link: https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-prisma#readme
+        desc: SQL adapter for Moleculer DB service with Prisma.
+        official: true
+        author: noluckjustskill				
   metrics:
     title: Metrics and Tracing
     to-pub-on-site: true
