@@ -140,6 +140,13 @@ databases:
     official: false
     author: saeedtabrizi
     display: unset
+  - name: moleculer-db-adapter-prisma
+    link: 'https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-prisma#readme'
+    desc: |
+      SQL adapter for Moleculer DB service with Prisma.
+    official: true
+    author: noluckjustskill
+    display: unset
 metrics:
   - name: moleculer-console-tracer
     link: 'https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-console-tracer#readme'
