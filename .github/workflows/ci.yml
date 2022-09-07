@@ -41,5 +41,5 @@ jobs:
         git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
         git config --global user.email "ci@noreply.github.com"
         git pull
-        git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}"
+        git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}" || echo "ignore committing"
         git push
