@@ -576,6 +576,14 @@ middlewares:
 mixins:
   title: Mixins
 
+  general:
+    title: General
+    entries:
+      - name: Loki logger
+        link: https://gist.github.com/icebob/228498f646822a03a1e7cc14fb0ce856
+        desc: It sends the Moleculer log messages to a Grafana Loki server directly
+        author: icebob
+
   database:
     title: Database
     entries:
