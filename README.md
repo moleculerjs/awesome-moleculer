@@ -34,6 +34,7 @@
     - [Security](#security)
     - [Database](#database)
 - [Mixins](#mixins)
+    - [General](#general)
     - [Database](#database)
     - [Tasks, Queues and Jobs](#tasks-queues-and-jobs)
     - [Validation](#validation)
@@ -197,6 +198,8 @@
 ### Database
 - [moleculer-middleware-permissions](https://github.com/bytetechnology/moleculer-context-db)  - A database integrator for injecting a transaction safe database session into the context of the action.
 ## Mixins
+### General
+- [Loki logger](https://gist.github.com/icebob/228498f646822a03a1e7cc14fb0ce856)  - It sends the Moleculer log messages to a Grafana Loki server directly
 ### Database
 - [Memoize mixin for Moleculer services methods](https://gist.github.com/icebob/40a612ec3c453347aef7a808b82ab747)  - Caching for Moleculer service [methods](https://moleculer.services/docs/0.13/services.html#Methods)
 - [DB handler mixin for Moleculer DB](https://gist.github.com/icebob/a093d0011ff0fa0f29d02dc4324557be)  - Swap easily between [MongoDB](https://www.mongodb.com/) for development & production and [NeDB](https://github.com/louischatriot/nedb) for unit testing
@@ -322,7 +325,6 @@
 - [pianobit](https://www.pianobit.com/)
 - [Doubtbuddy](https://www.doubtbuddy.com/)
 - [Finanza.tech](https://www.finanza.tech/)
-- [Logistix](https://www.logistix.com.ng/)
 - [SONDERFORMAT](https://sonderformat.llc/)
 - [Cia da Consulta](https://ciadaconsulta.com.br/)
 - [dyte](https://www.dyte.io/)
