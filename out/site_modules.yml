@@ -440,7 +440,7 @@ tasks:
     author: Hugome
     display: unset
   - name: moleculer-cron
-    link: 'https://github.com/davidroman0O/moleculer-cron'
+    link: 'https://github.com/davidroman0O/moleculer-cron#readme'
     desc: |
       Moleculer mixin for <a href="https://github.com/kelektiv/node-cron">node-cron</a>
     official: false
