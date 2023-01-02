@@ -43,7 +43,6 @@
 - [Polyglot Implementations](#polyglot-implementations)
     - [Java](#java)
     - [Python](#python)
-    - [.NET Core](#net-core)
     - [Go](#go)
     - [Ruby](#ruby)
 - [Companies Using Moleculer](#companies-using-moleculer)
@@ -143,7 +142,7 @@
 - [moleculer-db-adapter-rethinkdb](https://github.com/cantecim/moleculer-db-adapter-rethinkdb)  - A [RethinkDB](https://www.rethinkdb.com/) Moleculer service mixin.
 - [moleculer-db-adapter-macrometa](https://github.com/moleculerjs/moleculer-db-adapter-macrometa)![Official Moleculer Module][official]  - [MacroMeta](https://www.macrometa.com/) adapter for Moleculer DB service.
 - [moleculer-db-adapter-orientdb](https://github.com/saeedtabrizi/moleculer-db-adapter-orientdb)  - Moleculer [orientDB](https://orientdb.org/) database adapter.
-- [moleculer-db-adapter-prisma](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-prisma#readme)![Official Moleculer Module][official]  - SQL adapter for Moleculer DB service with Prisma.
+- [moleculer-db-adapter-prisma](https://github.com/noluckjustskill/moleculer-db-adapter-prisma)  - SQL adapter for Moleculer DB service with Prisma.
 ### Metrics and Tracing
 - [moleculer-console-tracer](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-console-tracer#readme)![Official Moleculer Module][official]  - Console-based service
 - [moleculer-jaeger](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-jaeger#readme)![Official Moleculer Module][official]  - [Jaeger](https://www.jaegertracing.io/)-based metrics service
@@ -237,8 +236,6 @@
 ### Python
 - [moleculer-python](https://github.com/ToGoBananas/moleculer-python)  - Python implementation of the Moleculer microservices framework.
 - [moleculer-client](https://github.com/CaioFilus/moleculer-client)  - Simple Client to communicate with Moleculer services using NATS.
-### .NET Core
-- [moleculer-net](https://github.com/alexandredenes/moleculer-net)  - NET Core 2.1 implementation of the Moleculer microservices framework.
 ### Go
 - [moleculer-go](https://github.com/moleculer-go)  - Go implementation of the Moleculer microservices framework.
 ### Ruby
@@ -333,12 +330,14 @@
 - [startup flow](https://www.startupflow.io/)
 - [YACLA](https://yacla.com/)
 - [Stedos](https://www.steedos.com/)
-- [Nearoo](https://nearoo.com/)
 - [Lowcode Artist](https://lcp.uuyang.cn/secur/app)
 - [Mapeline](https://mapeline.co.id/)
 - [ExchangeGate](https://exchange-gate.io/)
 - [Smart Stop Set](https://smartstopset.com/)
 - [2BuiltIT](https://2buildit.be/)
+- [todo.space](https://todo.space/)
+- [株式会社JIITAK (Jiitak Inc.)](https://jiitak.jp/)
+- [Jobs in JS](https://jobsinjs.com/)
 
 # Contact
 

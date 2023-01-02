@@ -141,10 +141,10 @@ databases:
     author: saeedtabrizi
     display: unset
   - name: moleculer-db-adapter-prisma
-    link: 'https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-prisma#readme'
+    link: 'https://github.com/noluckjustskill/moleculer-db-adapter-prisma'
     desc: |
       SQL adapter for Moleculer DB service with Prisma.
-    official: true
+    official: false
     author: noluckjustskill
     display: unset
 metrics:
