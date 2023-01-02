@@ -752,13 +752,6 @@ polyglot:
         link: https://github.com/CaioFilus/moleculer-client
         desc: Simple Client to communicate with Moleculer services using NATS.
 
-  net-core:
-    title: .NET Core
-    entries:
-      - name: moleculer-net
-        link: https://github.com/alexandredenes/moleculer-net
-        desc: NET Core 2.1 implementation of the Moleculer microservices framework.
-
   go:
     title: Go
     entries:
