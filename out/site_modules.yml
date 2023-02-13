@@ -559,3 +559,10 @@ tools:
     official: false
     author: grinat
     display: unset
+  - name: x.moleculer
+    link: 'https://gist.github.com/ebrahimmfadae/1d1da46b176e7c2ffa56f0e91b801e8d'
+    desc: |
+      Pure typescript solution to infer params and meta types in call and mcall
+    official: false
+    author: ebrahimmfadae
+    display: none
