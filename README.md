@@ -230,6 +230,7 @@
 - [fastest-validator-decorators](https://github.com/tobydeh/fastest-validator-decorators)  - Typescript decorators for the fastest-validator library.
 - [moleculer-snippets](https://github.com/pavittarx/moleculer-snippets)  - vscode extension for inserting moleculerjs code snippets
 - [moleculer-auto-openapi](https://github.com/grinat/moleculer-auto-openapi)  - Auto generate OpenAPI (Swagger) scheme for Moleculer services.
+- [x.moleculer](https://gist.github.com/ebrahimmfadae/1d1da46b176e7c2ffa56f0e91b801e8d)  - Pure typescript solution to infer `params` and `meta` types in `call` and `mcall`
 ## Polyglot Implementations
 ### Java
 - [moleculer-java](https://github.com/moleculer-java)  - Java implementation of the Moleculer microservices framework.
@@ -338,6 +339,8 @@
 - [todo.space](https://todo.space/)
 - [株式会社JIITAK (Jiitak Inc.)](https://jiitak.jp/)
 - [Jobs in JS](https://jobsinjs.com/)
+- [r-ulybka](https://www.r-ulybka.ru/)
+- [rocket.chat](https://rocket.chat/)
 
 # Contact
 
