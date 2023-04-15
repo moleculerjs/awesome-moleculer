@@ -444,7 +444,14 @@ tasks:
     desc: |
       Moleculer mixin for <a href="https://github.com/kelektiv/node-cron">node-cron</a>
     official: false
-    author: furanzujin
+    author: davidroman0O
+    display: unset
+  - name: '@r2d2bzh/moleculer-cron'
+    link: 'https://github.com/r2d2bzh/moleculer-cron#readme'
+    desc: |
+      Another moleculer mixin for <a href="https://github.com/kelektiv/node-cron">node-cron</a>
+    official: false
+    author: r2d2bzh
     display: unset
   - name: moleculer-amqp-queue
     link: 'https://github.com/lehno/moleculer-amqp-queue#readme'
@@ -487,6 +494,13 @@ validation:
       Use Typescript Intefraces as validator.
     official: false
     author: ipetrovic11
+    display: unset
+  - name: moleculer-zod-validator
+    link: 'https://github.com/TheAppleFreak/moleculer-zod-validator'
+    desc: |
+      A validator that allows the use of <a href="https://github.com/colinhacks/zod">Zod</a> for type safe validation.
+    official: false
+    author: TheAppleFreak
     display: unset
 tools:
   - name: moleculer-repl

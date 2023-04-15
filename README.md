@@ -208,7 +208,8 @@
 - [moleculer-bee-queue](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bee-queue#readme)![Official Moleculer Module][official]  - Task queue mixin for [Bee-Queue](https://github.com/bee-queue/bee-queue)
 - [moleculer-bull](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bull#readme)![Official Moleculer Module][official]  - Task queue mixin for [Bull](https://github.com/OptimalBits/bull)
 - [moleculer-faktory](https://github.com/YourSoftRun/moleculer-faktory#readme)  - Task queue mixin for [Faktory](https://contribsys.com/faktory/)
-- [moleculer-cron](https://github.com/r2d2bzh/moleculer-cron#readme)  - Moleculer mixin for [node-cron](https://github.com/kelektiv/node-cron)
+- [moleculer-cron](https://github.com/davidroman0O/moleculer-cron#readme)  - Moleculer mixin for [node-cron](https://github.com/kelektiv/node-cron)
+- [@r2d2bzh&#x2F;moleculer-cron](https://github.com/r2d2bzh/moleculer-cron#readme)  - Another moleculer mixin for [node-cron](https://github.com/kelektiv/node-cron)
 - [moleculer-amqp-queue](https://github.com/lehno/moleculer-amqp-queue#readme)  - Task queue mixin for [AMQP](https://www.amqp.org/)
 - [moleculer-bullmq](https://github.com/Hugome/moleculer-bullmq#readme)  - Task queue mixin for [BullMq](https://github.com/taskforcesh/bullmq)
 ### Validation
@@ -216,6 +217,7 @@
 - [Joi](https://moleculer.services/docs/0.13/validating.html#Create-a-Joi-validator)![Official Moleculer Module][official]  - [Joi](https://github.com/hapijs/joi) based validator
 - [moleculer-json-schema-validator](https://github.com/zhaoyao91/moleculer-json-schema-validator#readme)  - [JSON Schema](https://json-schema.org/) validator
 - [ts-transformer-json-schema](https://github.com/ipetrovic11/ts-transformer-json-schema)  - Use Typescript Intefraces as validator.
+- [moleculer-zod-validator](https://github.com/TheAppleFreak/moleculer-zod-validator)  - A validator that allows the use of [Zod](https://github.com/colinhacks/zod) for type safe validation.
 ### GraphQL
 - [moleculer-postgraphile](https://github.com/ltv/moleculer-postgraphile)  - [Postgraphile](https://www.graphile.org/) Create postgraphile service for automatically detects tables, columns, indexes, relationships, views, types, functions, comments, and more.
 - [moleculer-db-graphql](https://github.com/derekbar90/moleculer-db-graphql)  - Complementary mixin which provides a graphql schema that matches those exposed my moleculer-db. [NPM](https://www.npmjs.com/package/@thesatoshicompany/moleculer-db-graphql)
@@ -341,6 +343,7 @@
 - [Jobs in JS](https://jobsinjs.com/)
 - [r-ulybka](https://www.r-ulybka.ru/)
 - [rocket.chat](https://rocket.chat/)
+- [Cybersapient](https://cybersapient.io/)
 
 # Contact
 
