@@ -624,10 +624,15 @@ mixins:
         official: false
         author: Hugome
       - name: moleculer-cron
-        link: https://github.com/r2d2bzh/moleculer-cron#readme
+        link: 'https://github.com/davidroman0O/moleculer-cron#readme'
         desc: Moleculer mixin for [node-cron](https://github.com/kelektiv/node-cron)
         official: false
-        author: furanzujin
+        author: davidroman0O
+      - name: '@r2d2bzh/moleculer-cron'
+        link: 'https://github.com/r2d2bzh/moleculer-cron#readme'
+        desc: Another moleculer mixin for [node-cron](https://github.com/kelektiv/node-cron)
+        official: false
+        author: r2d2bzh
       - name: moleculer-amqp-queue
         link: https://github.com/lehno/moleculer-amqp-queue#readme
         desc: Task queue mixin for [AMQP](https://www.amqp.org/)
