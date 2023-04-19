@@ -667,11 +667,6 @@ mixins:
         desc: Use Typescript Intefraces as validator.
         official: false
         author: ipetrovic11
-      - name: moleculer-zod-validator
-        link: https://github.com/TheAppleFreak/moleculer-zod-validator
-        desc: A validator that allows the use of [Zod](https://github.com/colinhacks/zod) for type safe validation.
-        official: false
-        author: TheAppleFreak
 
   graphql:
     title: GraphQL
