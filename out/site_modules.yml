@@ -495,13 +495,6 @@ validation:
     official: false
     author: ipetrovic11
     display: unset
-  - name: moleculer-zod-validator
-    link: 'https://github.com/TheAppleFreak/moleculer-zod-validator'
-    desc: |
-      A validator that allows the use of <a href="https://github.com/colinhacks/zod">Zod</a> for type safe validation.
-    official: false
-    author: TheAppleFreak
-    display: unset
 tools:
   - name: moleculer-repl
     link: 'https://moleculer.services/docs/0.13/moleculer-repl.html'
