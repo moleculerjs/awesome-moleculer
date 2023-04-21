@@ -217,6 +217,7 @@
 - [Joi](https://moleculer.services/docs/0.13/validating.html#Create-a-Joi-validator)![Official Moleculer Module][official]  - [Joi](https://github.com/hapijs/joi) based validator
 - [moleculer-json-schema-validator](https://github.com/zhaoyao91/moleculer-json-schema-validator#readme)  - [JSON Schema](https://json-schema.org/) validator
 - [ts-transformer-json-schema](https://github.com/ipetrovic11/ts-transformer-json-schema)  - Use Typescript Intefraces as validator.
+- [moleculer-zod-validator](https://github.com/TheAppleFreak/moleculer-zod-validator)  - A validator that allows the use of [Zod](https://github.com/colinhacks/zod) for type-safe validation and type inference.
 ### GraphQL
 - [moleculer-postgraphile](https://github.com/ltv/moleculer-postgraphile)  - [Postgraphile](https://www.graphile.org/) Create postgraphile service for automatically detects tables, columns, indexes, relationships, views, types, functions, comments, and more.
 - [moleculer-db-graphql](https://github.com/derekbar90/moleculer-db-graphql)  - Complementary mixin which provides a graphql schema that matches those exposed my moleculer-db. [NPM](https://www.npmjs.com/package/@thesatoshicompany/moleculer-db-graphql)
