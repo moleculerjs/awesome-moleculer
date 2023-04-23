@@ -580,3 +580,10 @@ tools:
     official: false
     author: ebrahimmfadae
     display: none
+  - name: moleculer-plus
+    link: 'https://github.com/ishfx/moleculer-plus'
+    desc: |
+      Service, validator, and api decorators for moleculer, enabling modern TypeScript syntax and features.
+    official: false
+    author: Ish
+    display: unset
