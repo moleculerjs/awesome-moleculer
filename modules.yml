@@ -746,6 +746,11 @@ tools:
       desc: Pure typescript solution to infer `params` and `meta` types in `call` and `mcall`
       official: false
       author: ebrahimmfadae
+    - name: moleculer-plus
+      link: https://github.com/ishfx/moleculer-plus
+      desc: Service, validator, and api decorators for moleculer, enabling modern TypeScript syntax and features.
+      official: false
+      author: Ish
       
 polyglot:
   title: Polyglot Implementations

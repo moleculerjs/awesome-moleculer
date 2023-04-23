@@ -233,6 +233,7 @@
 - [moleculer-snippets](https://github.com/pavittarx/moleculer-snippets)  - vscode extension for inserting moleculerjs code snippets
 - [moleculer-auto-openapi](https://github.com/grinat/moleculer-auto-openapi)  - Auto generate OpenAPI (Swagger) scheme for Moleculer services.
 - [x.moleculer](https://gist.github.com/ebrahimmfadae/1d1da46b176e7c2ffa56f0e91b801e8d)  - Pure typescript solution to infer `params` and `meta` types in `call` and `mcall`
+- [moleculer-plus](https://github.com/ishfx/moleculer-plus)  - Service, validator, and api decorators for moleculer, enabling modern TypeScript syntax and features.
 ## Polyglot Implementations
 ### Java
 - [moleculer-java](https://github.com/moleculer-java)  - Java implementation of the Moleculer microservices framework.
