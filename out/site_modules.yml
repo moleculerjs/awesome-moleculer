@@ -417,6 +417,13 @@ others:
     official: false
     author: FLYBYME
     display: unset
+  - name: moleculer-i18n
+    link: 'https://github.com/teamcodeyard/moleculer-i18n'
+    desc: |
+      Server side i18n support based on <a href="https://www.npmjs.com/package/node-polyglot">Polyglot</a>
+    official: false
+    author: iujlaki
+    display: unset
 tasks:
   - name: moleculer-bee-queue
     link: 'https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bee-queue#readme'
