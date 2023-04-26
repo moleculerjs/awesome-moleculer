@@ -528,6 +528,11 @@ services:
         desc: DNS nameserver, DNS over HTTPS, DNS resolver
         official: false
         author: FLYBYME
+      - name: moleculer-i18n
+        link: https://github.com/teamcodeyard/moleculer-i18n
+        desc: Server side i18n support based on [Polyglot](https://www.npmjs.com/package/node-polyglot)
+        official: false
+        author: iujlaki
 
 middlewares:
   title: Middlewares
