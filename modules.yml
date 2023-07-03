@@ -403,6 +403,11 @@ services:
         desc: React-Admin Data provider to interact with Moleculer Services APIs
         official: false
         author: RancaguaInnova
+      - name: moleculer-gql-client
+        link: https://github.com/kyleplump/moleculer-gql-client
+        desc: Mixin that allows Moleculer services to perform GraphQL requests
+        official: false
+        author: kyleplump
 
   security:
     title: Security, Authentication and Authorization
