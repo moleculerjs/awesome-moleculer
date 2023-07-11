@@ -123,7 +123,6 @@
 ### Gateway
 - [moleculer-web](https://github.com/moleculerjs/moleculer-web#readme)![Official Moleculer Module][official]  - Official API Gateway service.
 - [moleculer-apollo-server](https://github.com/moleculerjs/moleculer-apollo-server)![Official Moleculer Module][official]  - [Apollo GraphQL](https://www.apollographql.com/) server for Moleculer.
-- [moleculer-graphql](https://github.com/MerlinLabs/moleculer-graphql#readme)  - GraphQL Schema stitching over a microservice network for co-located type definitions.
 - [moleculer-sc](https://github.com/tiaod/moleculer-sc#readme)  - API Gateway using [SocketCluster](https://socketcluster.io)
 - [moleculer-io](https://github.com/tiaod/moleculer-io)  - Socket.IO-based gateway
 - [moleculer-socketio](https://github.com/davidroman0O/moleculer-socketio)  - Manage Socket.IO events like actions in services
@@ -346,6 +345,7 @@
 - [r-ulybka](https://www.r-ulybka.ru/)
 - [rocket.chat](https://rocket.chat/)
 - [Cybersapient](https://cybersapient.io/)
+- [Eletromidia](https://www.eletromidia.com.br)
 
 # Contact
 

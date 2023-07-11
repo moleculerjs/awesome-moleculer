@@ -13,13 +13,6 @@ gateway:
     official: true
     author: icebob
     display: unset
-  - name: moleculer-graphql
-    link: 'https://github.com/MerlinLabs/moleculer-graphql#readme'
-    desc: |
-      GraphQL Schema stitching over a microservice network for co-located type definitions.
-    official: false
-    author: MerlinLabs
-    display: unset
   - name: moleculer-sc
     link: 'https://github.com/tiaod/moleculer-sc#readme'
     desc: |
