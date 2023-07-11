@@ -219,11 +219,6 @@ services:
         desc: \[Apollo GraphQL](https://www.apollographql.com/) server for Moleculer.
         official: true
         author: icebob
-      - name: moleculer-graphql
-        link: https://github.com/MerlinLabs/moleculer-graphql#readme
-        desc: GraphQL Schema stitching over a microservice network for co-located type definitions.
-        official: false
-        author: MerlinLabs
       - name: moleculer-sc
         link: https://github.com/tiaod/moleculer-sc#readme
         desc: API Gateway using [SocketCluster](https://socketcluster.io)
