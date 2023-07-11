@@ -417,6 +417,13 @@ others:
     official: false
     author: iujlaki
     display: unset
+  - name: moleculer-gql-client
+    link: 'https://github.com/kyleplump/moleculer-gql-client'
+    desc: |
+      Mixin that allows Moleculer services to perform GraphQL requests
+    official: false
+    author: kyleplump
+    display: unset
 tasks:
   - name: moleculer-bee-queue
     link: 'https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bee-queue#readme'

@@ -185,6 +185,7 @@
 - [moleculer-discord](https://www.npmjs.com/package/moleculer-discord)  - Discord Gateway for Moleculer.js framework.
 - [dns](https://github.com/FLYBYME/dns)  - DNS nameserver, DNS over HTTPS, DNS resolver
 - [moleculer-i18n](https://github.com/teamcodeyard/moleculer-i18n)  - Server side i18n support based on [Polyglot](https://www.npmjs.com/package/node-polyglot)
+- [moleculer-gql-client](https://github.com/kyleplump/moleculer-gql-client)  - Mixin that allows Moleculer services to perform GraphQL requests
 ## Middlewares
 ### General
 - [Inter-namespace](https://gist.github.com/icebob/c0bce54436379d29c1bee8521ceb5348)  - This middleware can connect to other namespaces.
