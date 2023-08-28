@@ -314,7 +314,12 @@ services:
         link: https://github.com/noluckjustskill/moleculer-db-adapter-prisma
         desc: SQL adapter for Moleculer DB service with Prisma.
         official: false
-        author: noluckjustskill				
+        author: noluckjustskill
+      - name: moleculer-mongobubble
+        link: https://www.npmjs.com/package/moleculer-mongobubble
+        desc: A Moleculer module for generating CRUD services using 🍃🫧 [MongoBubble](https://mongobubble.com/).
+        official: false
+        author: ggondim			
   metrics:
     title: Metrics and Tracing
     to-pub-on-site: true
