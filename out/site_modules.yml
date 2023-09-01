@@ -140,6 +140,12 @@ databases:
     official: false
     author: noluckjustskill
     display: unset
+  - name: moleculer-mongobubble
+    link: 'https://www.npmjs.com/package/moleculer-mongobubble'
+    desc: "A Moleculer module for generating CRUD services using \U0001F343\U0001FAE7 <a href=\"https://mongobubble.com/\">MongoBubble</a>.\n"
+    official: false
+    author: ggondim
+    display: unset
 metrics:
   - name: moleculer-console-tracer
     link: 'https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-console-tracer#readme'
