@@ -753,7 +753,7 @@ tools:
       author: grinat
     - name: "@spailybot/moleculer-auto-openapi"
       link: https://github.com/spailybot/moleculer-auto-openapi
-      desc: Generate openapi 3.1 scheme from your Moleculer actions
+      desc: Generate OpenAPI 3.1 from Moleculer actions, auto-generated using Fastest Validator parameters. Granular configurations, cache system, fully typed, and more.
       official: false
       author: spailybot
     - name: x.moleculer
