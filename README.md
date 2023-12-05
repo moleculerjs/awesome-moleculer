@@ -234,6 +234,7 @@
 - [fastest-validator-decorators](https://github.com/tobydeh/fastest-validator-decorators)  - Typescript decorators for the fastest-validator library.
 - [moleculer-snippets](https://github.com/pavittarx/moleculer-snippets)  - vscode extension for inserting moleculerjs code snippets
 - [moleculer-auto-openapi](https://github.com/grinat/moleculer-auto-openapi)  - Auto generate OpenAPI (Swagger) scheme for Moleculer services.
+- [@spailybot&#x2F;moleculer-auto-openapi](https://github.com/spailybot/moleculer-auto-openapi)  - Generate OpenAPI 3.1 from Moleculer actions, auto-generated using Fastest Validator parameters. Granular configurations, cache system, fully typed, and more.
 - [x.moleculer](https://gist.github.com/ebrahimmfadae/1d1da46b176e7c2ffa56f0e91b801e8d)  - Pure typescript solution to infer `params` and `meta` types in `call` and `mcall`
 - [moleculer-plus](https://github.com/ishfx/moleculer-plus)  - Service, validator, and api decorators for moleculer, enabling modern TypeScript syntax and features.
 ## Polyglot Implementations
@@ -348,6 +349,8 @@
 - [rocket.chat](https://rocket.chat/)
 - [Cybersapient](https://cybersapient.io/)
 - [Eletromidia](https://www.eletromidia.com.br)
+- [Finder](https://www.finder.com.au/)
+- [Dazle](https://www.dazle.co/)
 
 # Contact
 

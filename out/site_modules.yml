@@ -586,6 +586,13 @@ tools:
     official: false
     author: grinat
     display: unset
+  - name: '@spailybot/moleculer-auto-openapi'
+    link: 'https://github.com/spailybot/moleculer-auto-openapi'
+    desc: |
+      Generate OpenAPI 3.1 from Moleculer actions, auto-generated using Fastest Validator parameters. Granular configurations, cache system, fully typed, and more.
+    official: false
+    author: spailybot
+    display: unset
   - name: x.moleculer
     link: 'https://gist.github.com/ebrahimmfadae/1d1da46b176e7c2ffa56f0e91b801e8d'
     desc: |
