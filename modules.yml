@@ -319,7 +319,12 @@ services:
         link: https://www.npmjs.com/package/moleculer-mongobubble
         desc: A Moleculer module for generating CRUD services using 🍃🫧 [MongoBubble](https://mongobubble.com/).
         official: false
-        author: ggondim			
+        author: ggondim		
+      - name: moleculer-db-adapter-scylla
+        link: "https://github.com/azita-abdollahi/moleculer-db-adapter-scylla#readme"
+        desc: A [scyllaDb](https://www.scylladb.com/) adapter for Moleculer using [express-cassandra](https://www.npmjs.com/package/express-cassandra).
+        official: false
+        author: azitaabdollahi
   metrics:
     title: Metrics and Tracing
     to-pub-on-site: true
