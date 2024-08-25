@@ -146,6 +146,13 @@ databases:
     official: false
     author: ggondim
     display: unset
+  - name: moleculer-db-adapter-scylla
+    link: 'https://github.com/azita-abdollahi/moleculer-db-adapter-scylla#readme'
+    desc: |
+      A <a href="https://www.scylladb.com/">scyllaDb</a> adapter for Moleculer using <a href="https://www.npmjs.com/package/express-cassandra">express-cassandra</a>.
+    official: false
+    author: azitaabdollahi
+    display: unset
 metrics:
   - name: moleculer-console-tracer
     link: 'https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-console-tracer#readme'

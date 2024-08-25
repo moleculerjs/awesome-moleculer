@@ -143,6 +143,7 @@
 - [moleculer-db-adapter-orientdb](https://github.com/saeedtabrizi/moleculer-db-adapter-orientdb)  - Moleculer [orientDB](https://orientdb.org/) database adapter.
 - [moleculer-db-adapter-prisma](https://github.com/noluckjustskill/moleculer-db-adapter-prisma)  - SQL adapter for Moleculer DB service with Prisma.
 - [moleculer-mongobubble](https://www.npmjs.com/package/moleculer-mongobubble)  - A Moleculer module for generating CRUD services using 🍃🫧 [MongoBubble](https://mongobubble.com/).
+- [moleculer-db-adapter-scylla](https://github.com/azita-abdollahi/moleculer-db-adapter-scylla#readme)  - A [scyllaDb](https://www.scylladb.com/) adapter for Moleculer using [express-cassandra](https://www.npmjs.com/package/express-cassandra).
 ### Metrics and Tracing
 - [moleculer-console-tracer](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-console-tracer#readme)![Official Moleculer Module][official]  - Console-based service
 - [moleculer-jaeger](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-jaeger#readme)![Official Moleculer Module][official]  - [Jaeger](https://www.jaegertracing.io/)-based metrics service
@@ -351,6 +352,8 @@
 - [Eletromidia](https://www.eletromidia.com.br)
 - [Finder](https://www.finder.com.au/)
 - [Dazle](https://www.dazle.co/)
+- [DataEnhancers](https://www.dataenhancers.io/)
+- [Canid](https://canid.io)
 
 # Contact
 
