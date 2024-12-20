@@ -354,6 +354,8 @@
 - [Dazle](https://www.dazle.co/)
 - [DataEnhancers](https://www.dataenhancers.io/)
 - [Canid](https://canid.io)
+- [Flaivy](https://flaivy.com)
+- [Qvanti](https://qvanti.se)
 
 # Contact
 
