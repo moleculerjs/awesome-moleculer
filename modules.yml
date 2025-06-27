@@ -791,10 +791,12 @@ polyglot:
       - name: moleculer-client
         link: https://github.com/CaioFilus/moleculer-client
         desc: Simple Client to communicate with Moleculer services using NATS.
+      - name: pylecular
+        link: https://github.com/alvaroinckot/pylecular
+        desc: Another Python implementation of the Moleculer microservices framework.
       - name: tiny-moleculer-py
         link: https://github.com/tinnguyenhuuletrong/tiny-moleculer-py
         desc: It is a lightweight asyncio python implementation of the Moleculer microservices framework support Redis Transport
-
 
   go:
     title: Go
