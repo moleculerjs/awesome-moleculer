@@ -244,6 +244,7 @@
 ### Python
 - [moleculer-python](https://github.com/ToGoBananas/moleculer-python)  - Python implementation of the Moleculer microservices framework.
 - [moleculer-client](https://github.com/CaioFilus/moleculer-client)  - Simple Client to communicate with Moleculer services using NATS.
+- [tiny-moleculer-py](https://github.com/tinnguyenhuuletrong/tiny-moleculer-py)  - It is a lightweight asyncio python implementation of the Moleculer microservices framework support Redis Transport
 ### Go
 - [moleculer-go](https://github.com/moleculer-go)  - Go implementation of the Moleculer microservices framework.
 ### Ruby
@@ -354,6 +355,9 @@
 - [Dazle](https://www.dazle.co/)
 - [DataEnhancers](https://www.dataenhancers.io/)
 - [Canid](https://canid.io)
+- [RevNgin](https://revngin.io)
+- [Balinex](https://www.balinex.com/)
+- [SnippetSentry](https://snippetsentry.com/)
 
 # Contact
 
