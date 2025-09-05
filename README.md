@@ -124,7 +124,7 @@
 - [moleculer-web](https://github.com/moleculerjs/moleculer-web#readme)![Official Moleculer Module][official]  - Official API Gateway service.
 - [moleculer-apollo-server](https://github.com/moleculerjs/moleculer-apollo-server)![Official Moleculer Module][official]  - [Apollo GraphQL](https://www.apollographql.com/) server for Moleculer.
 - [moleculer-sc](https://github.com/tiaod/moleculer-sc#readme)  - API Gateway using [SocketCluster](https://socketcluster.io)
-- [moleculer-io](https://github.com/tiaod/moleculer-io)  - Socket.IO-based gateway
+- [moleculer-io](https://github.com/moleculerjs/moleculer-io)![Official Moleculer Module][official]  - Socket.IO-based API gateway mixin
 - [moleculer-socketio](https://github.com/davidroman0O/moleculer-socketio)  - Manage Socket.IO events like actions in services
 - [hapi-moleculer](https://github.com/felipegcampos/hapi-moleculer)  - [Hapi](https://hapijs.com/) plugin for the Moleculer.
 - [moleculer-grpc-api](https://github.com/brunonunes/moleculer-grpc-api)  - [gRPC](https://grpc.io/) server for Moleculer.
@@ -146,10 +146,6 @@
 - [moleculer-mongobubble](https://www.npmjs.com/package/moleculer-mongobubble)  - A Moleculer module for generating CRUD services using 🍃🫧 [MongoBubble](https://mongobubble.com/).
 - [moleculer-db-adapter-scylla](https://github.com/azita-abdollahi/moleculer-db-adapter-scylla#readme)  - A [scyllaDb](https://www.scylladb.com/) adapter for Moleculer using [express-cassandra](https://www.npmjs.com/package/express-cassandra).
 ### Metrics and Tracing
-- [moleculer-console-tracer](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-console-tracer#readme)![Official Moleculer Module][official]  - Console-based service
-- [moleculer-jaeger](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-jaeger#readme)![Official Moleculer Module][official]  - [Jaeger](https://www.jaegertracing.io/)-based metrics service
-- [moleculer-prometheus](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-prometheus#readme)![Official Moleculer Module][official]  - [Prometheus](https://prometheus.io/)-based metrics service
-- [moleculer-zipkin](https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-zipkin#readme)![Official Moleculer Module][official]  - [Zipkin](https://zipkin.io/)-based metrics service
 - [moleculer-elastic-apm](https://github.com/intech/moleculer-elastic-apm#moleculer-elastic-apm)  - [Elastic APM](https://www.elastic.co/solutions/apm)-based metrics service
 - [moleculer-sentry](https://github.com/YourSoftRun/moleculer-sentry#readme)  - [Sentry](https://sentry.io/)-based error logging
 ### General
@@ -239,6 +235,7 @@
 - [@spailybot&#x2F;moleculer-auto-openapi](https://github.com/spailybot/moleculer-auto-openapi)  - Generate OpenAPI 3.1 from Moleculer actions, auto-generated using Fastest Validator parameters. Granular configurations, cache system, fully typed, and more.
 - [x.moleculer](https://gist.github.com/ebrahimmfadae/1d1da46b176e7c2ffa56f0e91b801e8d)  - Pure typescript solution to infer `params` and `meta` types in `call` and `mcall`
 - [moleculer-plus](https://github.com/ishfx/moleculer-plus)  - Service, validator, and api decorators for moleculer, enabling modern TypeScript syntax and features.
+- [@moleculer&#x2F;channels](https://github.com/moleculerjs/moleculer-channels)![Official Moleculer Module][official]  - Reliable messages for Moleculer services via external queue/channel/topic with Redis, RabbitMQ, NATS JetStream, Kafka adapters.
 ## Polyglot Implementations
 ### Java
 - [moleculer-java](https://github.com/moleculer-java)  - Java implementation of the Moleculer microservices framework.

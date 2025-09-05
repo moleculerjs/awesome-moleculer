@@ -4,14 +4,14 @@ gateway:
     desc: |
       Official API Gateway service.
     official: true
-    author: icebob
+    author: moleculerjs
     display: unset
   - name: moleculer-apollo-server
     link: 'https://github.com/moleculerjs/moleculer-apollo-server'
     desc: |
       <a href="https://www.apollographql.com/">Apollo GraphQL</a> server for Moleculer.
     official: true
-    author: icebob
+    author: moleculerjs
     display: unset
   - name: moleculer-sc
     link: 'https://github.com/tiaod/moleculer-sc#readme'
@@ -21,11 +21,11 @@ gateway:
     author: tiaod
     display: unset
   - name: moleculer-io
-    link: 'https://github.com/tiaod/moleculer-io'
+    link: 'https://github.com/moleculerjs/moleculer-io'
     desc: |
-      Socket.IO-based gateway
-    official: false
-    author: tiaod
+      Socket.IO-based API gateway mixin
+    official: true
+    author: moleculerjs
     display: unset
   - name: moleculer-socketio
     link: 'https://github.com/davidroman0O/moleculer-socketio'
@@ -61,35 +61,35 @@ databases:
     desc: |
       Advanced Database Access Service for Moleculer microservices framework with MongoDB adapter and Knex adapter for SQL.
     official: true
-    author: icebob
+    author: moleculerjs
     display: unset
   - name: moleculer-db
     link: 'https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db#readme'
     desc: |
       A <a href="https://github.com/louischatriot/nedb">NeDB</a>-based service to persist your data
     official: true
-    author: icebob
+    author: moleculerjs
     display: unset
   - name: moleculer-db-adapter-mongo
     link: 'https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-mongo#readme'
     desc: |
       A <a href="https://mongodb.github.io/node-mongodb-native/">MongoDB</a>-based service to persist your data
     official: true
-    author: icebob
+    author: moleculerjs
     display: unset
   - name: moleculer-db-adapter-mongoose
     link: 'https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-mongoose#readme'
     desc: |
       A <a href="https://mongoosejs.com/">Mongoose</a>-based service to persist your data
     official: true
-    author: icebob
+    author: moleculerjs
     display: unset
   - name: moleculer-db-adapter-sequelize
     link: 'https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-sequelize#readme'
     desc: |
       A <a href="http://docs.sequelizejs.com/">Sequelize</a>-based service to persist your data
     official: true
-    author: icebob
+    author: moleculerjs
     display: unset
   - name: moleculer-db-adapter-couchdb-nano
     link: 'https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-couchdb-nano#readme'
@@ -161,34 +161,6 @@ databases:
     author: azitaabdollahi
     display: unset
 metrics:
-  - name: moleculer-console-tracer
-    link: 'https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-console-tracer#readme'
-    desc: |
-      Console-based service
-    official: true
-    author: icebob
-    display: unset
-  - name: moleculer-jaeger
-    link: 'https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-jaeger#readme'
-    desc: |
-      <a href="https://www.jaegertracing.io/">Jaeger</a>-based metrics service
-    official: true
-    author: icebob
-    display: unset
-  - name: moleculer-prometheus
-    link: 'https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-prometheus#readme'
-    desc: |
-      <a href="https://prometheus.io/">Prometheus</a>-based metrics service
-    official: true
-    author: icebob
-    display: unset
-  - name: moleculer-zipkin
-    link: 'https://github.com/moleculerjs/moleculer-metrics/tree/master/packages/moleculer-zipkin#readme'
-    desc: |
-      <a href="https://zipkin.io/">Zipkin</a>-based metrics service
-    official: true
-    author: icebob
-    display: unset
   - name: moleculer-elastic-apm
     link: 'https://github.com/intech/moleculer-elastic-apm#moleculer-elastic-apm'
     desc: |
@@ -535,14 +507,14 @@ tools:
     desc: |
       Interactive developer console.
     official: true
-    author: icebob
+    author: moleculerjs
     display: unset
   - name: moleculer-cli
     link: 'https://moleculer.services/docs/0.13/moleculer-cli.html'
     desc: |
       Command-Line Tool for development &amp; testing.
     official: true
-    author: icebob
+    author: moleculerjs
     display: unset
   - name: moleculer-decorators
     link: 'https://github.com/ColonelBundy/moleculer-decorators'
@@ -620,4 +592,11 @@ tools:
       Service, validator, and api decorators for moleculer, enabling modern TypeScript syntax and features.
     official: false
     author: Ish
+    display: unset
+  - name: '@moleculer/channels'
+    link: 'https://github.com/moleculerjs/moleculer-channels'
+    desc: |
+      Reliable messages for Moleculer services via external queue/channel/topic with Redis, RabbitMQ, NATS JetStream, Kafka adapters.
+    official: true
+    author: moleculerjs
     display: unset
