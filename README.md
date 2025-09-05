@@ -130,6 +130,7 @@
 - [moleculer-grpc-api](https://github.com/brunonunes/moleculer-grpc-api)  - [gRPC](https://grpc.io/) server for Moleculer.
 - [moleculer-web-uws](https://github.com/jimmielovell/moleculer-web-uws)  - A fast API gateway based on [uWebSockets.js](https://github.com/uNetworking/uWebSockets.js)
 ### Databases and Stores
+- [@moleculer&#x2F;database](https://github.com/moleculerjs/database)![Official Moleculer Module][official]  - Advanced Database Access Service for Moleculer microservices framework with MongoDB adapter and Knex adapter for SQL.
 - [moleculer-db](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db#readme)![Official Moleculer Module][official]  - A [NeDB](https://github.com/louischatriot/nedb)-based service to persist your data
 - [moleculer-db-adapter-mongo](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-mongo#readme)![Official Moleculer Module][official]  - A [MongoDB](https://mongodb.github.io/node-mongodb-native/)-based service to persist your data
 - [moleculer-db-adapter-mongoose](https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-mongoose#readme)![Official Moleculer Module][official]  - A [Mongoose](https://mongoosejs.com/)-based service to persist your data

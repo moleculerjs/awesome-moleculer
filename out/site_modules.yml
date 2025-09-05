@@ -56,6 +56,13 @@ gateway:
     author: jimmielovell
     display: unset
 databases:
+  - name: '@moleculer/database'
+    link: 'https://github.com/moleculerjs/database'
+    desc: |
+      Advanced Database Access Service for Moleculer microservices framework with MongoDB adapter and Knex adapter for SQL.
+    official: true
+    author: icebob
+    display: unset
   - name: moleculer-db
     link: 'https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db#readme'
     desc: |
