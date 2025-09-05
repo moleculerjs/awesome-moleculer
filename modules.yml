@@ -608,6 +608,11 @@ mixins:
     title: Tasks, Queues and Jobs
     to-pub-on-site: true
     entries:
+      - name: "@moleculer/channels"
+        link: https://github.com/moleculerjs/moleculer-channels
+        desc: Reliable messages for Moleculer services via external queue/channel/topic with Redis, RabbitMQ, NATS JetStream, Kafka adapters.
+        official: true
+        author: moleculerjs
       - name: moleculer-bee-queue
         link: https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bee-queue#readme
         desc: Task queue mixin for [Bee-Queue](https://github.com/bee-queue/bee-queue)
@@ -756,11 +761,6 @@ tools:
       desc: Service, validator, and api decorators for moleculer, enabling modern TypeScript syntax and features.
       official: false
       author: Ish
-    - name: "@moleculer/channels"
-      link: https://github.com/moleculerjs/moleculer-channels
-      desc: Reliable messages for Moleculer services via external queue/channel/topic with Redis, RabbitMQ, NATS JetStream, Kafka adapters.
-      official: true
-      author: moleculerjs
 
 polyglot:
   title: Polyglot Implementations
