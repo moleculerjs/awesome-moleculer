@@ -207,6 +207,7 @@
 ### Tasks, Queues and Jobs
 - [moleculer-bee-queue](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bee-queue#readme)![Official Moleculer Module][official]  - Task queue mixin for [Bee-Queue](https://github.com/bee-queue/bee-queue)
 - [moleculer-bull](https://github.com/moleculerjs/moleculer-addons/tree/master/packages/moleculer-bull#readme)![Official Moleculer Module][official]  - Task queue mixin for [Bull](https://github.com/OptimalBits/bull)
+- [BetterQueue](https://github.com/Saiop68/better-queue) - Distributed rate limiter and job queue for Node.js with Redis-backed state, cross-process priority and crash recovery.
 - [moleculer-faktory](https://github.com/YourSoftRun/moleculer-faktory#readme)  - Task queue mixin for [Faktory](https://contribsys.com/faktory/)
 - [moleculer-cron](https://github.com/davidroman0O/moleculer-cron#readme)  - Moleculer mixin for [node-cron](https://github.com/kelektiv/node-cron)
 - [@r2d2bzh&#x2F;moleculer-cron](https://github.com/r2d2bzh/moleculer-cron#readme)  - Another moleculer mixin for [node-cron](https://github.com/kelektiv/node-cron)
